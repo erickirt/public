@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## 1.29.2 - 2026-03-16
+
+### Changed
+
+- PostgreSQL: Added Microsoft Entra ID authentication support (SSO, CLI, and Service Principal).
+- MySQL: Added Microsoft Entra ID authentication support (SSO, CLI, and Service Principal).
+
+### Fixed
+
+- Editor: Fixed autocomplete not providing suggestions when SQL comments precede a statement in Postgres.
+- CSV: Fixed file/folder mode not persisting when reopening a CSV folder connection.
+- MySQL: Fixed information_schema and other system schema views not appearing in the object browser.
+
 ## 1.29.0 - 2026-03-13
 
 ### Changed
