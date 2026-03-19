@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## 1.29.3 - 2026-03-19
+
+### Fixed
+
+- Editor: Fixed output log and tab badges not showing affected row counts for DML statements. #967
+- SQL Server: Added FOR SYSTEM_TIME temporal table syntax support in language server. #1027
+- Grid: Fixed paste inserting clipboard contents twice on Linux. #1024
+- Grid: Fixed two context menus appearing when right-clicking in relation detail grids. #1025
+- Export: Fixed Excel export shifting dates back by one day for users in timezones west of UTC.
+- DuckLake: Fixed Google Cloud Storage connections getting 403 errors. #1031
+
 ## 1.29.2 - 2026-03-16
 
 ### Changed
