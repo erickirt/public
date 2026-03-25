@@ -352,5 +352,7 @@
   "Create Folder": "Создать папку",
   "Reveal in File Explorer": "Показать в проводнике",
   "Library": "Библиотека",
-  "SSL certificate verification level": "Уровень проверки SSL-сертификата"
+  "SSL certificate verification level": "Уровень проверки SSL-сертификата",
+  "Disconnect a database connection and release file locks.": "Отключить подключение к базе данных и снять блокировки файлов.",
+  "Server Monitor": "Монитор сервера"
 }

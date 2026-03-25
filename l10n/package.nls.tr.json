@@ -352,5 +352,7 @@
   "Create Folder": "Klasör oluştur",
   "Reveal in File Explorer": "Dosya gezgininde göster",
   "Library": "Kitaplık",
-  "SSL certificate verification level": "SSL sertifika doğrulama düzeyi"
+  "SSL certificate verification level": "SSL sertifika doğrulama düzeyi",
+  "Disconnect a database connection and release file locks.": "Bir veritabanı bağlantısını kes ve dosya kilitlerini serbest bırak.",
+  "Server Monitor": "Sunucu Monitörü"
 }

@@ -352,5 +352,7 @@
   "Create Folder": "Vytvořit složku",
   "Reveal in File Explorer": "Zobrazit v průzkumníku souborů",
   "Library": "Knihovna",
-  "SSL certificate verification level": "Úroveň ověření SSL certifikátu"
+  "SSL certificate verification level": "Úroveň ověření SSL certifikátu",
+  "Disconnect a database connection and release file locks.": "Odpojit databázové připojení a uvolnit zámky souborů.",
+  "Server Monitor": "Monitor serveru"
 }

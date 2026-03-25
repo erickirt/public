@@ -352,5 +352,7 @@
   "Create Folder": "Utwórz folder",
   "Reveal in File Explorer": "Pokaż w eksploratorze plików",
   "Library": "Biblioteka",
-  "SSL certificate verification level": "Poziom weryfikacji certyfikatu SSL"
+  "SSL certificate verification level": "Poziom weryfikacji certyfikatu SSL",
+  "Disconnect a database connection and release file locks.": "Rozłącz połączenie z bazą danych i zwolnij blokady plików.",
+  "Server Monitor": "Monitor serwera"
 }

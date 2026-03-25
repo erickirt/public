@@ -352,5 +352,7 @@
   "Create Folder": "建立資料夾",
   "Reveal in File Explorer": "在檔案總管中顯示",
   "Library": "程式庫",
-  "SSL certificate verification level": "SSL 憑證驗證層級"
+  "SSL certificate verification level": "SSL 憑證驗證層級",
+  "Disconnect a database connection and release file locks.": "斷開資料庫連線並釋放檔案鎖定。",
+  "Server Monitor": "伺服器監視器"
 }

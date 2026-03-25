@@ -352,5 +352,7 @@
   "Create Folder": "新建文件夹",
   "Reveal in File Explorer": "在文件资源管理器中显示",
   "Library": "库",
-  "SSL certificate verification level": "SSL 证书验证级别"
+  "SSL certificate verification level": "SSL 证书验证级别",
+  "Disconnect a database connection and release file locks.": "断开数据库连接并释放文件锁。",
+  "Server Monitor": "服务器监视器"
 }

@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 1.29.4 - 2026-03-25
+
+### Changed
+
+- Monitoring: Preview of server monitoring, with support for Postgres, SQL Server, Oracle, and others.
+- AI Assist: Custom model errors now show the provider's error message instead of a generic status code. Token usage (prompt, completion, total) is displayed after each custom model response.
+- MCP: Added `dbcode-disconnect` tool to allow AI agents to programmatically disconnect database connections and release file locks. #1034
+- Results: Added result tab rename via double-click or right-click context menu. Custom names persist across re-executions when the SQL matches. #1033
+- Tables: Single-clicking a table reuses the previous tab, double-clicking pins it. Tabs are protected from reuse when editing data, filtered, sorted, streaming, or loading more rows. #1036
+- Tree: Ctrl+C / Cmd+C copies selected item names (supports multi-select). F4 opens Script DDL for the selected item. #1039
+- Tree: Column tooltips now show type, nullable, primary key, default, FK reference, and comments. #1039
+
 ## 1.29.3 - 2026-03-19
 
 ### Fixed

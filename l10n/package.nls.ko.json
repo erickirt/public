@@ -352,5 +352,7 @@
   "Create Folder": "폴더 만들기",
   "Reveal in File Explorer": "파일 탐색기에서 표시",
   "Library": "라이브러리",
-  "SSL certificate verification level": "SSL 인증서 확인 수준"
+  "SSL certificate verification level": "SSL 인증서 확인 수준",
+  "Disconnect a database connection and release file locks.": "데이터베이스 연결을 끊고 파일 잠금을 해제합니다.",
+  "Server Monitor": "서버 모니터"
 }
