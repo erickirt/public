@@ -250,7 +250,6 @@
   "Delete Filter": "Supprimer le filtre",
   "Use a single persistent scratch file (no timestamp rotation)": "Utiliser un seul fichier de travail persistant (sans rotation horodatée)",
   "Separator used between components in tab titles.": "Séparateur utilisé entre les composants dans les titres d'onglets.",
-  "Format for table tab titles. Available variables: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${separator}`. Duplicate separators are automatically removed.": "Format des titres d'onglets de table. Variables disponibles : `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${separator}`. Les séparateurs en double sont automatiquement supprimés.",
   "Formatting": "Formatage",
   "Path to a custom SQL formatter configuration file (`.sql-formatter.json`). Can be absolute or relative to workspace root. If not specified, DBCode will look for `.sql-formatter.json` in workspace folders automatically. [Learn about formatting options](https://dbcode.io/docs/query/sql-formatting).": "Chemin du fichier de configuration du formateur SQL personnalisé (`.sql-formatter.json`). Peut être absolu ou relatif à la racine de l'espace de travail. Si non spécifié, DBCode cherchera automatiquement `.sql-formatter.json` dans les dossiers de l'espace de travail. [En savoir plus sur les options de formatage](https://dbcode.io/docs/query/sql-formatting).",
   "Keep keywords as-is.": "Conserver les mots-clés tels quels.",
@@ -354,5 +353,7 @@
   "Library": "Bibliothèque",
   "SSL certificate verification level": "Niveau de vérification du certificat SSL",
   "Disconnect a database connection and release file locks.": "Déconnecter une connexion de base de données et libérer les verrous de fichiers.",
-  "Server Monitor": "Moniteur de serveur"
+  "Server Monitor": "Moniteur de serveur",
+  "Format for table tab titles. Available variables: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. Duplicate separators are automatically removed.": "Format des titres d'onglets de table. Variables disponibles : `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. Les séparateurs en double sont supprimés automatiquement.",
+  "Default auto-commit mode for connections using this role. When set, overrides the global `dbcode.transactions.defaultAutoCommit` setting.": "Mode de validation automatique par défaut pour les connexions utilisant ce rôle. Si défini, remplace le paramètre global `dbcode.transactions.defaultAutoCommit`."
 }

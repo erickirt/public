@@ -3536,5 +3536,20 @@
   "Object Type": "Тип объекта",
   "applyColumnToolPanel": "Применить",
   "cancelColumnToolPanel": "Отмена",
-  "View SQL": "Просмотр SQL"
+  "View SQL": "Просмотр SQL",
+  "True": "Истина",
+  "False": "Ложь",
+  "Null": "Null",
+  "Not Null": "Не Null",
+  "Save as File...": "Сохранить как файл...",
+  "Disconnecting": "Отключение",
+  "Disconnect ?": "Отключиться?",
+  "Save Cell As File": "Сохранить ячейку как файл",
+  "This DDL statement will be auto-committed. Continue?": "Этот DDL-оператор будет зафиксирован автоматически. Продолжить?",
+  "Allow Local Infile": "Разрешить локальный файл",
+  "Allow LOAD DATA LOCAL INFILE statements to read files from the client machine.": "Разрешить операторы LOAD DATA LOCAL INFILE для чтения файлов с клиентской машины.",
+  "Additional Hosts": "Дополнительные хосты",
+  "Comma-separated host:port pairs for replica set connections.": "Пары хост:порт, разделённые запятыми, для подключений к набору реплик.",
+  "e.g. libsql://your-database-id.lite.bunnydb.net": "напр. libsql://your-database-id.lite.bunnydb.net",
+  "Auth Token": "Токен аутентификации"
 }

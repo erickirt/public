@@ -250,7 +250,6 @@
   "Delete Filter": "Excluir filtro",
   "Use a single persistent scratch file (no timestamp rotation)": "Usar um único arquivo temporário persistente (sem rotação por data/hora)",
   "Separator used between components in tab titles.": "Separador usado entre componentes nos títulos das abas.",
-  "Format for table tab titles. Available variables: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${separator}`. Duplicate separators are automatically removed.": "Formato para títulos de abas de tabela. Variáveis disponíveis: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${separator}`. Separadores duplicados são removidos automaticamente.",
   "Formatting": "Formatação",
   "Path to a custom SQL formatter configuration file (`.sql-formatter.json`). Can be absolute or relative to workspace root. If not specified, DBCode will look for `.sql-formatter.json` in workspace folders automatically. [Learn about formatting options](https://dbcode.io/docs/query/sql-formatting).": "Caminho para arquivo de configuração de formatação SQL personalizado (`.sql-formatter.json`). Pode ser absoluto ou relativo à raiz do workspace. Se não especificado, DBCode procurará `.sql-formatter.json` nas pastas do workspace automaticamente. [Saiba mais sobre opções de formatação](https://dbcode.io/docs/query/sql-formatting).",
   "Keep keywords as-is.": "Manter palavras-chave como estão.",
@@ -354,5 +353,7 @@
   "Library": "Biblioteca",
   "SSL certificate verification level": "Nível de verificação do certificado SSL",
   "Disconnect a database connection and release file locks.": "Desconectar uma conexão de banco de dados e liberar bloqueios de arquivo.",
-  "Server Monitor": "Monitor do servidor"
+  "Server Monitor": "Monitor do servidor",
+  "Format for table tab titles. Available variables: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. Duplicate separators are automatically removed.": "Formato para títulos das abas de tabelas. Variáveis disponíveis: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. Separadores duplicados são removidos automaticamente.",
+  "Default auto-commit mode for connections using this role. When set, overrides the global `dbcode.transactions.defaultAutoCommit` setting.": "Modo de confirmação automática padrão para conexões que usam esta função. Quando definido, substitui a configuração global `dbcode.transactions.defaultAutoCommit`."
 }

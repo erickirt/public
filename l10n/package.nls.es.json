@@ -250,7 +250,6 @@
   "Delete Filter": "Eliminar filtro",
   "Use a single persistent scratch file (no timestamp rotation)": "Usar un único archivo temporal persistente (sin rotación por marca de tiempo)",
   "Separator used between components in tab titles.": "Separador usado entre componentes en títulos de pestañas.",
-  "Format for table tab titles. Available variables: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${separator}`. Duplicate separators are automatically removed.": "Formato para títulos de pestañas de tabla. Variables disponibles: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${separator}`. Los separadores duplicados se eliminan automáticamente.",
   "Formatting": "Formato",
   "Path to a custom SQL formatter configuration file (`.sql-formatter.json`). Can be absolute or relative to workspace root. If not specified, DBCode will look for `.sql-formatter.json` in workspace folders automatically. [Learn about formatting options](https://dbcode.io/docs/query/sql-formatting).": "Ruta a un archivo de configuración de formateador SQL personalizado (`.sql-formatter.json`). Puede ser absoluta o relativa a la raíz del espacio de trabajo. Si no se especifica, DBCode buscará `.sql-formatter.json` en las carpetas del espacio de trabajo automáticamente. [Más información sobre opciones de formato](https://dbcode.io/docs/query/sql-formatting).",
   "Keep keywords as-is.": "Mantener palabras clave como están.",
@@ -354,5 +353,7 @@
   "Library": "Biblioteca",
   "SSL certificate verification level": "Nivel de verificación del certificado SSL",
   "Disconnect a database connection and release file locks.": "Desconectar una conexión de base de datos y liberar bloqueos de archivos.",
-  "Server Monitor": "Monitor del servidor"
+  "Server Monitor": "Monitor del servidor",
+  "Format for table tab titles. Available variables: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. Duplicate separators are automatically removed.": "Formato para los títulos de las pestañas de tabla. Variables disponibles: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. Los separadores duplicados se eliminan automáticamente.",
+  "Default auto-commit mode for connections using this role. When set, overrides the global `dbcode.transactions.defaultAutoCommit` setting.": "Modo de confirmación automática predeterminado para las conexiones que usan este rol. Si se establece, anula la configuración global `dbcode.transactions.defaultAutoCommit`."
 }

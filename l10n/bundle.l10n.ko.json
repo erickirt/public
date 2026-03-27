@@ -3536,5 +3536,20 @@
   "Object Type": "개체 유형",
   "applyColumnToolPanel": "적용",
   "cancelColumnToolPanel": "취소",
-  "View SQL": "SQL 보기"
+  "View SQL": "SQL 보기",
+  "True": "참",
+  "False": "거짓",
+  "Null": "Null",
+  "Not Null": "Not Null",
+  "Save as File...": "파일로 저장...",
+  "Disconnecting": "연결 해제 중",
+  "Disconnect ?": "연결을 해제하시겠습니까?",
+  "Save Cell As File": "셀을 파일로 저장",
+  "This DDL statement will be auto-committed. Continue?": "이 DDL 문은 자동 커밋됩니다. 계속하시겠습니까?",
+  "Allow Local Infile": "로컬 인파일 허용",
+  "Allow LOAD DATA LOCAL INFILE statements to read files from the client machine.": "클라이언트 시스템에서 파일을 읽는 LOAD DATA LOCAL INFILE 문을 허용합니다.",
+  "Additional Hosts": "추가 호스트",
+  "Comma-separated host:port pairs for replica set connections.": "복제본 세트 연결을 위한 쉼표로 구분된 host:port 쌍.",
+  "e.g. libsql://your-database-id.lite.bunnydb.net": "예: libsql://your-database-id.lite.bunnydb.net",
+  "Auth Token": "인증 토큰"
 }

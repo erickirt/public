@@ -250,7 +250,6 @@
   "Delete Filter": "Filter löschen",
   "Use a single persistent scratch file (no timestamp rotation)": "Einzelne persistente Arbeitsdatei verwenden (keine Zeitstempel-Rotation)",
   "Separator used between components in tab titles.": "Trennzeichen zwischen Komponenten in Registerkartentiteln.",
-  "Format for table tab titles. Available variables: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${separator}`. Duplicate separators are automatically removed.": "Format für Tabellen-Registerkartentitel. Verfügbare Variablen: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${separator}`. Doppelte Trennzeichen werden automatisch entfernt.",
   "Formatting": "Formatierung",
   "Path to a custom SQL formatter configuration file (`.sql-formatter.json`). Can be absolute or relative to workspace root. If not specified, DBCode will look for `.sql-formatter.json` in workspace folders automatically. [Learn about formatting options](https://dbcode.io/docs/query/sql-formatting).": "Pfad zu einer benutzerdefinierten SQL-Formatierungskonfigurationsdatei (`.sql-formatter.json`). Kann absolut oder relativ zum Workspace-Stamm sein. Wenn nicht angegeben, sucht DBCode automatisch nach `.sql-formatter.json` in Arbeitsbereichsordnern. [Weitere Informationen zu den Formatierungsoptionen](https://dbcode.io/docs/query/sql-formatting).",
   "Keep keywords as-is.": "Schlüsselwörter unverändert belassen.",
@@ -354,5 +353,7 @@
   "Library": "Bibliothek",
   "SSL certificate verification level": "SSL-Zertifikatsverifizierungsstufe",
   "Disconnect a database connection and release file locks.": "Datenbankverbindung trennen und Dateisperren freigeben.",
-  "Server Monitor": "Server-Monitor"
+  "Server Monitor": "Server-Monitor",
+  "Format for table tab titles. Available variables: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. Duplicate separators are automatically removed.": "Format für Tabellen-Tab-Titel. Verfügbare Variablen: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. Doppelte Trennzeichen werden automatisch entfernt.",
+  "Default auto-commit mode for connections using this role. When set, overrides the global `dbcode.transactions.defaultAutoCommit` setting.": "Standard-Auto-Commit-Modus für Verbindungen, die diese Rolle verwenden. Wenn gesetzt, überschreibt die globale Einstellung `dbcode.transactions.defaultAutoCommit`."
 }

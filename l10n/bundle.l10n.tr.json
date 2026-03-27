@@ -3536,5 +3536,20 @@
   "Object Type": "Nesne Türü",
   "applyColumnToolPanel": "Uygula",
   "cancelColumnToolPanel": "İptal",
-  "View SQL": "SQL'i Görüntüle"
+  "View SQL": "SQL'i Görüntüle",
+  "True": "Doğru",
+  "False": "Yanlış",
+  "Null": "Null",
+  "Not Null": "Null Değil",
+  "Save as File...": "Dosya Olarak Kaydet...",
+  "Disconnecting": "Bağlantı kesiliyor",
+  "Disconnect ?": "Bağlantıyı kes?",
+  "Save Cell As File": "Hücreyi Dosya Olarak Kaydet",
+  "This DDL statement will be auto-committed. Continue?": "Bu DDL ifadesi otomatik olarak onaylanacak. Devam edilsin mi?",
+  "Allow Local Infile": "Yerel Dosyaya İzin Ver",
+  "Allow LOAD DATA LOCAL INFILE statements to read files from the client machine.": "İstemci makineden dosya okumak için LOAD DATA LOCAL INFILE ifadelerine izin ver.",
+  "Additional Hosts": "Ek Sunucular",
+  "Comma-separated host:port pairs for replica set connections.": "Çoğaltma kümesi bağlantıları için virgülle ayrılmış host:port çiftleri.",
+  "e.g. libsql://your-database-id.lite.bunnydb.net": "örn. libsql://your-database-id.lite.bunnydb.net",
+  "Auth Token": "Kimlik Doğrulama Belirteci"
 }

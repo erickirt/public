@@ -3536,5 +3536,20 @@
   "Object Type": "Objekttyp",
   "applyColumnToolPanel": "Übernehmen",
   "cancelColumnToolPanel": "Abbrechen",
-  "View SQL": "SQL anzeigen"
+  "View SQL": "SQL anzeigen",
+  "True": "Wahr",
+  "False": "Falsch",
+  "Null": "Null",
+  "Not Null": "Nicht Null",
+  "Save as File...": "Als Datei speichern...",
+  "Disconnecting": "Wird getrennt",
+  "Disconnect ?": "Trennen?",
+  "Save Cell As File": "Zelle als Datei speichern",
+  "This DDL statement will be auto-committed. Continue?": "Diese DDL-Anweisung wird automatisch bestätigt. Fortfahren?",
+  "Allow Local Infile": "Lokale Infile erlauben",
+  "Allow LOAD DATA LOCAL INFILE statements to read files from the client machine.": "LOAD DATA LOCAL INFILE-Anweisungen erlauben, Dateien vom Client-Rechner zu lesen.",
+  "Additional Hosts": "Zusätzliche Hosts",
+  "Comma-separated host:port pairs for replica set connections.": "Kommagetrennte Host:Port-Paare für Replica-Set-Verbindungen.",
+  "e.g. libsql://your-database-id.lite.bunnydb.net": "z.B. libsql://your-database-id.lite.bunnydb.net",
+  "Auth Token": "Auth-Token"
 }

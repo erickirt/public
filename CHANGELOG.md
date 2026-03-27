@@ -1,5 +1,26 @@
 # CHANGELOG
 
+## 1.29.5 - 2026-03-27
+
+### Changed
+
+- Grid: Boolean column filters now show True, False, Null, Not Null options instead of generic text filter. #1028
+- Transactions: DDL statements (ALTER, CREATE, DROP) are now tracked as uncommitted changes when auto-commit is OFF on databases with transactional DDL (PostgreSQL, SQL Server, Snowflake). 
+- Transactions: Non-transactional DDL drivers (MySQL, Oracle, DB2) now warn before executing DDL with auto-commit OFF, even with no prior uncommitted changes.
+- Roles: Added `autoCommit` setting to connection roles, allowing per-role auto-commit defaults that override the global `defaultAutoCommit` setting.
+- Tab Titles: Added `${role}` variable to `dbcode.tabTitle.format` for showing the connection role in tab titles.
+- Results: Binary cell "Save as File..." context menu to download cell contents to disk with auto-detected file extension.
+- Results: Binary cell "Open in Editor" to view and edit binary data in VS Code editors (hex editor, text, etc.) with round-trip saving back to the grid.
+- Bunny Database: Added support for Bunny Database (bunny.net) as a cloud libSQL service. #1040
+- MongoDB: Added support for multiple hosts in replica set connections without SRV. #1005
+- MySQL/MariaDB: Added "Allow Local Infile" option to enable LOAD DATA LOCAL INFILE statements.
+
+### Fixed
+
+- Grid: Fixed image preview in binary cells blocking the edit input when clicking to edit.
+- Tree: Clicking a table in the tree now keeps focus in the tree, matching VS Code's native behavior. Enter opens and focuses the table. #1039
+- MCP: Fixed `dbcode-disconnect` tool not working in Copilot Chat (missing tool registration). #1034
+
 ## 1.29.4 - 2026-03-25
 
 ### Changed

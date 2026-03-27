@@ -3536,5 +3536,20 @@
   "Object Type": "对象类型",
   "applyColumnToolPanel": "应用",
   "cancelColumnToolPanel": "取消",
-  "View SQL": "查看 SQL"
+  "View SQL": "查看 SQL",
+  "True": "真",
+  "False": "假",
+  "Null": "Null",
+  "Not Null": "非 Null",
+  "Save as File...": "另存为文件...",
+  "Disconnecting": "正在断开连接",
+  "Disconnect ?": "断开连接？",
+  "Save Cell As File": "将单元格另存为文件",
+  "This DDL statement will be auto-committed. Continue?": "此 DDL 语句将自动提交。是否继续？",
+  "Allow Local Infile": "允许本地文件",
+  "Allow LOAD DATA LOCAL INFILE statements to read files from the client machine.": "允许 LOAD DATA LOCAL INFILE 语句从客户端计算机读取文件。",
+  "Additional Hosts": "其他主机",
+  "Comma-separated host:port pairs for replica set connections.": "用逗号分隔的 host:port 对，用于副本集连接。",
+  "e.g. libsql://your-database-id.lite.bunnydb.net": "例如 libsql://your-database-id.lite.bunnydb.net",
+  "Auth Token": "认证令牌"
 }

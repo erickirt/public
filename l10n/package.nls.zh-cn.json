@@ -250,7 +250,6 @@
   "Delete Filter": "删除过滤器",
   "Use a single persistent scratch file (no timestamp rotation)": "使用单个持久暂存文件（不按时间戳轮换）",
   "Separator used between components in tab titles.": "选项卡标题中组件之间使用的分隔符。",
-  "Format for table tab titles. Available variables: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${separator}`. Duplicate separators are automatically removed.": "表选项卡标题的格式。可用变量：`${connection}`、`${database}`、`${schema}`、`${table}`、`${type}`、`${separator}`。重复的分隔符将自动删除。",
   "Formatting": "格式化",
   "Path to a custom SQL formatter configuration file (`.sql-formatter.json`). Can be absolute or relative to workspace root. If not specified, DBCode will look for `.sql-formatter.json` in workspace folders automatically. [Learn about formatting options](https://dbcode.io/docs/query/sql-formatting).": "自定义 SQL 格式化程序配置文件（`.sql-formatter.json`）的路径。可以是绝对路径或相对于工作区根目录的路径。如果未指定，DBCode 将自动在工作区文件夹中查找 `.sql-formatter.json`。[了解格式化选项](https://dbcode.io/docs/query/sql-formatting)。",
   "Keep keywords as-is.": "保持关键字原样。",
@@ -354,5 +353,7 @@
   "Library": "库",
   "SSL certificate verification level": "SSL 证书验证级别",
   "Disconnect a database connection and release file locks.": "断开数据库连接并释放文件锁。",
-  "Server Monitor": "服务器监视器"
+  "Server Monitor": "服务器监视器",
+  "Format for table tab titles. Available variables: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. Duplicate separators are automatically removed.": "表格标签标题的格式。可用变量：`${connection}`、`${database}`、`${schema}`、`${table}`、`${type}`、`${role}`、`${separator}`。重复的分隔符会自动删除。",
+  "Default auto-commit mode for connections using this role. When set, overrides the global `dbcode.transactions.defaultAutoCommit` setting.": "使用此角色的连接的默认自动提交模式。设置后，将覆盖全局 `dbcode.transactions.defaultAutoCommit` 设置。"
 }

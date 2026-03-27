@@ -3539,5 +3539,20 @@
   "Object Type": "オブジェクトタイプ",
   "applyColumnToolPanel": "適用",
   "cancelColumnToolPanel": "キャンセル",
-  "View SQL": "SQLを表示"
+  "View SQL": "SQLを表示",
+  "True": "真",
+  "False": "偽",
+  "Null": "Null",
+  "Not Null": "Not Null",
+  "Save as File...": "ファイルとして保存...",
+  "Disconnecting": "切断中",
+  "Disconnect ?": "切断しますか？",
+  "Save Cell As File": "セルをファイルとして保存",
+  "This DDL statement will be auto-committed. Continue?": "この DDL ステートメントは自動コミットされます。続行しますか？",
+  "Allow Local Infile": "ローカルインファイルを許可",
+  "Allow LOAD DATA LOCAL INFILE statements to read files from the client machine.": "クライアントマシンからファイルを読み取る LOAD DATA LOCAL INFILE ステートメントを許可します。",
+  "Additional Hosts": "追加ホスト",
+  "Comma-separated host:port pairs for replica set connections.": "レプリカセット接続用のカンマ区切りの host:port ペア。",
+  "e.g. libsql://your-database-id.lite.bunnydb.net": "例: libsql://your-database-id.lite.bunnydb.net",
+  "Auth Token": "認証トークン"
 }

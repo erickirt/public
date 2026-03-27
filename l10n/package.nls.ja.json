@@ -250,7 +250,6 @@
   "Delete Filter": "フィルターを削除",
   "Use a single persistent scratch file (no timestamp rotation)": "単一の永続的なスクラッチファイルを使用(タイムスタンプローテーションなし)",
   "Separator used between components in tab titles.": "タブタイトルのコンポーネント間で使用される区切り文字。",
-  "Format for table tab titles. Available variables: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${separator}`. Duplicate separators are automatically removed.": "テーブルタブのタイトル形式。使用可能な変数: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${separator}`。重複する区切り文字は自動的に削除されます。",
   "Formatting": "フォーマット",
   "Path to a custom SQL formatter configuration file (`.sql-formatter.json`). Can be absolute or relative to workspace root. If not specified, DBCode will look for `.sql-formatter.json` in workspace folders automatically. [Learn about formatting options](https://dbcode.io/docs/query/sql-formatting).": "カスタムSQLフォーマッタ設定ファイル(`.sql-formatter.json`)へのパス。絶対パスまたはワークスペースルートからの相対パスを指定できます。指定しない場合、DBCodeはワークスペースフォルダー内の`.sql-formatter.json`を自動検索します。[フォーマットオプションの詳細](https://dbcode.io/docs/query/sql-formatting)。",
   "Keep keywords as-is.": "キーワードをそのまま維持します。",
@@ -354,5 +353,7 @@
   "Library": "ライブラリ",
   "SSL certificate verification level": "SSL証明書の検証レベル",
   "Disconnect a database connection and release file locks.": "データベース接続を切断し、ファイルロックを解放します。",
-  "Server Monitor": "サーバーモニター"
+  "Server Monitor": "サーバーモニター",
+  "Format for table tab titles. Available variables: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. Duplicate separators are automatically removed.": "テーブルタブのタイトル形式。使用可能な変数：`${connection}`、`${database}`、`${schema}`、`${table}`、`${type}`、`${role}`、`${separator}`。重複する区切り文字は自動的に削除されます。",
+  "Default auto-commit mode for connections using this role. When set, overrides the global `dbcode.transactions.defaultAutoCommit` setting.": "このロールを使用する接続のデフォルトの自動コミットモード。設定すると、グローバル設定 `dbcode.transactions.defaultAutoCommit` を上書きします。"
 }

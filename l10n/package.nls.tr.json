@@ -250,7 +250,6 @@
   "Delete Filter": "Filtreyi Sil",
   "Use a single persistent scratch file (no timestamp rotation)": "Tek bir kalıcı taslak dosyası kullan (zaman damgası rotasyonu yok)",
   "Separator used between components in tab titles.": "Sekme başlıklarındaki bileşenler arasında kullanılan ayırıcı.",
-  "Format for table tab titles. Available variables: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${separator}`. Duplicate separators are automatically removed.": "Tablo sekmesi başlıkları için biçim. Kullanılabilir değişkenler: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${separator}`. Yinelenen ayırıcılar otomatik olarak kaldırılır.",
   "Formatting": "Biçimlendirme",
   "Path to a custom SQL formatter configuration file (`.sql-formatter.json`). Can be absolute or relative to workspace root. If not specified, DBCode will look for `.sql-formatter.json` in workspace folders automatically. [Learn about formatting options](https://dbcode.io/docs/query/sql-formatting).": "Özel SQL biçimlendirici yapılandırma dosyasının yolu (`.sql-formatter.json`). Mutlak veya çalışma alanı köküne göre olabilir. Belirtilmezse, DBCode çalışma alanı klasörlerinde otomatik olarak `.sql-formatter.json` arayacaktır. [Biçimlendirme seçenekleri hakkında bilgi edinin](https://dbcode.io/docs/query/sql-formatting).",
   "Keep keywords as-is.": "Anahtar kelimeleri olduğu gibi bırak.",
@@ -354,5 +353,7 @@
   "Library": "Kitaplık",
   "SSL certificate verification level": "SSL sertifika doğrulama düzeyi",
   "Disconnect a database connection and release file locks.": "Bir veritabanı bağlantısını kes ve dosya kilitlerini serbest bırak.",
-  "Server Monitor": "Sunucu Monitörü"
+  "Server Monitor": "Sunucu Monitörü",
+  "Format for table tab titles. Available variables: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. Duplicate separators are automatically removed.": "Tablo sekme başlıkları için biçim. Kullanılabilir değişkenler: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. Yinelenen ayırıcılar otomatik olarak kaldırılır.",
+  "Default auto-commit mode for connections using this role. When set, overrides the global `dbcode.transactions.defaultAutoCommit` setting.": "Bu rolü kullanan bağlantılar için varsayılan otomatik işlem onay modu. Ayarlandığında, genel `dbcode.transactions.defaultAutoCommit` ayarını geçersiz kılar."
 }

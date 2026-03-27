@@ -250,7 +250,6 @@
   "Delete Filter": "Удалить фильтр",
   "Use a single persistent scratch file (no timestamp rotation)": "Использовать один постоянный временный файл (без ротации по времени)",
   "Separator used between components in tab titles.": "Разделитель между компонентами в заголовках вкладок.",
-  "Format for table tab titles. Available variables: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${separator}`. Duplicate separators are automatically removed.": "Формат заголовков вкладок таблицы. Доступные переменные: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${separator}`. Дублирующиеся разделители удаляются автоматически.",
   "Formatting": "Форматирование",
   "Path to a custom SQL formatter configuration file (`.sql-formatter.json`). Can be absolute or relative to workspace root. If not specified, DBCode will look for `.sql-formatter.json` in workspace folders automatically. [Learn about formatting options](https://dbcode.io/docs/query/sql-formatting).": "Путь к файлу конфигурации форматировщика SQL (`.sql-formatter.json`). Может быть абсолютным или относительно корня рабочей области. Если не указан, DBCode автоматически ищет `.sql-formatter.json` в папках рабочей области. [Узнать о параметрах форматирования](https://dbcode.io/docs/query/sql-formatting).",
   "Keep keywords as-is.": "Оставлять ключевые слова как есть.",
@@ -354,5 +353,7 @@
   "Library": "Библиотека",
   "SSL certificate verification level": "Уровень проверки SSL-сертификата",
   "Disconnect a database connection and release file locks.": "Отключить подключение к базе данных и снять блокировки файлов.",
-  "Server Monitor": "Монитор сервера"
+  "Server Monitor": "Монитор сервера",
+  "Format for table tab titles. Available variables: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. Duplicate separators are automatically removed.": "Формат для заголовков вкладок таблиц. Доступные переменные: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. Повторяющиеся разделители удаляются автоматически.",
+  "Default auto-commit mode for connections using this role. When set, overrides the global `dbcode.transactions.defaultAutoCommit` setting.": "Режим автофиксации по умолчанию для подключений, использующих эту роль. Если задано, переопределяет глобальный параметр `dbcode.transactions.defaultAutoCommit`."
 }

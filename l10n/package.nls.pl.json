@@ -250,7 +250,6 @@
   "Delete Filter": "Usuń filtr",
   "Use a single persistent scratch file (no timestamp rotation)": "Użyj pojedynczego trwałego pliku tymczasowego (bez rotacji ze znacznikiem czasu)",
   "Separator used between components in tab titles.": "Separator używany między komponentami w tytułach kart.",
-  "Format for table tab titles. Available variables: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${separator}`. Duplicate separators are automatically removed.": "Format tytułów kart tabeli. Dostępne zmienne: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${separator}`. Zduplikowane separatory są automatycznie usuwane.",
   "Formatting": "Formatowanie",
   "Path to a custom SQL formatter configuration file (`.sql-formatter.json`). Can be absolute or relative to workspace root. If not specified, DBCode will look for `.sql-formatter.json` in workspace folders automatically. [Learn about formatting options](https://dbcode.io/docs/query/sql-formatting).": "Ścieżka do niestandardowego pliku konfiguracyjnego formatera SQL (`.sql-formatter.json`). Może być bezwzględna lub względna wobec katalogu głównego obszaru roboczego. Jeśli nie zostanie określona, DBCode automatycznie wyszuka `.sql-formatter.json` w folderach obszaru roboczego. [Dowiedz się więcej o opcjach formatowania](https://dbcode.io/docs/query/sql-formatting).",
   "Keep keywords as-is.": "Zachowaj słowa kluczowe bez zmian.",
@@ -354,5 +353,7 @@
   "Library": "Biblioteka",
   "SSL certificate verification level": "Poziom weryfikacji certyfikatu SSL",
   "Disconnect a database connection and release file locks.": "Rozłącz połączenie z bazą danych i zwolnij blokady plików.",
-  "Server Monitor": "Monitor serwera"
+  "Server Monitor": "Monitor serwera",
+  "Format for table tab titles. Available variables: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. Duplicate separators are automatically removed.": "Format dla tytułów kart tabeli. Dostępne zmienne: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. Zduplikowane separatory są usuwane automatycznie.",
+  "Default auto-commit mode for connections using this role. When set, overrides the global `dbcode.transactions.defaultAutoCommit` setting.": "Domyślny tryb automatycznego zatwierdzania dla połączeń używających tej roli. Po ustawieniu nadpisuje globalne ustawienie `dbcode.transactions.defaultAutoCommit`."
 }

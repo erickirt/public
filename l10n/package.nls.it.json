@@ -250,7 +250,6 @@
   "Delete Filter": "Elimina filtro",
   "Use a single persistent scratch file (no timestamp rotation)": "Usa un singolo file scratch persistente (senza rotazione timestamp)",
   "Separator used between components in tab titles.": "Separatore utilizzato tra i componenti nei titoli delle schede.",
-  "Format for table tab titles. Available variables: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${separator}`. Duplicate separators are automatically removed.": "Formato per i titoli delle schede delle tabelle. Variabili disponibili: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${separator}`. I separatori duplicati vengono rimossi automaticamente.",
   "Formatting": "Formattazione",
   "Path to a custom SQL formatter configuration file (`.sql-formatter.json`). Can be absolute or relative to workspace root. If not specified, DBCode will look for `.sql-formatter.json` in workspace folders automatically. [Learn about formatting options](https://dbcode.io/docs/query/sql-formatting).": "Percorso di un file di configurazione del formattatore SQL personalizzato (`.sql-formatter.json`). Può essere assoluto o relativo alla radice dell'area di lavoro. Se non specificato, DBCode cercherà automaticamente `.sql-formatter.json` nelle cartelle dell'area di lavoro. [Ulteriori informazioni sulle opzioni di formattazione](https://dbcode.io/docs/query/sql-formatting).",
   "Keep keywords as-is.": "Mantieni le parole chiave invariate.",
@@ -354,5 +353,7 @@
   "Library": "Libreria",
   "SSL certificate verification level": "Livello di verifica del certificato SSL",
   "Disconnect a database connection and release file locks.": "Disconnetti una connessione al database e rilascia i blocchi sui file.",
-  "Server Monitor": "Monitor server"
+  "Server Monitor": "Monitor server",
+  "Format for table tab titles. Available variables: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. Duplicate separators are automatically removed.": "Formato per i titoli delle schede delle tabelle. Variabili disponibili: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. I separatori duplicati vengono rimossi automaticamente.",
+  "Default auto-commit mode for connections using this role. When set, overrides the global `dbcode.transactions.defaultAutoCommit` setting.": "Modalità di commit automatico predefinita per le connessioni che utilizzano questo ruolo. Se impostata, sovrascrive l'impostazione globale `dbcode.transactions.defaultAutoCommit`."
 }

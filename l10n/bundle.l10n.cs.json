@@ -3536,5 +3536,20 @@
   "Object Type": "Typ objektu",
   "applyColumnToolPanel": "Použít",
   "cancelColumnToolPanel": "Zrušit",
-  "View SQL": "Zobrazit SQL"
+  "View SQL": "Zobrazit SQL",
+  "True": "Pravda",
+  "False": "Nepravda",
+  "Null": "Null",
+  "Not Null": "Není Null",
+  "Save as File...": "Uložit jako soubor...",
+  "Disconnecting": "Odpojování",
+  "Disconnect ?": "Odpojit?",
+  "Save Cell As File": "Uložit buňku jako soubor",
+  "This DDL statement will be auto-committed. Continue?": "Tento příkaz DDL bude automaticky potvrzen. Pokračovat?",
+  "Allow Local Infile": "Povolit lokální soubor",
+  "Allow LOAD DATA LOCAL INFILE statements to read files from the client machine.": "Povolit příkazy LOAD DATA LOCAL INFILE ke čtení souborů z klientského počítače.",
+  "Additional Hosts": "Další hostitelé",
+  "Comma-separated host:port pairs for replica set connections.": "Páry host:port oddělené čárkou pro připojení k sadě replik.",
+  "e.g. libsql://your-database-id.lite.bunnydb.net": "např. libsql://your-database-id.lite.bunnydb.net",
+  "Auth Token": "Ověřovací token"
 }

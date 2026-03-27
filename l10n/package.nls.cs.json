@@ -250,7 +250,6 @@
   "Delete Filter": "Smazat filtr",
   "Use a single persistent scratch file (no timestamp rotation)": "Použít jeden trvalý pomocný soubor (bez rotace časových razítek)",
   "Separator used between components in tab titles.": "Oddělovač použitý mezi komponenty v názvech karet.",
-  "Format for table tab titles. Available variables: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${separator}`. Duplicate separators are automatically removed.": "Formát pro názvy karet tabulek. Dostupné proměnné: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${separator}`. Duplicitní oddělovače se automaticky odstraní.",
   "Formatting": "Formátování",
   "Path to a custom SQL formatter configuration file (`.sql-formatter.json`). Can be absolute or relative to workspace root. If not specified, DBCode will look for `.sql-formatter.json` in workspace folders automatically. [Learn about formatting options](https://dbcode.io/docs/query/sql-formatting).": "Cesta k vlastnímu konfiguračnímu souboru formátovače SQL (`.sql-formatter.json`). Může být absolutní nebo relativní vzhledem ke kořenu pracovního prostoru. Pokud není zadána, DBCode automaticky vyhledá `.sql-formatter.json` ve složkách pracovního prostoru. [Další informace o možnostech formátování](https://dbcode.io/docs/query/sql-formatting).",
   "Keep keywords as-is.": "Ponechat klíčová slova tak, jak jsou.",
@@ -354,5 +353,7 @@
   "Library": "Knihovna",
   "SSL certificate verification level": "Úroveň ověření SSL certifikátu",
   "Disconnect a database connection and release file locks.": "Odpojit databázové připojení a uvolnit zámky souborů.",
-  "Server Monitor": "Monitor serveru"
+  "Server Monitor": "Monitor serveru",
+  "Format for table tab titles. Available variables: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. Duplicate separators are automatically removed.": "Formát pro názvy karet tabulek. Dostupné proměnné: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. Duplicitní oddělovače jsou automaticky odstraněny.",
+  "Default auto-commit mode for connections using this role. When set, overrides the global `dbcode.transactions.defaultAutoCommit` setting.": "Výchozí režim automatického potvrzení pro připojení používající tuto roli. Pokud je nastaveno, přepíše globální nastavení `dbcode.transactions.defaultAutoCommit`."
 }
