@@ -1,5 +1,24 @@
 # CHANGELOG
 
+## 1.30.0 - 2026-04-02
+
+### Changed
+
+- Monitoring: Added System Info tab showing server information.
+- Monitoring: Locks tab uses tree view to show blocked processes under the blocking process.
+- Monitoring: Added long-running query notifications, warning when a session exceeds 60 seconds, with Kill Session action.
+- SurrealDB: Added support for SurrealDB v3 by upgrading the SDK to 2.x. Minimum server version is now 2.1.0. #1043
+- Aerospike: New database driver with SQL support via JDBC. #631
+- Apache Pinot: New driver for real-time OLAP analytics. #631
+
+### Fixed
+
+- Grid: Fixed reload button becoming unclickable after a table or query error, requiring close and reopen to recover. 
+- Oracle: Fixed SQL execution failing when statements contain trailing comments (-- or /* */). #1044
+- Results: Fixed "Set value" context menu targeting wrong row after sorting. #1041
+- Grid: Fixed Monaco editor background not matching VS Code theme in WHERE filter and inspector panel. #1042
+- Grid: Fixed paste inserting clipboard contents twice in WHERE filter on Linux and WSL. #1024
+
 ## 1.29.5 - 2026-03-27
 
 ### Changed
