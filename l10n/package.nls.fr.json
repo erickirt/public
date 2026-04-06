@@ -355,5 +355,10 @@
   "Disconnect a database connection and release file locks.": "Déconnecter une connexion de base de données et libérer les verrous de fichiers.",
   "Server Monitor": "Moniteur de serveur",
   "Format for table tab titles. Available variables: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. Duplicate separators are automatically removed.": "Format des titres d'onglets de table. Variables disponibles : `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. Les séparateurs en double sont supprimés automatiquement.",
-  "Default auto-commit mode for connections using this role. When set, overrides the global `dbcode.transactions.defaultAutoCommit` setting.": "Mode de validation automatique par défaut pour les connexions utilisant ce rôle. Si défini, remplace le paramètre global `dbcode.transactions.defaultAutoCommit`."
+  "Default auto-commit mode for connections using this role. When set, overrides the global `dbcode.transactions.defaultAutoCommit` setting.": "Mode de validation automatique par défaut pour les connexions utilisant ce rôle. Si défini, remplace le paramètre global `dbcode.transactions.defaultAutoCommit`.",
+  "Create Role": "Créer un rôle",
+  "Edit Role": "Modifier le rôle",
+  "Delete Role": "Supprimer le rôle",
+  "Rename Role": "Renommer le rôle",
+  "Assign Role": "Attribuer un rôle"
 }

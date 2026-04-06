@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## 1.30.1 - 2026-04-06
+
+### Changed
+
+- Teams: Added role-based feature restrictions. Team owners and admins can assign roles to members to control access to AI, data export, clipboard copy, data sharing, and history sync. Includes built-in roles (admin, member, no-export, restricted) and support for custom roles. #1049
+
+### Fixed
+
+- Grid: Fixed Cmd/Ctrl+C not copying text when editing a cell inline.
+- Language Server: Fixed expression aliases being marked as unknown columns in ORDER BY. #1050
+- MongoDB: Fixed SQL file execution failing after the first successful query. #1047
+- Script DDL: Fixed blank editor opening when DDL generation fails. #1039
+
 ## 1.30.0 - 2026-04-02
 
 ### Changed

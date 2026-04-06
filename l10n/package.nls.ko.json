@@ -355,5 +355,10 @@
   "Disconnect a database connection and release file locks.": "데이터베이스 연결을 끊고 파일 잠금을 해제합니다.",
   "Server Monitor": "서버 모니터",
   "Format for table tab titles. Available variables: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. Duplicate separators are automatically removed.": "테이블 탭 제목 형식. 사용 가능한 변수: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. 중복 구분자는 자동으로 제거됩니다.",
-  "Default auto-commit mode for connections using this role. When set, overrides the global `dbcode.transactions.defaultAutoCommit` setting.": "이 역할을 사용하는 연결의 기본 자동 커밋 모드. 설정 시 전역 `dbcode.transactions.defaultAutoCommit` 설정을 재정의합니다."
+  "Default auto-commit mode for connections using this role. When set, overrides the global `dbcode.transactions.defaultAutoCommit` setting.": "이 역할을 사용하는 연결의 기본 자동 커밋 모드. 설정 시 전역 `dbcode.transactions.defaultAutoCommit` 설정을 재정의합니다.",
+  "Create Role": "역할 만들기",
+  "Edit Role": "역할 편집",
+  "Delete Role": "역할 삭제",
+  "Rename Role": "역할 이름 바꾸기",
+  "Assign Role": "역할 할당"
 }

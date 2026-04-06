@@ -355,5 +355,10 @@
   "Disconnect a database connection and release file locks.": "断开数据库连接并释放文件锁。",
   "Server Monitor": "服务器监视器",
   "Format for table tab titles. Available variables: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. Duplicate separators are automatically removed.": "表格标签标题的格式。可用变量：`${connection}`、`${database}`、`${schema}`、`${table}`、`${type}`、`${role}`、`${separator}`。重复的分隔符会自动删除。",
-  "Default auto-commit mode for connections using this role. When set, overrides the global `dbcode.transactions.defaultAutoCommit` setting.": "使用此角色的连接的默认自动提交模式。设置后，将覆盖全局 `dbcode.transactions.defaultAutoCommit` 设置。"
+  "Default auto-commit mode for connections using this role. When set, overrides the global `dbcode.transactions.defaultAutoCommit` setting.": "使用此角色的连接的默认自动提交模式。设置后，将覆盖全局 `dbcode.transactions.defaultAutoCommit` 设置。",
+  "Create Role": "创建角色",
+  "Edit Role": "编辑角色",
+  "Delete Role": "删除角色",
+  "Rename Role": "重命名角色",
+  "Assign Role": "分配角色"
 }

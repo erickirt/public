@@ -355,5 +355,10 @@
   "Disconnect a database connection and release file locks.": "Odpojit databázové připojení a uvolnit zámky souborů.",
   "Server Monitor": "Monitor serveru",
   "Format for table tab titles. Available variables: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. Duplicate separators are automatically removed.": "Formát pro názvy karet tabulek. Dostupné proměnné: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. Duplicitní oddělovače jsou automaticky odstraněny.",
-  "Default auto-commit mode for connections using this role. When set, overrides the global `dbcode.transactions.defaultAutoCommit` setting.": "Výchozí režim automatického potvrzení pro připojení používající tuto roli. Pokud je nastaveno, přepíše globální nastavení `dbcode.transactions.defaultAutoCommit`."
+  "Default auto-commit mode for connections using this role. When set, overrides the global `dbcode.transactions.defaultAutoCommit` setting.": "Výchozí režim automatického potvrzení pro připojení používající tuto roli. Pokud je nastaveno, přepíše globální nastavení `dbcode.transactions.defaultAutoCommit`.",
+  "Create Role": "Vytvořit roli",
+  "Edit Role": "Upravit roli",
+  "Delete Role": "Smazat roli",
+  "Rename Role": "Přejmenovat roli",
+  "Assign Role": "Přiřadit roli"
 }

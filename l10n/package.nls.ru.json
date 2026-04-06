@@ -355,5 +355,10 @@
   "Disconnect a database connection and release file locks.": "Отключить подключение к базе данных и снять блокировки файлов.",
   "Server Monitor": "Монитор сервера",
   "Format for table tab titles. Available variables: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. Duplicate separators are automatically removed.": "Формат для заголовков вкладок таблиц. Доступные переменные: `${connection}`, `${database}`, `${schema}`, `${table}`, `${type}`, `${role}`, `${separator}`. Повторяющиеся разделители удаляются автоматически.",
-  "Default auto-commit mode for connections using this role. When set, overrides the global `dbcode.transactions.defaultAutoCommit` setting.": "Режим автофиксации по умолчанию для подключений, использующих эту роль. Если задано, переопределяет глобальный параметр `dbcode.transactions.defaultAutoCommit`."
+  "Default auto-commit mode for connections using this role. When set, overrides the global `dbcode.transactions.defaultAutoCommit` setting.": "Режим автофиксации по умолчанию для подключений, использующих эту роль. Если задано, переопределяет глобальный параметр `dbcode.transactions.defaultAutoCommit`.",
+  "Create Role": "Создать роль",
+  "Edit Role": "Редактировать роль",
+  "Delete Role": "Удалить роль",
+  "Rename Role": "Переименовать роль",
+  "Assign Role": "Назначить роль"
 }
