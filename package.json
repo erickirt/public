@@ -4,7 +4,7 @@
     "pricing": "Free",
     "description": "Connect to PostgreSQL, MySQL, SQL Server, SQLite, Mongo, Oracle, DuckDB and other major databases. AI queries. Create and edit tables, data, functions and procedures. Graph your data. Share reports. And more!",
     "publisher": "dbcode",
-    "version": "1.30.1",
+    "version": "1.30.2",
     "icon": "out/resources/logos/logo.png",
     "galleryBanner": {
         "color": "#e4ddff",
@@ -1752,6 +1752,16 @@
                     "command": "dbcode.account.assignRole",
                     "when": "view == dbcode.account.view && viewItem =~ /seat-manageable/",
                     "group": "3_role@1"
+                },
+                {
+                    "command": "dbcode.account.generateActivationToken",
+                    "when": "view == dbcode.account.view && viewItem =~ /seat-manageable/",
+                    "group": "4_token@1"
+                },
+                {
+                    "command": "dbcode.account.revokeActivationToken",
+                    "when": "view == dbcode.account.view && viewItem =~ /seat-manageable/",
+                    "group": "4_token@2"
                 },
                 {
                     "command": "dbcode.tunnels.viewLogs",
@@ -6061,6 +6071,8 @@
         "validator": "^13.12.0",
         "vscode-messenger": "^0.4.5",
         "vscode-messenger-webview": "^0.4.5",
+        "vscode-oniguruma": "^2.0.1",
+        "vscode-textmate": "^9.3.2",
         "xlsx": "^0.18.5",
         "yaml": "^2.7.0",
         "yjs": "^13.6.27",

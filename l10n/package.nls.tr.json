@@ -360,5 +360,7 @@
   "Edit Role": "Rolü Düzenle",
   "Delete Role": "Rolü Sil",
   "Rename Role": "Rolü Yeniden Adlandır",
-  "Assign Role": "Rol Ata"
+  "Assign Role": "Rol Ata",
+  "Generate Activation Token": "Etkinleştirme belirteci oluştur",
+  "Revoke Activation Token": "Etkinleştirme Belirtecini İptal Et"
 }

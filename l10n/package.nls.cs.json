@@ -360,5 +360,7 @@
   "Edit Role": "Upravit roli",
   "Delete Role": "Smazat roli",
   "Rename Role": "Přejmenovat roli",
-  "Assign Role": "Přiřadit roli"
+  "Assign Role": "Přiřadit roli",
+  "Generate Activation Token": "Vygenerovat aktivační token",
+  "Revoke Activation Token": "Odvolat aktivační token"
 }

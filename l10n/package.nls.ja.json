@@ -360,5 +360,7 @@
   "Edit Role": "ロールを編集",
   "Delete Role": "ロールを削除",
   "Rename Role": "ロールの名前を変更",
-  "Assign Role": "ロールを割り当て"
+  "Assign Role": "ロールを割り当て",
+  "Generate Activation Token": "アクティベーション トークンを生成",
+  "Revoke Activation Token": "アクティベーショントークンを無効化"
 }

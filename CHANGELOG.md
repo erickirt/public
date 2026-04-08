@@ -1,5 +1,29 @@
 # CHANGELOG
 
+## 1.30.2 - 2026-04-08
+
+### Changed
+
+- InfluxDB: Added progressive introspection, server monitoring, EXPLAIN support, and connection string parsing.
+- Hive/Impala: Added progressive introspection, server monitoring, EXPLAIN support, and connection string parsing.
+- Databricks: Added progressive introspection, server monitoring, EXPLAIN support, and connection string parsing.
+- Elasticsearch/OpenSearch: Added progressive introspection, cluster monitoring, EXPLAIN support, and connection string parsing.
+- Cassandra/ScyllaDB: Added progressive introspection, node monitoring, and connection string parsing.
+- MongoDB: Added progressive introspection.
+- Grid: Added top-level Copy action to context menu for quick one-click copy. 
+- Grid: Added Ctrl+Insert keyboard shortcut for copy to support Dvorak keyboard layouts.
+- Accounts: Team admins can generate tokens for seat members to enable automatic license activation via `DBCODE_ACTIVATION_TOKEN` environment variable. #1055
+- Accounts: `DBCODE_REQUIRE_LICENSE` environment variable to block all DBCode functionality without a valid license.
+
+### Fixed
+
+- RisingWave: Fixed introspection error caused by missing `cache_size` column in `pg_sequences`. #1058
+- MongoDB: Fixed `db.collection()` method not working in SQL file. #1047
+- Athena: Fixed "mismatched input OFFSET" error when scrolling through table data. #1057
+- SQL Server DW, Access, Sybase: Fixed pagination when scrolling through table data.
+- Editor: Improved syntax highlighting in Monaco editors (inspector, WHERE filter, SQL panel) to match VS Code's theme colors. #1042
+
+
 ## 1.30.1 - 2026-04-06
 
 ### Changed

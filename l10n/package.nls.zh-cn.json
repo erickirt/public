@@ -360,5 +360,7 @@
   "Edit Role": "编辑角色",
   "Delete Role": "删除角色",
   "Rename Role": "重命名角色",
-  "Assign Role": "分配角色"
+  "Assign Role": "分配角色",
+  "Generate Activation Token": "生成激活令牌",
+  "Revoke Activation Token": "撤销激活令牌"
 }

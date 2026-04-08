@@ -360,5 +360,7 @@
   "Edit Role": "Modifier le rôle",
   "Delete Role": "Supprimer le rôle",
   "Rename Role": "Renommer le rôle",
-  "Assign Role": "Attribuer un rôle"
+  "Assign Role": "Attribuer un rôle",
+  "Generate Activation Token": "Générer un jeton d'activation",
+  "Revoke Activation Token": "Révoquer le jeton d'activation"
 }

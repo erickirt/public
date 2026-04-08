@@ -360,5 +360,7 @@
   "Edit Role": "역할 편집",
   "Delete Role": "역할 삭제",
   "Rename Role": "역할 이름 바꾸기",
-  "Assign Role": "역할 할당"
+  "Assign Role": "역할 할당",
+  "Generate Activation Token": "활성화 토큰 생성",
+  "Revoke Activation Token": "활성화 토큰 취소"
 }

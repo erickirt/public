@@ -360,5 +360,7 @@
   "Edit Role": "編輯角色",
   "Delete Role": "刪除角色",
   "Rename Role": "重新命名角色",
-  "Assign Role": "指派角色"
+  "Assign Role": "指派角色",
+  "Generate Activation Token": "產生啟動權杖",
+  "Revoke Activation Token": "撤銷啟用權杖"
 }
