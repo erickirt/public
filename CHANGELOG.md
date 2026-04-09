@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 1.30.3 - 2026-04-09
+
+### Changed
+
+- Connections: Changed progressive introspection default for "Prefetch Details" to off for progressive introspection.
+
+### Fixed
+
+- Hive: Parallelized introspection queries. #1053
+- Accounts: Enable generate activation token commands. #1055
+- SAP ASE (Sybase): Fixed stored procedures only returning the first result set when multiple result sets are returned.
+
 ## 1.30.2 - 2026-04-08
 
 ### Changed
