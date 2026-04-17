@@ -4,7 +4,7 @@
     "pricing": "Free",
     "description": "Connect to PostgreSQL, MySQL, SQL Server, SQLite, Mongo, Oracle, DuckDB and other major databases. AI queries. Create and edit tables, data, functions and procedures. Graph your data. Share reports. And more!",
     "publisher": "dbcode",
-    "version": "1.30.3",
+    "version": "1.30.4",
     "icon": "out/resources/logos/logo.png",
     "galleryBanner": {
         "color": "#e4ddff",
@@ -61,6 +61,7 @@
         "Programming Languages"
     ],
     "activationEvents": [
+        "onStartupFinished",
         "onRenderer:dbcode-notebook",
         "onNotebook:dbcode-notebook",
         "onLanguage:sql"

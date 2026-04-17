@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## 1.30.4 - 2026-04-17
+
+### Changed
+
+- ClickHouse: Progressive introspection is now the default for new connections.
+
+### Fixed
+
+- Results: Fixed chart state being reset when refreshing query results in the same tab. #921
+- Grid: Fixed duplicate "With Headers" item in the Copy As submenu, second one now correctly shows "Without Headers".
+- ClickHouse: Fixed introspection failure when the server reports "No synonims extensions" error from system.functions query. #1063
+- MCP: Auto-start now starts the MCP server when VS Code opens, rather than waiting for the user to interact with DBCode. #1060
+
 ## 1.30.3 - 2026-04-09
 
 ### Changed
