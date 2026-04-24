@@ -362,5 +362,8 @@
   "Rename Role": "重命名角色",
   "Assign Role": "分配角色",
   "Generate Activation Token": "生成激活令牌",
-  "Revoke Activation Token": "撤销激活令牌"
+  "Revoke Activation Token": "撤销激活令牌",
+  "Export Query Results": "导出查询结果",
+  "MCP Allow External Connections": "MCP - 允许外部连接",
+  "Allow MCP connections from other machines or Dev Containers. Requires OAuth authorization. When disabled, MCP only accepts connections from localhost.": "允许来自其他计算机或 Dev Containers 的 MCP 连接。需要 OAuth 授权。禁用时，MCP 仅接受来自 localhost 的连接。"
 }

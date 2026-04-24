@@ -362,5 +362,8 @@
   "Rename Role": "ロールの名前を変更",
   "Assign Role": "ロールを割り当て",
   "Generate Activation Token": "アクティベーション トークンを生成",
-  "Revoke Activation Token": "アクティベーショントークンを無効化"
+  "Revoke Activation Token": "アクティベーショントークンを無効化",
+  "Export Query Results": "クエリ結果をエクスポート",
+  "MCP Allow External Connections": "MCP - 外部接続を許可",
+  "Allow MCP connections from other machines or Dev Containers. Requires OAuth authorization. When disabled, MCP only accepts connections from localhost.": "他のマシンまたは Dev Containers からの MCP 接続を許可します。OAuth 認証が必要です。無効にすると、MCP は localhost からの接続のみを受け入れます。"
 }

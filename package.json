@@ -4,7 +4,7 @@
     "pricing": "Free",
     "description": "Connect to PostgreSQL, MySQL, SQL Server, SQLite, Mongo, Oracle, DuckDB and other major databases. AI queries. Create and edit tables, data, functions and procedures. Graph your data. Share reports. And more!",
     "publisher": "dbcode",
-    "version": "1.30.4",
+    "version": "1.30.5",
     "icon": "out/resources/logos/logo.png",
     "galleryBanner": {
         "color": "#e4ddff",
@@ -1195,6 +1195,12 @@
                 "icon": "$(export)"
             },
             {
+                "command": "dbcode.editor.exportQuery",
+                "title": "%Export Query Results%",
+                "category": "DBCode",
+                "icon": "$(export)"
+            },
+            {
                 "command": "dbcode.editor.context.openTable",
                 "title": "%Open%",
                 "category": "DBCode"
@@ -2294,6 +2300,11 @@
                     "command": "dbcode.editor.executeDryRun",
                     "when": "(editorLangId == sql || resourceFilename =~ /.sql$/) && resourceScheme != dbcode && dbcode.editor.hasDryRun",
                     "group": "navigation@4"
+                },
+                {
+                    "command": "dbcode.editor.exportQuery",
+                    "when": "(editorLangId == sql || resourceFilename =~ /.sql$/) && resourceScheme != dbcode",
+                    "group": "navigation@5"
                 }
             ],
             "editor/context": [
@@ -2306,6 +2317,11 @@
                     "when": "resourceLangId == sql && !editorHasSelection",
                     "command": "dbcode.editor.copyQuery",
                     "group": "navigation@1.5"
+                },
+                {
+                    "when": "resourceLangId == sql",
+                    "command": "dbcode.editor.exportQuery",
+                    "group": "navigation@1.01"
                 },
                 {
                     "when": "resourceLangId == sql",
@@ -4416,6 +4432,12 @@
                             "%OAuth 2.1 with PKCE - secure authentication with user approval dialogs.%",
                             "%No authorization required - use only in trusted environments.%"
                         ]
+                    },
+                    "dbcode.ai.mcp.allowExternalConnections": {
+                        "title": "%MCP Allow External Connections%",
+                        "type": "boolean",
+                        "default": false,
+                        "markdownDescription": "%Allow MCP connections from other machines or Dev Containers. Requires OAuth authorization. When disabled, MCP only accepts connections from localhost.%"
                     },
                     "dbcode.ai.mcp.tokenExpiry": {
                         "title": "%MCP OAuth Token Expiry%",

@@ -362,5 +362,8 @@
   "Rename Role": "重新命名角色",
   "Assign Role": "指派角色",
   "Generate Activation Token": "產生啟動權杖",
-  "Revoke Activation Token": "撤銷啟用權杖"
+  "Revoke Activation Token": "撤銷啟用權杖",
+  "Export Query Results": "匯出查詢結果",
+  "MCP Allow External Connections": "MCP - 允許外部連線",
+  "Allow MCP connections from other machines or Dev Containers. Requires OAuth authorization. When disabled, MCP only accepts connections from localhost.": "允許來自其他電腦或 Dev Containers 的 MCP 連線。需要 OAuth 授權。停用時，MCP 僅接受來自 localhost 的連線。"
 }

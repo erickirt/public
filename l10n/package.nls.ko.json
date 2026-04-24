@@ -362,5 +362,8 @@
   "Rename Role": "역할 이름 바꾸기",
   "Assign Role": "역할 할당",
   "Generate Activation Token": "활성화 토큰 생성",
-  "Revoke Activation Token": "활성화 토큰 취소"
+  "Revoke Activation Token": "활성화 토큰 취소",
+  "Export Query Results": "쿼리 결과 내보내기",
+  "MCP Allow External Connections": "MCP - 외부 연결 허용",
+  "Allow MCP connections from other machines or Dev Containers. Requires OAuth authorization. When disabled, MCP only accepts connections from localhost.": "다른 컴퓨터 또는 Dev Containers에서 MCP 연결을 허용합니다. OAuth 인증이 필요합니다. 비활성화하면 MCP는 localhost에서의 연결만 허용합니다."
 }

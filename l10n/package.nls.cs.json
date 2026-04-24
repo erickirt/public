@@ -362,5 +362,8 @@
   "Rename Role": "Přejmenovat roli",
   "Assign Role": "Přiřadit roli",
   "Generate Activation Token": "Vygenerovat aktivační token",
-  "Revoke Activation Token": "Odvolat aktivační token"
+  "Revoke Activation Token": "Odvolat aktivační token",
+  "Export Query Results": "Exportovat výsledky dotazu",
+  "MCP Allow External Connections": "MCP - Povolit externí připojení",
+  "Allow MCP connections from other machines or Dev Containers. Requires OAuth authorization. When disabled, MCP only accepts connections from localhost.": "Povolit připojení MCP z jiných počítačů nebo Dev Containers. Vyžaduje autorizaci OAuth. Pokud je zakázáno, MCP přijímá pouze připojení z localhostu."
 }

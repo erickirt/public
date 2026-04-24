@@ -362,5 +362,8 @@
   "Rename Role": "Переименовать роль",
   "Assign Role": "Назначить роль",
   "Generate Activation Token": "Создать токен активации",
-  "Revoke Activation Token": "Отозвать токен активации"
+  "Revoke Activation Token": "Отозвать токен активации",
+  "Export Query Results": "Экспорт результатов запроса",
+  "MCP Allow External Connections": "MCP - Разрешить внешние подключения",
+  "Allow MCP connections from other machines or Dev Containers. Requires OAuth authorization. When disabled, MCP only accepts connections from localhost.": "Разрешить подключения MCP с других машин или Dev Containers. Требуется авторизация OAuth. При отключении MCP принимает только подключения с localhost."
 }

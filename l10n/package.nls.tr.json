@@ -362,5 +362,8 @@
   "Rename Role": "Rolü Yeniden Adlandır",
   "Assign Role": "Rol Ata",
   "Generate Activation Token": "Etkinleştirme belirteci oluştur",
-  "Revoke Activation Token": "Etkinleştirme Belirtecini İptal Et"
+  "Revoke Activation Token": "Etkinleştirme Belirtecini İptal Et",
+  "Export Query Results": "Sorgu Sonuçlarını Dışa Aktar",
+  "MCP Allow External Connections": "MCP - Harici Bağlantılara İzin Ver",
+  "Allow MCP connections from other machines or Dev Containers. Requires OAuth authorization. When disabled, MCP only accepts connections from localhost.": "Diğer makinelerden veya Dev Containers'dan MCP bağlantılarına izin verin. OAuth yetkilendirmesi gerektirir. Devre dışı bırakıldığında MCP yalnızca localhost'tan gelen bağlantıları kabul eder."
 }

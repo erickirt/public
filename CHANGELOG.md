@@ -1,5 +1,21 @@
 # CHANGELOG
 
+## 1.30.5 - 2026-04-24
+
+### Changed
+
+- Editor: Added "Export Query Results" action to export a query's results directly to a file from the SQL editor. #1062
+- Introspection: Added optional "Update Statistics" setting in connection introspection settings. When enabled, updates database stats before refreshing a single table so the row count in the explorer stays accurate. Supported on Oracle, PostgreSQL, Redshift, MySQL, MariaDB, SQL Server, SQLite, Sybase, Databricks, and Hive. #1054
+- Explore: Added Unique and Zero metrics to measure summary, and a new Summary section for dimensions with Distinct, Unique, Nulls, Empty, and Min/Max for date dimensions. #1064
+- MCP: Added `dbcode.ai.mcp.allowExternalConnections` setting to expose the MCP server beyond localhost, for Dev Containers or LAN access. Requires OAuth. #741
+- SurrealDB: Added progressive introspection and system monitoring.
+- RavenDB: Added progressive introspection, system monitoring, and connection string parsing.
+- Redis/Valkey: Added progressive introspection, server monitoring, client monitoring, and connection string parsing.
+
+### Fixed
+
+- SQL: Expanded reserved-word list used for identifier quoting with names like `character`, `binary`, `read`, etc. are correctly quoted. #1067
+
 ## 1.30.4 - 2026-04-17
 
 ### Changed

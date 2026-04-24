@@ -362,5 +362,8 @@
   "Rename Role": "Rinomina ruolo",
   "Assign Role": "Assegna ruolo",
   "Generate Activation Token": "Genera token di attivazione",
-  "Revoke Activation Token": "Revoca token di attivazione"
+  "Revoke Activation Token": "Revoca token di attivazione",
+  "Export Query Results": "Esporta risultati query",
+  "MCP Allow External Connections": "MCP - Consenti connessioni esterne",
+  "Allow MCP connections from other machines or Dev Containers. Requires OAuth authorization. When disabled, MCP only accepts connections from localhost.": "Consenti connessioni MCP da altri computer o Dev Container. Richiede autorizzazione OAuth. Se disabilitato, MCP accetta solo connessioni da localhost."
 }
