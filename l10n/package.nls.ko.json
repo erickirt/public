@@ -365,5 +365,9 @@
   "Revoke Activation Token": "활성화 토큰 취소",
   "Export Query Results": "쿼리 결과 내보내기",
   "MCP Allow External Connections": "MCP - 외부 연결 허용",
-  "Allow MCP connections from other machines or Dev Containers. Requires OAuth authorization. When disabled, MCP only accepts connections from localhost.": "다른 컴퓨터 또는 Dev Containers에서 MCP 연결을 허용합니다. OAuth 인증이 필요합니다. 비활성화하면 MCP는 localhost에서의 연결만 허용합니다."
+  "Allow MCP connections from other machines or Dev Containers. Requires OAuth authorization. When disabled, MCP only accepts connections from localhost.": "다른 컴퓨터 또는 Dev Containers에서 MCP 연결을 허용합니다. OAuth 인증이 필요합니다. 비활성화하면 MCP는 localhost에서의 연결만 허용합니다.",
+  "Follow the VS Code setting workbench.editor.enablePreview.": "VS Code 설정 workbench.editor.enablePreview를 따릅니다.",
+  "Always use preview tabs (single-click reuses the current tab).": "항상 미리 보기 탭 사용 (한 번 클릭하면 현재 탭 재사용).",
+  "Never use preview tabs (every click opens a new tab).": "미리 보기 탭 사용 안 함 (클릭할 때마다 새 탭 열기).",
+  "Controls whether single-clicking to open a table or view reuses the current tab (preview) or opens a new one. 'inherit' follows VS Code's `workbench.editor.enablePreview` setting.": "테이블 또는 뷰를 열기 위해 한 번 클릭할 때 현재 탭(미리 보기)을 재사용하거나 새 탭을 열지 여부를 제어합니다. 'inherit'는 VS Code의 `workbench.editor.enablePreview` 설정을 따릅니다."
 }

@@ -365,5 +365,9 @@
   "Revoke Activation Token": "Etkinleştirme Belirtecini İptal Et",
   "Export Query Results": "Sorgu Sonuçlarını Dışa Aktar",
   "MCP Allow External Connections": "MCP - Harici Bağlantılara İzin Ver",
-  "Allow MCP connections from other machines or Dev Containers. Requires OAuth authorization. When disabled, MCP only accepts connections from localhost.": "Diğer makinelerden veya Dev Containers'dan MCP bağlantılarına izin verin. OAuth yetkilendirmesi gerektirir. Devre dışı bırakıldığında MCP yalnızca localhost'tan gelen bağlantıları kabul eder."
+  "Allow MCP connections from other machines or Dev Containers. Requires OAuth authorization. When disabled, MCP only accepts connections from localhost.": "Diğer makinelerden veya Dev Containers'dan MCP bağlantılarına izin verin. OAuth yetkilendirmesi gerektirir. Devre dışı bırakıldığında MCP yalnızca localhost'tan gelen bağlantıları kabul eder.",
+  "Follow the VS Code setting workbench.editor.enablePreview.": "VS Code workbench.editor.enablePreview ayarını izler.",
+  "Always use preview tabs (single-click reuses the current tab).": "Her zaman önizleme sekmeleri kullan (tek tıklama mevcut sekmeyi yeniden kullanır).",
+  "Never use preview tabs (every click opens a new tab).": "Hiçbir zaman önizleme sekmeleri kullanma (her tıklama yeni bir sekme açar).",
+  "Controls whether single-clicking to open a table or view reuses the current tab (preview) or opens a new one. 'inherit' follows VS Code's `workbench.editor.enablePreview` setting.": "Bir tablo veya görünümü açmak için tek tıklamanın mevcut sekmeyi (önizleme) yeniden kullanıp kullanmayacağını veya yeni bir tane açıp açmayacağını denetler. 'inherit', VS Code'un `workbench.editor.enablePreview` ayarını izler."
 }

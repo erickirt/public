@@ -365,5 +365,9 @@
   "Revoke Activation Token": "Отозвать токен активации",
   "Export Query Results": "Экспорт результатов запроса",
   "MCP Allow External Connections": "MCP - Разрешить внешние подключения",
-  "Allow MCP connections from other machines or Dev Containers. Requires OAuth authorization. When disabled, MCP only accepts connections from localhost.": "Разрешить подключения MCP с других машин или Dev Containers. Требуется авторизация OAuth. При отключении MCP принимает только подключения с localhost."
+  "Allow MCP connections from other machines or Dev Containers. Requires OAuth authorization. When disabled, MCP only accepts connections from localhost.": "Разрешить подключения MCP с других машин или Dev Containers. Требуется авторизация OAuth. При отключении MCP принимает только подключения с localhost.",
+  "Follow the VS Code setting workbench.editor.enablePreview.": "Следует параметру VS Code workbench.editor.enablePreview.",
+  "Always use preview tabs (single-click reuses the current tab).": "Всегда использовать вкладки предпросмотра (один клик повторно использует текущую вкладку).",
+  "Never use preview tabs (every click opens a new tab).": "Никогда не использовать вкладки предпросмотра (каждый клик открывает новую вкладку).",
+  "Controls whether single-clicking to open a table or view reuses the current tab (preview) or opens a new one. 'inherit' follows VS Code's `workbench.editor.enablePreview` setting.": "Управляет тем, будет ли одиночный щелчок для открытия таблицы или представления повторно использовать текущую вкладку (предпросмотр) или открывать новую. 'inherit' следует параметру `workbench.editor.enablePreview` VS Code."
 }

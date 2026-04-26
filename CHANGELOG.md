@@ -1,5 +1,24 @@
 # CHANGELOG
 
+## 1.30.6 - 2026-04-26
+
+### Changed
+
+- Monitoring: Stats now group by category (Cache, Memory, CPU, etc.), summary at the top, hover any bar to see its value, across every card simultaneously; click to pin. Added per-metric descriptions, copy-snapshot to clipboard.
+- DynamoDB: Added progressive introspection and system monitoring.
+- Neo4j/Memgraph: Added progressive introspection, transaction monitoring.
+- Language Server: Defer startup until first SQL document opens or a SQL-dependent feature is used. #1066
+- Tabs: Tab preview behavior now respects `workbench.editor.enablePreview`. Added `dbcode.tabPreview` setting to override it for data viewer tabs specifically. #1070
+- Tabs: A data viewer tab now auto-locks (won't be reused as preview) when you type or apply a WHERE filter, sort, paginate, resize or reorder a column, or scroll away from the top.
+
+### Fixed
+
+- Monitoring: Queries now run serially over a single pinned connection per panel, session hints are applied on SQL Server / PostgreSQL / MySQL so monitoring de prioritizes, and default refresh intervals on heavy categories raised from 5s to 10s. #1069
+- SQLite: Fixed `ANALYZE` throwing "raw() method is only for statements that return data". #1072
+- Introspection: Expanded "Update Statistics" setting to Trino (+ Athena) and CockroachDB.
+- Introspection: Added row counts and size to single-table refresh for DuckDB, Snowflake, BigQuery, and ClickHouse. 
+- Editor: Fixed END keyword outside of procedures causing statement highlighting to extend past active statement.
+
 ## 1.30.5 - 2026-04-24
 
 ### Changed

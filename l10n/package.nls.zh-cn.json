@@ -365,5 +365,9 @@
   "Revoke Activation Token": "撤销激活令牌",
   "Export Query Results": "导出查询结果",
   "MCP Allow External Connections": "MCP - 允许外部连接",
-  "Allow MCP connections from other machines or Dev Containers. Requires OAuth authorization. When disabled, MCP only accepts connections from localhost.": "允许来自其他计算机或 Dev Containers 的 MCP 连接。需要 OAuth 授权。禁用时，MCP 仅接受来自 localhost 的连接。"
+  "Allow MCP connections from other machines or Dev Containers. Requires OAuth authorization. When disabled, MCP only accepts connections from localhost.": "允许来自其他计算机或 Dev Containers 的 MCP 连接。需要 OAuth 授权。禁用时，MCP 仅接受来自 localhost 的连接。",
+  "Follow the VS Code setting workbench.editor.enablePreview.": "遵循 VS Code 设置 workbench.editor.enablePreview。",
+  "Always use preview tabs (single-click reuses the current tab).": "始终使用预览标签页（单击复用当前标签页）。",
+  "Never use preview tabs (every click opens a new tab).": "从不使用预览标签页（每次单击打开新标签页）。",
+  "Controls whether single-clicking to open a table or view reuses the current tab (preview) or opens a new one. 'inherit' follows VS Code's `workbench.editor.enablePreview` setting.": "控制单击打开表或视图时是复用当前标签页（预览）还是打开新标签页。'inherit' 遵循 VS Code 的 `workbench.editor.enablePreview` 设置。"
 }

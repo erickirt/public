@@ -365,5 +365,9 @@
   "Revoke Activation Token": "アクティベーショントークンを無効化",
   "Export Query Results": "クエリ結果をエクスポート",
   "MCP Allow External Connections": "MCP - 外部接続を許可",
-  "Allow MCP connections from other machines or Dev Containers. Requires OAuth authorization. When disabled, MCP only accepts connections from localhost.": "他のマシンまたは Dev Containers からの MCP 接続を許可します。OAuth 認証が必要です。無効にすると、MCP は localhost からの接続のみを受け入れます。"
+  "Allow MCP connections from other machines or Dev Containers. Requires OAuth authorization. When disabled, MCP only accepts connections from localhost.": "他のマシンまたは Dev Containers からの MCP 接続を許可します。OAuth 認証が必要です。無効にすると、MCP は localhost からの接続のみを受け入れます。",
+  "Follow the VS Code setting workbench.editor.enablePreview.": "VS Code 設定 workbench.editor.enablePreview に従います。",
+  "Always use preview tabs (single-click reuses the current tab).": "常にプレビュータブを使用する（シングルクリックで現在のタブを再利用）。",
+  "Never use preview tabs (every click opens a new tab).": "プレビュータブを使用しない（クリックごとに新しいタブを開く）。",
+  "Controls whether single-clicking to open a table or view reuses the current tab (preview) or opens a new one. 'inherit' follows VS Code's `workbench.editor.enablePreview` setting.": "テーブルまたはビューをシングルクリックで開く際に、現在のタブ（プレビュー）を再利用するか新しいタブを開くかを制御します。'inherit' は VS Code の `workbench.editor.enablePreview` 設定に従います。"
 }

@@ -365,5 +365,9 @@
   "Revoke Activation Token": "Odwołaj token aktywacyjny",
   "Export Query Results": "Eksportuj wyniki zapytania",
   "MCP Allow External Connections": "MCP - Zezwól na połączenia zewnętrzne",
-  "Allow MCP connections from other machines or Dev Containers. Requires OAuth authorization. When disabled, MCP only accepts connections from localhost.": "Zezwól na połączenia MCP z innych komputerów lub Dev Containers. Wymaga autoryzacji OAuth. Po wyłączeniu MCP akceptuje tylko połączenia z lokalnego hosta."
+  "Allow MCP connections from other machines or Dev Containers. Requires OAuth authorization. When disabled, MCP only accepts connections from localhost.": "Zezwól na połączenia MCP z innych komputerów lub Dev Containers. Wymaga autoryzacji OAuth. Po wyłączeniu MCP akceptuje tylko połączenia z lokalnego hosta.",
+  "Follow the VS Code setting workbench.editor.enablePreview.": "Podąża za ustawieniem VS Code workbench.editor.enablePreview.",
+  "Always use preview tabs (single-click reuses the current tab).": "Zawsze używaj kart podglądu (jedno kliknięcie ponownie używa bieżącej karty).",
+  "Never use preview tabs (every click opens a new tab).": "Nigdy nie używaj kart podglądu (każde kliknięcie otwiera nową kartę).",
+  "Controls whether single-clicking to open a table or view reuses the current tab (preview) or opens a new one. 'inherit' follows VS Code's `workbench.editor.enablePreview` setting.": "Kontroluje, czy pojedyncze kliknięcie w celu otwarcia tabeli lub widoku ponownie używa bieżącej karty (podgląd) czy otwiera nową. 'inherit' podąża za ustawieniem `workbench.editor.enablePreview` VS Code."
 }

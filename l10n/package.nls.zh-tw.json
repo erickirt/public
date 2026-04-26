@@ -365,5 +365,9 @@
   "Revoke Activation Token": "撤銷啟用權杖",
   "Export Query Results": "匯出查詢結果",
   "MCP Allow External Connections": "MCP - 允許外部連線",
-  "Allow MCP connections from other machines or Dev Containers. Requires OAuth authorization. When disabled, MCP only accepts connections from localhost.": "允許來自其他電腦或 Dev Containers 的 MCP 連線。需要 OAuth 授權。停用時，MCP 僅接受來自 localhost 的連線。"
+  "Allow MCP connections from other machines or Dev Containers. Requires OAuth authorization. When disabled, MCP only accepts connections from localhost.": "允許來自其他電腦或 Dev Containers 的 MCP 連線。需要 OAuth 授權。停用時，MCP 僅接受來自 localhost 的連線。",
+  "Follow the VS Code setting workbench.editor.enablePreview.": "遵循 VS Code 設定 workbench.editor.enablePreview。",
+  "Always use preview tabs (single-click reuses the current tab).": "一律使用預覽標籤頁（單擊重複使用目前標籤頁）。",
+  "Never use preview tabs (every click opens a new tab).": "從不使用預覽標籤頁（每次單擊開啟新標籤頁）。",
+  "Controls whether single-clicking to open a table or view reuses the current tab (preview) or opens a new one. 'inherit' follows VS Code's `workbench.editor.enablePreview` setting.": "控制單擊開啟資料表或檢視時，是重複使用目前標籤頁（預覽）還是開啟新標籤頁。'inherit' 遵循 VS Code 的 `workbench.editor.enablePreview` 設定。"
 }

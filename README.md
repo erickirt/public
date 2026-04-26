@@ -1,10 +1,17 @@
-# DBCode - Database Client for VS Code
+# DBCode - SQL & Database Client for VS Code
 
 <p align="center">
-	<a href="https://dbcode.io/docs" target="_blank">DOCS</a> | <a href="https://dbcode.io/changelog" target="_blank">CHANGELOG</a> | <a href="https://discord.gg/FvAzEAHb9w" target="_blank">DISCORD</a>
+	<a href="https://marketplace.visualstudio.com/items?itemName=DBCode.dbcode"><img src="https://vsmarketplacebadges.dev/installs-short/DBCode.dbcode.svg?label=Marketplace%20Installs&color=blue" alt="VS Code Marketplace Installs"/></a>
+	<a href="https://open-vsx.org/extension/DBCode/dbcode"><img src="https://img.shields.io/open-vsx/dt/DBCode/dbcode?label=OpenVSX%20Downloads&color=blue" alt="OpenVSX Downloads"/></a>
+	<a href="https://marketplace.visualstudio.com/items?itemName=DBCode.dbcode&ssr=false#review-details"><img src="https://vsmarketplacebadges.dev/rating-short/DBCode.dbcode.svg?label=Rating&color=blue" alt="Rating"/></a>
+	<a href="https://discord.gg/FvAzEAHb9w"><img src="https://img.shields.io/discord/1257023271002570804?label=Discord&color=blue&logo=discord&logoColor=white" alt="Discord"/></a>
 </p>
 
-<p align="center">A database manager and SQL editor built into VS Code. Browse schemas, edit data, visualize queries, and manage 50+ databases without leaving your editor.</p>
+<p align="center"><strong>A modern database client for VS Code, Cursor, and Windsurf - with first-class Copilot and MCP integration.</strong></p>
+
+<p align="center">Browse schemas, edit data, visualize queries, and manage 50+ databases without leaving your editor. SQL Notebooks, auto-generated ER diagrams, and secure report sharing.</p>
+
+<p align="center"><sub>Available on the <a href="https://marketplace.visualstudio.com/items?itemName=DBCode.dbcode">VS Code Marketplace</a> and <a href="https://open-vsx.org/extension/DBCode/dbcode">OpenVSX</a> (for Cursor, Windsurf, and other VS Code forks).</sub></p>
 
 <p align="center">
 	<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
@@ -138,6 +145,14 @@ Visualize EXPLAIN and ANALYZE output as interactive node graphs. Identify slow o
 - **Localization**: Available in all VS Code supported languages
 
 [All Features](https://dbcode.io/features/) · [Documentation](https://dbcode.io/docs)
+
+## Coming from another tool?
+
+- **From DBeaver?** Same multi-database coverage, with native AI built in - inside VS Code, Cursor, or Windsurf.
+- **From DataGrip?** Power-user database tooling without leaving your editor or paying JetBrains pricing.
+- **From TablePlus?** Cross-platform, no separate app to alt-tab to, integrated with your AI assistant.
+
+[See the full comparison →](https://dbcode.io/compare)
 
 ## Pricing
 
