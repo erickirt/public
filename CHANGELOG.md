@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 1.30.8 - 2026-04-30
+
+### Fixed
+
+- MSSQL: Fixed arithmetic overflow when listing databases on servers with multi-TB databases. #1083
+- Connections: Stopped the false "Connection has changed, do you want to close and reopen it?" prompt firing on certain settings saves.
+
 ## 1.30.7 - 2026-04-30
 
 ### Changed
