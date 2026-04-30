@@ -3930,5 +3930,22 @@
   "Percentage of buffer pool reads served from memory. Values below 90% may indicate the buffer pool is undersized.": "Процент операций чтения из буферного пула, обслуживаемых из памяти. Значения ниже 90% могут указывать на недостаточный размер буферного пула.",
   "Cumulative count of operations that have waited on a lock. Sustained increases indicate transaction contention.": "Накопленное количество операций, ожидавших блокировки. Устойчивый рост указывает на конкуренцию транзакций.",
   "Sort operations that spilled out of the sort heap to temporary disk space. High values indicate SORTHEAP is undersized.": "Операции сортировки, переполнившие кучу сортировки во временное дисковое пространство. Высокие значения указывают на недостаточный размер SORTHEAP.",
-  "Total used size of all tablespaces in the database.": "Общий использованный размер всех табличных пространств в базе данных."
+  "Total used size of all tablespaces in the database.": "Общий использованный размер всех табличных пространств в базе данных.",
+  "{0} data type": "Тип данных {0}",
+  "Loading table details…": "Загрузка сведений о таблице…",
+  "Load table details": "Загрузить сведения о таблице",
+  "alias": "псевдоним",
+  "Remove table": "Удалить таблицу",
+  "Loading columns…": "Загрузка столбцов…",
+  "Click sync to load columns": "Нажмите «Синхронизировать» для загрузки столбцов",
+  "Show less": "Показать меньше",
+  "Show all ({0})": "Показать все ({0})",
+  "Result was truncated to {0} rows by the editor row limit setting. Click to re-run with a higher limit.": "Результат усечён до {0} строк настройкой лимита редактора. Нажмите для повторного выполнения с более высоким лимитом.",
+  "Row limit reached": "Достигнут лимит строк",
+  "Result was truncated to {0} rows": "Результат усечён до {0} строк",
+  "{0}  (Edit limit)": "{0}  (Изменить лимит)",
+  "Re-run with {0} row limit": "Повторить с лимитом {0} строк",
+  "Re-run with no row limit": "Повторить без ограничения строк",
+  "DBCode MCP failed to start: {0}": "DBCode MCP не удалось запустить: {0}",
+  "toolbarMenu": "Меню"
 }

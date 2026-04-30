@@ -3930,5 +3930,22 @@
   "Percentage of buffer pool reads served from memory. Values below 90% may indicate the buffer pool is undersized.": "메모리에서 제공되는 버퍼 풀 읽기 비율. 90% 미만이면 버퍼 풀 크기가 부족할 수 있습니다.",
   "Cumulative count of operations that have waited on a lock. Sustained increases indicate transaction contention.": "잠금을 기다린 작업의 누적 횟수. 지속적인 증가는 트랜잭션 경합을 나타냅니다.",
   "Sort operations that spilled out of the sort heap to temporary disk space. High values indicate SORTHEAP is undersized.": "정렬 힙에서 임시 디스크 공간으로 넘친 정렬 작업. 높은 값은 SORTHEAP 크기 부족을 나타냅니다.",
-  "Total used size of all tablespaces in the database.": "데이터베이스의 모든 테이블스페이스의 총 사용 크기."
+  "Total used size of all tablespaces in the database.": "데이터베이스의 모든 테이블스페이스의 총 사용 크기.",
+  "{0} data type": "{0} 데이터 형식",
+  "Loading table details…": "테이블 세부 정보 로드 중…",
+  "Load table details": "테이블 세부 정보 로드",
+  "alias": "별칭",
+  "Remove table": "테이블 제거",
+  "Loading columns…": "열 로드 중…",
+  "Click sync to load columns": "동기화를 클릭하여 열 로드",
+  "Show less": "간략히 보기",
+  "Show all ({0})": "모두 표시 ({0})",
+  "Result was truncated to {0} rows by the editor row limit setting. Click to re-run with a higher limit.": "편집기 행 제한 설정으로 인해 결과가 {0}행으로 잘렸습니다. 더 높은 제한으로 다시 실행하려면 클릭하세요.",
+  "Row limit reached": "행 제한에 도달했습니다",
+  "Result was truncated to {0} rows": "결과가 {0}행으로 잘렸습니다",
+  "{0}  (Edit limit)": "{0}  (제한 편집)",
+  "Re-run with {0} row limit": "{0}행 제한으로 다시 실행",
+  "Re-run with no row limit": "행 제한 없이 다시 실행",
+  "DBCode MCP failed to start: {0}": "DBCode MCP를 시작하지 못했습니다: {0}",
+  "toolbarMenu": "메뉴"
 }

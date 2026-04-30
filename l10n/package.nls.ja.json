@@ -369,5 +369,6 @@
   "Follow the VS Code setting workbench.editor.enablePreview.": "VS Code 設定 workbench.editor.enablePreview に従います。",
   "Always use preview tabs (single-click reuses the current tab).": "常にプレビュータブを使用する（シングルクリックで現在のタブを再利用）。",
   "Never use preview tabs (every click opens a new tab).": "プレビュータブを使用しない（クリックごとに新しいタブを開く）。",
-  "Controls whether single-clicking to open a table or view reuses the current tab (preview) or opens a new one. 'inherit' follows VS Code's `workbench.editor.enablePreview` setting.": "テーブルまたはビューをシングルクリックで開く際に、現在のタブ（プレビュー）を再利用するか新しいタブを開くかを制御します。'inherit' は VS Code の `workbench.editor.enablePreview` 設定に従います。"
+  "Controls whether single-clicking to open a table or view reuses the current tab (preview) or opens a new one. 'inherit' follows VS Code's `workbench.editor.enablePreview` setting.": "テーブルまたはビューをシングルクリックで開く際に、現在のタブ（プレビュー）を再利用するか新しいタブを開くかを制御します。'inherit' は VS Code の `workbench.editor.enablePreview` 設定に従います。",
+  "Maximum rows returned by queries run from the editor or notebook cells. Set to 0 for no limit. Tables and views opened from the connection explorer use `#dbcode.rowsToLoad#` instead.": "エディターまたはノートブックセルで実行されたクエリが返す最大行数。0 に設定すると無制限になります。接続エクスプローラーから開いたテーブルとビューは代わりに `#dbcode.rowsToLoad#` を使用します。"
 }

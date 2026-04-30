@@ -3930,5 +3930,22 @@
   "Percentage of buffer pool reads served from memory. Values below 90% may indicate the buffer pool is undersized.": "从内存中提供的缓冲池读取百分比。低于 90% 可能表示缓冲池过小。",
   "Cumulative count of operations that have waited on a lock. Sustained increases indicate transaction contention.": "等待锁的操作累计计数。持续增加表示存在事务争用。",
   "Sort operations that spilled out of the sort heap to temporary disk space. High values indicate SORTHEAP is undersized.": "从排序堆溢出到临时磁盘空间的排序操作。高值表示 SORTHEAP 过小。",
-  "Total used size of all tablespaces in the database.": "数据库中所有表空间的总使用大小。"
+  "Total used size of all tablespaces in the database.": "数据库中所有表空间的总使用大小。",
+  "{0} data type": "{0} 数据类型",
+  "Loading table details…": "正在加载表详情…",
+  "Load table details": "加载表详情",
+  "alias": "别名",
+  "Remove table": "移除表",
+  "Loading columns…": "正在加载列…",
+  "Click sync to load columns": "点击同步以加载列",
+  "Show less": "显示更少",
+  "Show all ({0})": "显示全部 ({0})",
+  "Result was truncated to {0} rows by the editor row limit setting. Click to re-run with a higher limit.": "结果已被编辑器行限制设置截断为 {0} 行。点击以使用更高限制重新运行。",
+  "Row limit reached": "已达到行限制",
+  "Result was truncated to {0} rows": "结果已截断为 {0} 行",
+  "{0}  (Edit limit)": "{0}  (编辑限制)",
+  "Re-run with {0} row limit": "以 {0} 行限制重新运行",
+  "Re-run with no row limit": "无行限制重新运行",
+  "DBCode MCP failed to start: {0}": "DBCode MCP 启动失败：{0}",
+  "toolbarMenu": "菜单"
 }

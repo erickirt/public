@@ -1,5 +1,26 @@
 # CHANGELOG
 
+## 1.30.7 - 2026-04-30
+
+### Changed
+
+- Editor: Default 100,000 row limit on editor and notebook queries, with a "Row limit reached" status item offering re-run at a higher limit. Configurable via `dbcode.editorRowLimit`. #476 #724 #1078
+- DB2: Preview support for DB2 for z/OS. #1015
+- DB2: Added progressive introspection.
+- H2: Added progressive introspection.
+- Access: Added progressive introspection.
+- Netezza: Added progressive introspection.
+- SQLite: Updated to 3.53.0
+
+### Fixed
+
+- Results: Fixed editing not working in some cases where SQL contained commented out lines.
+- ClickHouse: Fixed query execution failing with "Multi-statements are not allowed" when the statement has a trailing comment after the semicolon. #1082
+- MSSQL: Windows Integrated Authentication failed with "Failed to load SSPI module" because the native binding download was silently skipped for connections configured via the new auth method UI.
+- PostgreSQL: Script CREATE (DDL) for tables now includes COMMENT ON TABLE and COMMENT ON COLUMN statements. #1077
+- Query Builder: added tables now auto-load their columns when the connection uses progressive introspection.
+- Connections: Reload prompt on connection changes now fires once per connection instead of once per open database.
+
 ## 1.30.6 - 2026-04-26
 
 ### Changed

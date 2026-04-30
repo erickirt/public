@@ -3933,5 +3933,22 @@
   "Percentage of buffer pool reads served from memory. Values below 90% may indicate the buffer pool is undersized.": "メモリから提供されるバッファプール読み取りの割合。90% 未満の場合、バッファプールのサイズが不足している可能性があります。",
   "Cumulative count of operations that have waited on a lock. Sustained increases indicate transaction contention.": "ロックを待機した操作の累計カウント。継続的な増加はトランザクションの競合を示します。",
   "Sort operations that spilled out of the sort heap to temporary disk space. High values indicate SORTHEAP is undersized.": "ソートヒープから一時ディスク領域にスピルしたソート操作。高い値は SORTHEAP のサイズ不足を示します。",
-  "Total used size of all tablespaces in the database.": "データベース内の全テーブルスペースの使用合計サイズ。"
+  "Total used size of all tablespaces in the database.": "データベース内の全テーブルスペースの使用合計サイズ。",
+  "{0} data type": "{0} データ型",
+  "Loading table details…": "テーブルの詳細を読み込み中…",
+  "Load table details": "テーブルの詳細を読み込む",
+  "alias": "エイリアス",
+  "Remove table": "テーブルを削除",
+  "Loading columns…": "列を読み込み中…",
+  "Click sync to load columns": "同期をクリックして列を読み込む",
+  "Show less": "少なく表示",
+  "Show all ({0})": "すべて表示 ({0})",
+  "Result was truncated to {0} rows by the editor row limit setting. Click to re-run with a higher limit.": "エディターの行制限設定により結果が {0} 行に切り詰められました。より高い制限で再実行するにはクリックしてください。",
+  "Row limit reached": "行制限に達しました",
+  "Result was truncated to {0} rows": "結果が {0} 行に切り詰められました",
+  "{0}  (Edit limit)": "{0}  (制限を編集)",
+  "Re-run with {0} row limit": "{0} 行制限で再実行",
+  "Re-run with no row limit": "行制限なしで再実行",
+  "DBCode MCP failed to start: {0}": "DBCode MCP の起動に失敗しました: {0}",
+  "toolbarMenu": "メニュー"
 }

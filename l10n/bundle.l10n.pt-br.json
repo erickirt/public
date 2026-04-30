@@ -3108,5 +3108,22 @@
   "Percentage of buffer pool reads served from memory. Values below 90% may indicate the buffer pool is undersized.": "Percentual de leituras do pool de buffer atendidas pela memória. Valores abaixo de 90% podem indicar que o pool de buffer está subdimensionado.",
   "Cumulative count of operations that have waited on a lock. Sustained increases indicate transaction contention.": "Contagem cumulativa de operações que aguardaram um bloqueio. Aumentos sustentados indicam contenção de transações.",
   "Sort operations that spilled out of the sort heap to temporary disk space. High values indicate SORTHEAP is undersized.": "Operações de classificação que transbordaram do heap de classificação para espaço temporário em disco. Valores altos indicam que SORTHEAP está subdimensionado.",
-  "Total used size of all tablespaces in the database.": "Tamanho total utilizado de todos os tablespaces no banco de dados."
+  "Total used size of all tablespaces in the database.": "Tamanho total utilizado de todos os tablespaces no banco de dados.",
+  "{0} data type": "Tipo de dados {0}",
+  "Loading table details…": "Carregando detalhes da tabela…",
+  "Load table details": "Carregar detalhes da tabela",
+  "alias": "alias",
+  "Remove table": "Remover tabela",
+  "Loading columns…": "Carregando colunas…",
+  "Click sync to load columns": "Clique em Sincronizar para carregar as colunas",
+  "Show less": "Mostrar menos",
+  "Show all ({0})": "Mostrar tudo ({0})",
+  "Result was truncated to {0} rows by the editor row limit setting. Click to re-run with a higher limit.": "O resultado foi truncado para {0} linhas pelo limite de linhas do editor. Clique para executar novamente com um limite maior.",
+  "Row limit reached": "Limite de linhas atingido",
+  "Result was truncated to {0} rows": "O resultado foi truncado para {0} linhas",
+  "{0}  (Edit limit)": "{0}  (Editar limite)",
+  "Re-run with {0} row limit": "Executar novamente com limite de {0} linhas",
+  "Re-run with no row limit": "Executar novamente sem limite de linhas",
+  "DBCode MCP failed to start: {0}": "Falha ao iniciar o DBCode MCP: {0}",
+  "toolbarMenu": "Menu"
 }

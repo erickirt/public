@@ -4,7 +4,7 @@
     "pricing": "Free",
     "description": "Database client for VS Code, Cursor & Windsurf with first-class Copilot & MCP integration. 50+ databases, SQL Notebooks, ER diagrams, data editing, secure sharing. A modern alternative to DBeaver, DataGrip & TablePlus - inside your editor.",
     "publisher": "dbcode",
-    "version": "1.30.6",
+    "version": "1.30.7",
     "icon": "out/resources/logos/logo.png",
     "galleryBanner": {
         "color": "#e4ddff",
@@ -439,6 +439,16 @@
                 "title": "%Alter%",
                 "category": "DBCode",
                 "icon": "$(edit)"
+            },
+            {
+                "command": "dbcode.tables.design",
+                "title": "Design Table",
+                "category": "DBCode"
+            },
+            {
+                "command": "dbcode.table.design",
+                "title": "Design Table",
+                "category": "DBCode"
             },
             {
                 "command": "dbcode.item.create",
@@ -4304,14 +4314,21 @@
                         "default": 100,
                         "markdownDescription": "%Number of rows to load when opening a table or view.%"
                     },
-                    "dbcode.pagination": {
+                    "dbcode.editorRowLimit": {
                         "order": 6,
+                        "type": "number",
+                        "default": 100000,
+                        "minimum": 0,
+                        "markdownDescription": "%Maximum rows returned by queries run from the editor or notebook cells. Set to 0 for no limit. Tables and views opened from the connection explorer use `#dbcode.rowsToLoad#` instead.%"
+                    },
+                    "dbcode.pagination": {
+                        "order": 7,
                         "type": "boolean",
                         "default": false,
                         "markdownDescription": "%Paginate results.%"
                     },
                     "dbcode.paginationSize": {
-                        "order": 7,
+                        "order": 8,
                         "type": "string",
                         "default": "Auto",
                         "enum": [
@@ -6055,7 +6072,7 @@
         "antlr4-c3": "^3.4.4",
         "antlr4ng": "^3.0.16",
         "base64-js": "^1.5.1",
-        "better-sqlite3-multiple-ciphers": "^12.6.2",
+        "better-sqlite3-multiple-ciphers": "^12.9.0",
         "cassandra-driver": "^4.8.0",
         "cbor-x": "^1.6.0",
         "dagre": "^0.8.5",

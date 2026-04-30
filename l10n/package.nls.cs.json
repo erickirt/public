@@ -369,5 +369,6 @@
   "Follow the VS Code setting workbench.editor.enablePreview.": "Sleduje nastavení VS Code workbench.editor.enablePreview.",
   "Always use preview tabs (single-click reuses the current tab).": "Vždy používat karty náhledu (jeden klik znovu použije aktuální kartu).",
   "Never use preview tabs (every click opens a new tab).": "Nikdy nepoužívat karty náhledu (každý klik otevře novou kartu).",
-  "Controls whether single-clicking to open a table or view reuses the current tab (preview) or opens a new one. 'inherit' follows VS Code's `workbench.editor.enablePreview` setting.": "Určuje, zda jediný klik pro otevření tabulky nebo pohledu znovu použije aktuální kartu (náhled) nebo otevře novou. 'inherit' sleduje nastavení `workbench.editor.enablePreview` VS Code."
+  "Controls whether single-clicking to open a table or view reuses the current tab (preview) or opens a new one. 'inherit' follows VS Code's `workbench.editor.enablePreview` setting.": "Určuje, zda jediný klik pro otevření tabulky nebo pohledu znovu použije aktuální kartu (náhled) nebo otevře novou. 'inherit' sleduje nastavení `workbench.editor.enablePreview` VS Code.",
+  "Maximum rows returned by queries run from the editor or notebook cells. Set to 0 for no limit. Tables and views opened from the connection explorer use `#dbcode.rowsToLoad#` instead.": "Maximální počet řádků vrácených dotazy spuštěnými z editoru nebo buněk poznámkového bloku. Nastavte na 0 pro bez omezení. Tabulky a pohledy otevřené z průzkumníku připojení používají místo toho `#dbcode.rowsToLoad#`."
 }

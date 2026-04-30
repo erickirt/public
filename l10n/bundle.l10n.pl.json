@@ -3930,5 +3930,22 @@
   "Percentage of buffer pool reads served from memory. Values below 90% may indicate the buffer pool is undersized.": "Odsetek odczytów puli buforów obsługiwanych z pamięci. Wartości poniżej 90% mogą wskazywać, że pula buforów jest zbyt mała.",
   "Cumulative count of operations that have waited on a lock. Sustained increases indicate transaction contention.": "Skumulowana liczba operacji oczekujących na blokadę. Trwały wzrost wskazuje na rywalizację transakcji.",
   "Sort operations that spilled out of the sort heap to temporary disk space. High values indicate SORTHEAP is undersized.": "Operacje sortowania, które przekroczyły stertę sortowania i trafiły do tymczasowego miejsca na dysku. Wysokie wartości wskazują, że SORTHEAP jest zbyt mały.",
-  "Total used size of all tablespaces in the database.": "Całkowity używany rozmiar wszystkich przestrzeni tabel w bazie danych."
+  "Total used size of all tablespaces in the database.": "Całkowity używany rozmiar wszystkich przestrzeni tabel w bazie danych.",
+  "{0} data type": "Typ danych {0}",
+  "Loading table details…": "Ładowanie szczegółów tabeli…",
+  "Load table details": "Załaduj szczegóły tabeli",
+  "alias": "alias",
+  "Remove table": "Usuń tabelę",
+  "Loading columns…": "Ładowanie kolumn…",
+  "Click sync to load columns": "Kliknij Synchronizuj, aby załadować kolumny",
+  "Show less": "Pokaż mniej",
+  "Show all ({0})": "Pokaż wszystko ({0})",
+  "Result was truncated to {0} rows by the editor row limit setting. Click to re-run with a higher limit.": "Wynik został obcięty do {0} wierszy przez ustawienie limitu wierszy edytora. Kliknij, aby uruchomić ponownie z wyższym limitem.",
+  "Row limit reached": "Osiągnięto limit wierszy",
+  "Result was truncated to {0} rows": "Wynik został obcięty do {0} wierszy",
+  "{0}  (Edit limit)": "{0}  (Edytuj limit)",
+  "Re-run with {0} row limit": "Uruchom ponownie z limitem {0} wierszy",
+  "Re-run with no row limit": "Uruchom ponownie bez limitu wierszy",
+  "DBCode MCP failed to start: {0}": "DBCode MCP nie uruchomił się: {0}",
+  "toolbarMenu": "Menu"
 }

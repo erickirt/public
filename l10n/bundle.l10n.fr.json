@@ -3930,5 +3930,22 @@
   "Percentage of buffer pool reads served from memory. Values below 90% may indicate the buffer pool is undersized.": "Pourcentage de lectures du pool de tampons servies depuis la mémoire. Les valeurs inférieures à 90 % peuvent indiquer que le pool de tampons est sous-dimensionné.",
   "Cumulative count of operations that have waited on a lock. Sustained increases indicate transaction contention.": "Nombre cumulatif d'opérations ayant attendu un verrou. Des augmentations soutenues indiquent une contention de transactions.",
   "Sort operations that spilled out of the sort heap to temporary disk space. High values indicate SORTHEAP is undersized.": "Opérations de tri ayant débordé du tas de tri vers l'espace disque temporaire. Des valeurs élevées indiquent que SORTHEAP est sous-dimensionné.",
-  "Total used size of all tablespaces in the database.": "Taille totale utilisée de tous les espaces de table dans la base de données."
+  "Total used size of all tablespaces in the database.": "Taille totale utilisée de tous les espaces de table dans la base de données.",
+  "{0} data type": "Type de données {0}",
+  "Loading table details…": "Chargement des détails de la table…",
+  "Load table details": "Charger les détails de la table",
+  "alias": "alias",
+  "Remove table": "Supprimer la table",
+  "Loading columns…": "Chargement des colonnes…",
+  "Click sync to load columns": "Cliquez sur Synchroniser pour charger les colonnes",
+  "Show less": "Afficher moins",
+  "Show all ({0})": "Tout afficher ({0})",
+  "Result was truncated to {0} rows by the editor row limit setting. Click to re-run with a higher limit.": "Le résultat a été tronqué à {0} lignes par le paramètre de limite de lignes de l'éditeur. Cliquez pour relancer avec une limite plus élevée.",
+  "Row limit reached": "Limite de lignes atteinte",
+  "Result was truncated to {0} rows": "Le résultat a été tronqué à {0} lignes",
+  "{0}  (Edit limit)": "{0}  (Modifier la limite)",
+  "Re-run with {0} row limit": "Relancer avec {0} lignes max",
+  "Re-run with no row limit": "Relancer sans limite de lignes",
+  "DBCode MCP failed to start: {0}": "DBCode MCP n'a pas pu démarrer : {0}",
+  "toolbarMenu": "Menu"
 }

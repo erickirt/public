@@ -216,6 +216,7 @@
   "Number of tabs to keep per notebook output cell (set to 0 for no tabs).": "Ƞŭŭḿƀḗḗř ǿǿƒ ŧȧȧƀş ŧǿǿ ķḗḗḗḗƥ ƥḗḗř ƞǿǿŧḗḗƀǿǿǿǿķ ǿǿŭŭŧƥŭŭŧ ƈḗḗŀŀ (şḗḗŧ ŧǿǿ 0 ƒǿǿř ƞǿǿ ŧȧȧƀş).",
   "Wrap tabs in the results, rather than scroll (requires a restart to take effect).": "Ẇřȧȧƥ ŧȧȧƀş īƞ ŧħḗḗ řḗḗşŭŭŀŧş, řȧȧŧħḗḗř ŧħȧȧƞ şƈřǿǿŀŀ (řḗḗɋŭŭīřḗḗş ȧȧ řḗḗşŧȧȧřŧ ŧǿǿ ŧȧȧķḗḗ ḗḗƒƒḗḗƈŧ).",
   "Number of rows to load when opening a table or view.": "Ƞŭŭḿƀḗḗř ǿǿƒ řǿǿẇş ŧǿǿ ŀǿǿȧȧḓ ẇħḗḗƞ ǿǿƥḗḗƞīƞɠ ȧȧ ŧȧȧƀŀḗḗ ǿǿř ṽīḗḗẇ.",
+  "Maximum rows returned by queries run from the editor or notebook cells. Set to 0 for no limit. Tables and views opened from the connection explorer use `#dbcode.rowsToLoad#` instead.": "Ḿȧȧẋīḿŭŭḿ řǿǿẇş řḗḗŧŭŭřƞḗḗḓ ƀẏ ɋŭŭḗḗřīḗḗş řŭŭƞ ƒřǿǿḿ ŧħḗḗ ḗḗḓīŧǿǿř ǿǿř ƞǿǿŧḗḗƀǿǿǿǿķ ƈḗḗŀŀş. Şḗḗŧ ŧǿǿ 0 ƒǿǿř ƞǿǿ ŀīḿīŧ. Ŧȧȧƀŀḗḗş ȧȧƞḓ ṽīḗḗẇş ǿǿƥḗḗƞḗḗḓ ƒřǿǿḿ ŧħḗḗ ƈǿǿƞƞḗḗƈŧīǿǿƞ ḗḗẋƥŀǿǿřḗḗř ŭŭşḗḗ `#ḓƀƈǿǿḓḗḗ.řǿǿẇşŦǿǿĿǿǿȧȧḓ#` īƞşŧḗḗȧȧḓ.",
   "Paginate results.": "Ƥȧȧɠīƞȧȧŧḗḗ řḗḗşŭŭŀŧş.",
   "Fit the number of results per page to the number of rows that can be displayed without scrolling.": "Ƒīŧ ŧħḗḗ ƞŭŭḿƀḗḗř ǿǿƒ řḗḗşŭŭŀŧş ƥḗḗř ƥȧȧɠḗḗ ŧǿǿ ŧħḗḗ ƞŭŭḿƀḗḗř ǿǿƒ řǿǿẇş ŧħȧȧŧ ƈȧȧƞ ƀḗḗ ḓīşƥŀȧȧẏḗḗḓ ẇīŧħǿǿŭŭŧ şƈřǿǿŀŀīƞɠ.",
   "Show 10 results per page.": "Şħǿǿẇ 10 řḗḗşŭŭŀŧş ƥḗḗř ƥȧȧɠḗḗ.",

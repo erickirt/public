@@ -3930,5 +3930,22 @@
   "Percentage of buffer pool reads served from memory. Values below 90% may indicate the buffer pool is undersized.": "Procento čtení z fondu vyrovnávacích pamětí obsluhovaných z paměti. Hodnoty pod 90 % mohou naznačovat, že fond vyrovnávacích pamětí je podrozměrný.",
   "Cumulative count of operations that have waited on a lock. Sustained increases indicate transaction contention.": "Kumulativní počet operací čekajících na zámek. Trvalý nárůst naznačuje soupeření transakcí.",
   "Sort operations that spilled out of the sort heap to temporary disk space. High values indicate SORTHEAP is undersized.": "Operace řazení, které přetekly z haldy řazení do dočasného diskového prostoru. Vysoké hodnoty naznačují, že SORTHEAP je podrozměrný.",
-  "Total used size of all tablespaces in the database.": "Celková použitá velikost všech tabulkových prostorů v databázi."
+  "Total used size of all tablespaces in the database.": "Celková použitá velikost všech tabulkových prostorů v databázi.",
+  "{0} data type": "Datový typ {0}",
+  "Loading table details…": "Načítání podrobností o tabulce…",
+  "Load table details": "Načíst podrobnosti o tabulce",
+  "alias": "alias",
+  "Remove table": "Odebrat tabulku",
+  "Loading columns…": "Načítání sloupců…",
+  "Click sync to load columns": "Kliknutím na Synchronizovat načtete sloupce",
+  "Show less": "Zobrazit méně",
+  "Show all ({0})": "Zobrazit vše ({0})",
+  "Result was truncated to {0} rows by the editor row limit setting. Click to re-run with a higher limit.": "Výsledek byl zkrácen na {0} řádků nastavením limitu řádků editoru. Kliknutím znovu spustíte s vyšším limitem.",
+  "Row limit reached": "Dosažen limit řádků",
+  "Result was truncated to {0} rows": "Výsledek byl zkrácen na {0} řádků",
+  "{0}  (Edit limit)": "{0}  (Upravit limit)",
+  "Re-run with {0} row limit": "Znovu spustit s limitem {0} řádků",
+  "Re-run with no row limit": "Znovu spustit bez limitu řádků",
+  "DBCode MCP failed to start: {0}": "DBCode MCP se nepodařilo spustit: {0}",
+  "toolbarMenu": "Nabídka"
 }

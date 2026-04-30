@@ -3930,5 +3930,22 @@
   "Percentage of buffer pool reads served from memory. Values below 90% may indicate the buffer pool is undersized.": "Prozentsatz der Buffer-Pool-Lesevorgänge aus dem Arbeitsspeicher. Werte unter 90 % können auf einen zu kleinen Buffer Pool hinweisen.",
   "Cumulative count of operations that have waited on a lock. Sustained increases indicate transaction contention.": "Kumulierte Anzahl von Operationen, die auf eine Sperre gewartet haben. Anhaltende Zunahmen deuten auf Transaktionskonflikte hin.",
   "Sort operations that spilled out of the sort heap to temporary disk space. High values indicate SORTHEAP is undersized.": "Sortiervorgänge, die vom Sort-Heap auf temporären Festplattenspeicher ausgelagert wurden. Hohe Werte deuten auf einen zu kleinen SORTHEAP hin.",
-  "Total used size of all tablespaces in the database.": "Gesamte genutzte Größe aller Tablespaces in der Datenbank."
+  "Total used size of all tablespaces in the database.": "Gesamte genutzte Größe aller Tablespaces in der Datenbank.",
+  "{0} data type": "{0} Datentyp",
+  "Loading table details…": "Tabellendetails werden geladen…",
+  "Load table details": "Tabellendetails laden",
+  "alias": "Alias",
+  "Remove table": "Tabelle entfernen",
+  "Loading columns…": "Spalten werden geladen…",
+  "Click sync to load columns": "Auf „Synchronisieren\" klicken, um Spalten zu laden",
+  "Show less": "Weniger anzeigen",
+  "Show all ({0})": "Alle anzeigen ({0})",
+  "Result was truncated to {0} rows by the editor row limit setting. Click to re-run with a higher limit.": "Das Ergebnis wurde durch das Zeilenlimit des Editors auf {0} Zeilen gekürzt. Klicken Sie zum erneuten Ausführen mit höherem Limit.",
+  "Row limit reached": "Zeilenlimit erreicht",
+  "Result was truncated to {0} rows": "Ergebnis wurde auf {0} Zeilen gekürzt",
+  "{0}  (Edit limit)": "{0}  (Limit bearbeiten)",
+  "Re-run with {0} row limit": "Erneut ausführen mit {0}-Zeilen-Limit",
+  "Re-run with no row limit": "Erneut ausführen ohne Zeilenlimit",
+  "DBCode MCP failed to start: {0}": "DBCode MCP konnte nicht gestartet werden: {0}",
+  "toolbarMenu": "Menü"
 }

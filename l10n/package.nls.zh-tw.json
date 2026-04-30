@@ -369,5 +369,6 @@
   "Follow the VS Code setting workbench.editor.enablePreview.": "遵循 VS Code 設定 workbench.editor.enablePreview。",
   "Always use preview tabs (single-click reuses the current tab).": "一律使用預覽標籤頁（單擊重複使用目前標籤頁）。",
   "Never use preview tabs (every click opens a new tab).": "從不使用預覽標籤頁（每次單擊開啟新標籤頁）。",
-  "Controls whether single-clicking to open a table or view reuses the current tab (preview) or opens a new one. 'inherit' follows VS Code's `workbench.editor.enablePreview` setting.": "控制單擊開啟資料表或檢視時，是重複使用目前標籤頁（預覽）還是開啟新標籤頁。'inherit' 遵循 VS Code 的 `workbench.editor.enablePreview` 設定。"
+  "Controls whether single-clicking to open a table or view reuses the current tab (preview) or opens a new one. 'inherit' follows VS Code's `workbench.editor.enablePreview` setting.": "控制單擊開啟資料表或檢視時，是重複使用目前標籤頁（預覽）還是開啟新標籤頁。'inherit' 遵循 VS Code 的 `workbench.editor.enablePreview` 設定。",
+  "Maximum rows returned by queries run from the editor or notebook cells. Set to 0 for no limit. Tables and views opened from the connection explorer use `#dbcode.rowsToLoad#` instead.": "從編輯器或筆記本儲存格執行的查詢所傳回的最大列數。設為 0 表示無限制。從連線總管開啟的資料表和檢視改用 `#dbcode.rowsToLoad#`。"
 }
