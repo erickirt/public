@@ -1,5 +1,22 @@
 # CHANGELOG
 
+## 1.31.0 - 2026-05-04
+
+### Changed
+
+- PGlite: Supports in-memory and directory storage. #939
+- Apache Derby: Preview support added supporting in-memory, directory, and network server modes. #398
+- MCP: stdio transport is now supported and enabled by default. The HTTP MCP server remains available behind the existing `dbcode.ai.mcp.autoStart` #1074
+- MCP: Auto-registers with VS Code / Cursor's MCP 
+- Settings: Unified row-limit handling across editor, notebook, explore, compare, join, and union. Renamed `dbcode.editorRowLimit` to `dbcode.queryRowLimit` 
+
+### Fixed
+
+- Editor: PostgreSQL CREATE TRIGGER no longer consumes the next statement. #1086
+- PostgreSQL: Better message when introspection hits a `$libdir/...` extension load error. #1087
+- Editor: Fixed "command 'dbcode.editor.exportQuery' not found" when right-clicking Export Query Results.
+- Notebook: Added Export Query Results action to SQL cells.
+
 ## 1.30.8 - 2026-04-30
 
 ### Fixed
