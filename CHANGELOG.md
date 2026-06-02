@@ -1,5 +1,29 @@
 # CHANGELOG
 
+## 1.32.3 - 2026-06-02
+
+### Changed
+
+- Results: Removed the remote-only "Export locally" right-click option; Export now saves to a local folder via the dialog's Show Local Files. #1112
+- Query Builder: use tables from other databases on the same connection (where supported).
+- Query Builder: SELECT columns are now a flat list with free cross-table reordering, multi-select move/delete, a searchable add-column menu, and per-table aliases.
+- Query Builder: More filter operators (NOT LIKE, NOT BETWEEN, CONTAINS, NOT CONTAINS), a case-insensitive filter toggle, per-table column select-all, and automatic GROUP BY for aggregates.
+- KingbaseES: Added support for KingbaseES.
+- Query Builder: AI assist understands the new filter operators, nested AND/OR groups, cross-database tables, and table output.
+- Query Builder: WHERE clauses can be grouped with parentheses and combined with AND/OR.
+- Query Builder: optionally write the result to a new table (CREATE TABLE AS SELECT).
+
+### Fixed
+
+- Grid: Filtering and sorting number columns now works for integers beyond JavaScript's safe range (e.g. MySQL bigint). #1108
+- ER Diagram: Fixed broken rendering (missing relationship lines, wrong text colors) after changing the diagram theme and reopening. #1111
+- Export: Fixed exporting results to a local folder failing silently when connected to a remote host. #1112
+- Webviews: Fixed dropdowns (diagram theme, export format, connection and tunnel pickers) not applying the selected value.
+- ER Diagram: Fixed Export/Share doing nothing - PDF, PNG and Web Page exports now save correctly.
+- Grid: Cell tooltips now appear faster and only when a cell is actually truncated.
+- Neo4j/SurrealDB: Filtering or editing integers beyond JavaScript's safe range no longer rounds them in the generated query.
+- Notebooks: Scrolling the column menu or the Columns side panel no longer jerks the whole notebook.
+
 ## 1.32.1 - 2026-05-26
 
 ### Changed
