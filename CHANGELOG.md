@@ -1,5 +1,26 @@
 # CHANGELOG
 
+## 1.32.4 - 2026-06-03
+
+### Changed
+
+- Editor: Added a DDL link to the table/view hover that opens the full CREATE statement in a new editor. #1079
+- LanceDB: Preview support released. Open a local Lance database directory to browse tables, run vector search with SQL filters, and edit scalar columns.
+- Pinecone: Preview support released. Browse indexes and namespaces, run vector search with metadata filters, and edit record metadata.
+- Query Builder: Filter conditions and groups can now be dragged to reorder and moved between AND/OR groups.
+- Query Builder: WHERE filters now auto-quote values by column type (strings quoted, numbers bare), split IN lists into quoted elements, and add a per-condition raw toggle to emit a value verbatim.
+- Editor: New "Remember Connection Per File" setting (default on); turn it off to be prompted for a connection each time a SQL file is reopened.
+- Results Grid: Added a Source Timezone column formatter and the option to apply any formatter to all columns of a base type on a connection. #1089
+
+### Fixed
+
+- ClickHouse: Restricted users without system-table access can now open the Query Builder again.
+- Editor: Fixed losing focus after executing a query when results show in the panel, so you can re-run without clicking back in. #879
+- Query Builder: Tables added after a table with many columns no longer render off-canvas.
+- Query Builder: Select-all columns now works with a single table on the canvas.
+- Editor: Status bar now shows a SQL file's bound connection even when it's not connected.
+- Qdrant, ChromaDB, Milvus: Editor queries now honour the row-limit and show the "load more" indicator when results are capped.
+
 ## 1.32.3 - 2026-06-02
 
 ### Changed

@@ -372,5 +372,6 @@
   "MCP HTTP Server OAuth Token Expiry": "Срок действия токенов OAuth HTTP-сервера MCP",
   "Number of days before OAuth access tokens expire on the HTTP MCP server. Increase to reduce how often MCP clients need to re-authenticate. Default is 1 day.": "Количество дней до истечения срока действия токенов доступа OAuth на HTTP-сервере MCP. Увеличьте, чтобы снизить частоту повторной аутентификации клиентов MCP. По умолчанию: 1 день.",
   "Set Embedding Model": "Установить модель векторного представления",
-  "Copy Qualified Name": "Копировать полное имя"
+  "Copy Qualified Name": "Копировать полное имя",
+  "Remember which connection each SQL file uses and reuse it on later runs. When turned off, the connection is kept only while the file stays open, so reopening the file prompts again.": "Запоминает подключение для каждого SQL-файла и повторно использует его при последующих запусках. Если отключено, подключение сохраняется только пока файл открыт — при повторном открытии будет запрошено снова."
 }
