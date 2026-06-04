@@ -60,8 +60,8 @@ jobs:
           NEW_ELECTRON=""
           NEW_CODESERVER=""
 
-          # Node ABIs to rename for code-server (Node 20 = 115, Node 22 = 127)
-          CODESERVER_ABIS="115 127"
+          # Node ABIs to rename for code-server (Node 20 = 115, Node 22 = 127, Node 24 = 137)
+          CODESERVER_ABIS="115 127 137"
 
           for url in $ASSETS; do
             filename=$(basename "$url")
