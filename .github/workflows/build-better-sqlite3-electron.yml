@@ -84,6 +84,8 @@ jobs:
         if: matrix.platform == 'linux'
         shell: bash
         working-directory: package
+        env:
+          ELECTRON_DISABLE_SANDBOX: '1'
         run: |
           sudo apt-get update
           sudo apt-get install -y xvfb libnss3 libatk1.0-0t64 libatk-bridge2.0-0t64 \
