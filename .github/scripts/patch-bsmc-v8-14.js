@@ -80,6 +80,29 @@ replaceOnce(
 	}
 }
 
+// 4) Windows/MSVC only: V8 14's cppgc/heap.h uses __builtin_frame_address(0) (a Clang/GCC
+//    builtin) unconditionally; MSVC lacks it. Shim it to _AddressOfReturnAddress() (the MSVC
+//    stack-address intrinsic V8 itself uses elsewhere) before any V8 header is included. The
+//    only compiled TU is src/better_sqlite3.cpp, so prepending there covers everything.
+//    Guarded to MSVC-non-clang, so it is a no-op on the macOS/Linux (clang/gcc) builds.
+{
+	const file = path.join(pkg, 'src/better_sqlite3.cpp');
+	const marker = '/* dbcode: MSVC __builtin_frame_address shim */';
+	let c = fs.readFileSync(file, 'utf8');
+	if (c.includes(marker)) {
+		console.log('SKIP (already patched) src/better_sqlite3.cpp: MSVC frame-address shim');
+	} else {
+		const shim =
+			marker +
+			'\n#if defined(_MSC_VER) && !defined(__clang__)\n' +
+			'#include <intrin.h>\n' +
+			'#define __builtin_frame_address(x) _AddressOfReturnAddress()\n' +
+			'#endif\n';
+		fs.writeFileSync(file, shim + c);
+		console.log('OK src/better_sqlite3.cpp: MSVC frame-address shim');
+	}
+}
+
 if (failed) {
 	process.exit(1);
 }
