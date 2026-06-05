@@ -60,9 +60,6 @@ jobs:
           NEW_ELECTRON=""
           NEW_CODESERVER=""
 
-          # Node ABIs to rename for code-server (Node 20 = 115, Node 22 = 127, Node 24 = 137)
-          CODESERVER_ABIS="115 127 137"
-
           for url in $ASSETS; do
             filename=$(basename "$url")
 
@@ -80,26 +77,21 @@ jobs:
               NEW_ELECTRON="$NEW_ELECTRON
           - $filename"
 
-            # Check if this is a node prebuild we need for code-server
-            elif [[ "$filename" == *"-node-"* ]]; then
-              for abi in $CODESERVER_ABIS; do
-                if [[ "$filename" == *"-node-v${abi}-"* ]]; then
-                  # Rename node -> electron for code-server
-                  electron_filename="${filename/node-v${abi}/electron-v${abi}}"
-                  target_file="$PACKAGES_DIR/$electron_filename"
+            # Mirror every node prebuild as electron-* so any VS Code server Node
+            # version (WSL, SSH, dev containers, Codespaces, code-server) is covered.
+            elif [[ "$filename" == *"-node-v"* ]]; then
+              electron_filename="${filename/-node-v/-electron-v}"
+              target_file="$PACKAGES_DIR/$electron_filename"
 
-                  if [ -f "$target_file" ] && [ "${{ inputs.force_update }}" != "true" ]; then
-                    echo "Already have $electron_filename, skipping"
-                    continue
-                  fi
+              if [ -f "$target_file" ] && [ "${{ inputs.force_update }}" != "true" ]; then
+                echo "Already have $electron_filename, skipping"
+                continue
+              fi
 
-                  echo "Downloading $filename -> $electron_filename (for code-server)"
-                  curl -sL "$url" -o "$target_file"
-                  NEW_CODESERVER="$NEW_CODESERVER
+              echo "Downloading $filename -> $electron_filename (for code-server)"
+              curl -sL "$url" -o "$target_file"
+              NEW_CODESERVER="$NEW_CODESERVER
           - $electron_filename"
-                  break
-                fi
-              done
             fi
           done
 
