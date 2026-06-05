@@ -1,5 +1,26 @@
 # CHANGELOG
 
+## 1.33.0 - 2026-06-05
+
+### Changed
+
+- Couchbase: New driver (Preview) - browse buckets/scopes/collections, run SQL++, edit documents. #255
+- Apache CouchDB: New driver (Preview) - browse databases and documents, run Mango queries, edit documents, manage indexes, EXPLAIN, and monitoring.
+- Apache Druid: Preview support added. Connect via the SQL HTTP API, browse the druid/sys/lookup schemas and datasource columns, and run SQL queries.
+- DuckDB: Updated to version 1.5.3, fixing extension installation when behind a proxy. #1117
+- Exasol: Preview support added. Connect over WebSocket to browse schemas, tables, views, functions and scripts, run and edit queries with streaming results, and use transactions and server monitoring.
+- Results: Foreign-key related records now show a header with their source table and match condition; click the table to open it.
+- SQLite: Updated to 3.53.1.
+- DB Explorer: Show table modification (and creation) timestamps in the tooltip and hover for ClickHouse, SQL Server, Oracle, Snowflake, MySQL/MariaDB and BigQuery.
+- Milvus, Qdrant, Pinecone: Added server monitoring panels (Milvus nodes + collections, Qdrant collection status/counts, Pinecone index + namespace stats).
+- Vertica: New database driver (OpenText Analytics Database) with introspection, data editing, DDL scripting, EXPLAIN, and server monitoring. #338
+
+### Fixed
+
+- Results: JSON/XML cells on columns with a default value now open the full-value editor instead of a dropdown that showed (and could save) a truncated value. #1102
+- Elasticsearch, OpenSearch, InfluxDB, D1: Cancelling a running query now aborts the in-flight request instead of being ignored.
+- Azure Synapse: Fixed introspection failing with "Catalog view 'sequences' is not supported in this version". #1115
+
 ## 1.32.4 - 2026-06-03
 
 ### Changed
