@@ -16,8 +16,14 @@ app.commandLine.appendSwitch('no-sandbox');
 app.whenReady().then(() => {
 	let encFile;
 	try {
-		const pkgDir = process.argv[2];
-		const Database = require(pkgDir);
+		const pkgDir = process.argv[2] || process.cwd();
+		const mod = require(pkgDir);
+		const Database = typeof mod === 'function' ? mod : mod && (mod.default || mod.Database);
+		if (typeof Database !== 'function') {
+			throw new Error(
+				`export is not a constructor: typeof=${typeof mod} keys=${mod && Object.keys(mod)} path=${pkgDir}`,
+			);
+		}
 
 		const db = new Database(':memory:');
 		db.exec('CREATE TABLE t(a INTEGER, b TEXT)');
