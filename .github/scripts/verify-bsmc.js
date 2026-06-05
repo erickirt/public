@@ -17,12 +17,13 @@ app.whenReady().then(() => {
 	let encFile;
 	try {
 		const pkgDir = process.argv[2] || process.cwd();
-		const mod = require(pkgDir);
-		const Database = typeof mod === 'function' ? mod : mod && (mod.default || mod.Database);
+		// require(pkgDir) mis-resolves to <repo>/package.json (Node's LOAD_AS_FILE matches the
+		// sibling package.json before the package/ directory), so resolve via the package manifest.
+		const pkgJson = require(path.join(pkgDir, 'package.json'));
+		const entry = require(path.join(pkgDir, pkgJson.main || 'lib/index.js'));
+		const Database = typeof entry === 'function' ? entry : entry && (entry.default || entry.Database);
 		if (typeof Database !== 'function') {
-			throw new Error(
-				`export is not a constructor: typeof=${typeof mod} keys=${mod && Object.keys(mod)} path=${pkgDir}`,
-			);
+			throw new Error(`export is not a constructor: typeof=${typeof entry} path=${pkgDir}`);
 		}
 
 		const db = new Database(':memory:');
