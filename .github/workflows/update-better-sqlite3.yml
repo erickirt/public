@@ -23,6 +23,9 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
+      actions: write
+    env:
+      DBCODE_SUPPORTED_NODE_MAJORS: "20"
 
     steps:
       - name: Checkout repository
@@ -114,6 +117,28 @@ jobs:
             echo "$NEW_CODESERVER"
             echo "EOF"
           } >> $GITHUB_OUTPUT
+
+      - name: Self-build dropped Node ABIs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          VERSION="${{ steps.release.outputs.version }}"
+          PACKAGES_DIR="packages/better-sqlite3"
+          declare -A ABI=( [20]=115 )
+          PLATFORMS=( "linux-x64" "linux-arm64" "linuxmusl-x64" "linuxmusl-arm64" "darwin-x64" "darwin-arm64" "win32-x64" )
+          for major in $DBCODE_SUPPORTED_NODE_MAJORS; do
+            abi="${ABI[$major]:-}"
+            if [ -z "$abi" ]; then echo "no ABI mapping for Node $major, skipping"; continue; fi
+            missing=0
+            for pa in "${PLATFORMS[@]}"; do
+              f="$PACKAGES_DIR/better-sqlite3-multiple-ciphers-$VERSION-electron-v$abi-$pa.tar.gz"
+              if [ ! -f "$f" ]; then missing=1; echo "missing $(basename "$f")"; fi
+            done
+            if [ "$missing" -eq 1 ]; then
+              echo "Dispatching self-build for $VERSION node $major"
+              gh workflow run build-better-sqlite3-node.yml -f version="${VERSION#v}" -f node="$major" || echo "dispatch failed (workflow may not be on default branch yet)"
+            fi
+          done
 
       - name: Create Pull Request
         if: steps.download.outputs.has_updates == 'true'
