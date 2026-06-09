@@ -373,5 +373,9 @@
   "Number of days before OAuth access tokens expire on the HTTP MCP server. Increase to reduce how often MCP clients need to re-authenticate. Default is 1 day.": "HTTP MCP 伺服器上 OAuth 存取權杖的到期天數。增加此值可減少 MCP 用戶端重新驗證的頻率。預設為 1 天。",
   "Set Embedding Model": "設定嵌入模型",
   "Copy Qualified Name": "複製限定名稱",
-  "Remember which connection each SQL file uses and reuse it on later runs. When turned off, the connection is kept only while the file stays open, so reopening the file prompts again.": "記住每個 SQL 檔案使用的連線，並在後續執行時重複使用。關閉後，連線僅在檔案保持開啟時保留，重新開啟檔案將再次提示選擇連線。"
+  "Remember which connection each SQL file uses and reuse it on later runs. When turned off, the connection is kept only while the file stays open, so reopening the file prompts again.": "記住每個 SQL 檔案使用的連線，並在後續執行時重複使用。關閉後，連線僅在檔案保持開啟時保留，重新開啟檔案將再次提示選擇連線。",
+  "Set Inferred Relationships": "設定推斷關係",
+  "Set the inferred relationship patterns for a connection.": "為連線設定推斷關係模式。",
+  "Get Inferred Relationships": "取得推斷關係",
+  "Get the inferred relationship patterns for a connection.": "取得連線的推斷關係模式。"
 }

@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## 1.34.0 - 2026-06-09
+
+### Changed
+
+- MCP: Added `dbcode-set-inferred-relationships` and `dbcode-get-inferred-relationships` tools to manage a connection's inferred relationship patterns.
+- Memcached: Added Memcached support - browse keys, view/edit items, run raw commands, and see server stats. #256
+- Notebook Export: Added a Markdown format that exports cells and their query results as tables. #1046
+- TypeDB: Preview support added. #929
+- Weaviate: Preview vector-database driver. Browse collections, run vector search, and edit object properties. #1128
+
+### Fixed
+
+- SQL Server: Scripting CREATE (DDL) for an index no longer errors.
+
 ## 1.33.0 - 2026-06-05
 
 ### Changed
