@@ -18,26 +18,20 @@ on:
 
 jobs:
   build-linux:
+    # glibc builds run in a Debian container (glibc 2.31, <= the VS Code remote-server floor).
     strategy:
       fail-fast: false
       matrix:
         include:
-          - { libc: glibc, arch: x64,   os: ubuntu-24.04,     suffix: bullseye }
-          - { libc: glibc, arch: arm64, os: ubuntu-24.04-arm, suffix: bullseye }
-          - { libc: musl,  arch: x64,   os: ubuntu-24.04,     suffix: alpine }
-          - { libc: musl,  arch: arm64, os: ubuntu-24.04-arm, suffix: alpine }
+          - { arch: x64,   os: ubuntu-24.04 }
+          - { arch: arm64, os: ubuntu-24.04-arm }
     runs-on: ${{ matrix.os }}
-    container: ${{ format('node:{0}-{1}', inputs.node, matrix.suffix) }}
+    container: ${{ format('node:{0}-bullseye', inputs.node) }}
     steps:
-      - name: Install build deps (Debian)
-        if: matrix.suffix == 'bullseye'
+      - name: Install build deps
         run: |
           apt-get update
           apt-get install -y --no-install-recommends python3 make g++ curl ca-certificates git tar
-
-      - name: Install build deps (Alpine)
-        if: matrix.suffix == 'alpine'
-        run: apk add --no-cache python3 make g++ curl ca-certificates git tar
 
       - name: Checkout (for verify script)
         uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
@@ -65,7 +59,7 @@ jobs:
       - name: Upload prebuild artifact
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
-          name: bsmc-node-linux-${{ matrix.libc }}-${{ matrix.arch }}
+          name: bsmc-node-linux-glibc-${{ matrix.arch }}
           path: package/prebuilds/*.tar.gz
           if-no-files-found: error
 
@@ -75,6 +69,48 @@ jobs:
           out=$(node ../.github/scripts/verify-bsmc-node.js "$PWD" 2>&1) || true
           echo "$out"
           echo "$out" | grep -q "VERIFY_OK" || { echo "verification failed"; exit 1; }
+
+  build-musl:
+    # musl builds: the JS actions (checkout/upload) run on the glibc host - GitHub cannot run JS
+    # actions inside an Alpine container on arm64 - and the native compile + verify happen inside a
+    # `docker run node:<major>-alpine` over a bind mount, so the prebuild lands back on the host.
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { arch: x64,   os: ubuntu-24.04 }
+          - { arch: arm64, os: ubuntu-24.04-arm }
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout (for verify script)
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6.0.3
+
+      - name: Build and verify in Alpine
+        env:
+          VERSION: ${{ inputs.version }}
+          NODE_MAJOR: ${{ inputs.node }}
+          ARCH: ${{ matrix.arch }}
+        run: |
+          docker run --rm -e VERSION -e ARCH -v "$PWD":/work -w /work \
+            "node:${NODE_MAJOR}-alpine" sh -e -c '
+              apk add --no-cache python3 make g++ curl tar
+              curl -sSL "https://registry.npmjs.org/better-sqlite3-multiple-ciphers/-/better-sqlite3-multiple-ciphers-${VERSION}.tgz" -o src.tgz
+              tar xzf src.tgz
+              cd package
+              npm install --ignore-scripts --no-audit --no-fund
+              NODE_FULL=$(node -v | sed "s/^v//")
+              npx prebuild -r node -t "$NODE_FULL" --arch "$ARCH" --include-regex "better_sqlite3.node\$"
+              out=$(node ../.github/scripts/verify-bsmc-node.js "$PWD" 2>&1) || true
+              echo "$out"
+              echo "$out" | grep -q "VERIFY_OK" || { echo "verification failed"; exit 1; }
+            '
+
+      - name: Upload prebuild artifact
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: bsmc-node-linuxmusl-${{ matrix.arch }}
+          path: package/prebuilds/*.tar.gz
+          if-no-files-found: error
 
   build-native:
     strategy:
@@ -132,7 +168,7 @@ jobs:
           echo "$out" | grep -q "VERIFY_OK" || { echo "verification failed"; exit 1; }
 
   collect:
-    needs: [build-linux, build-native]
+    needs: [build-linux, build-musl, build-native]
     runs-on: ubuntu-latest
     permissions:
       contents: write
