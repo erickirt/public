@@ -4284,5 +4284,6 @@
   "Error dropping type: {0}": "Ошибка при удалении типа: {0}",
   "Delete all instances of {0}? The type definition is kept.": "Удалить все экземпляры {0}? Определение типа будет сохранено.",
   "All instances of {0} deleted": "Все экземпляры {0} удалены",
-  "Error truncating type: {0}": "Ошибка при усечении типа: {0}"
+  "Error truncating type: {0}": "Ошибка при усечении типа: {0}",
+  "Match Case": "С учётом регистра"
 }

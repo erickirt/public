@@ -4284,5 +4284,6 @@
   "Error dropping type: {0}": "刪除類型時發生錯誤：{0}",
   "Delete all instances of {0}? The type definition is kept.": "刪除 {0} 的所有執行個體？類型定義將保留。",
   "All instances of {0} deleted": "{0} 的所有執行個體已刪除",
-  "Error truncating type: {0}": "截斷類型時發生錯誤：{0}"
+  "Error truncating type: {0}": "截斷類型時發生錯誤：{0}",
+  "Match Case": "區分大小寫"
 }

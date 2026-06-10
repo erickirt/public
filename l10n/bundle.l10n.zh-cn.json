@@ -4284,5 +4284,6 @@
   "Error dropping type: {0}": "删除类型时出错：{0}",
   "Delete all instances of {0}? The type definition is kept.": "删除 {0} 的所有实例？类型定义将保留。",
   "All instances of {0} deleted": "{0} 的所有实例已删除",
-  "Error truncating type: {0}": "截断类型时出错：{0}"
+  "Error truncating type: {0}": "截断类型时出错：{0}",
+  "Match Case": "区分大小写"
 }

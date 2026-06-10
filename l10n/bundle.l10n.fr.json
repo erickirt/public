@@ -4284,5 +4284,6 @@
   "Error dropping type: {0}": "Erreur lors de la suppression du type : {0}",
   "Delete all instances of {0}? The type definition is kept.": "Supprimer toutes les instances de {0} ? La définition du type est conservée.",
   "All instances of {0} deleted": "Toutes les instances de {0} supprimées",
-  "Error truncating type: {0}": "Erreur lors de la troncature du type : {0}"
+  "Error truncating type: {0}": "Erreur lors de la troncature du type : {0}",
+  "Match Case": "Respecter la casse"
 }

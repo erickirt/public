@@ -580,6 +580,7 @@
   "Download": "Download",
   "Expand": "Expand",
   "Shrink": "Shrink",
+  "Match Case": "Match Case",
   "Open Filter Builder": "Open Filter Builder",
   "Reset Filter": "Reset Filter",
   "Fetch all rows": "Fetch all rows",

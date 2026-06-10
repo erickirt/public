@@ -4284,5 +4284,6 @@
   "Error dropping type: {0}": "유형 삭제 오류: {0}",
   "Delete all instances of {0}? The type definition is kept.": "{0}의 모든 인스턴스를 삭제하시겠습니까? 유형 정의는 유지됩니다.",
   "All instances of {0} deleted": "{0}의 모든 인스턴스 삭제됨",
-  "Error truncating type: {0}": "유형 자르기 오류: {0}"
+  "Error truncating type: {0}": "유형 자르기 오류: {0}",
+  "Match Case": "대/소문자 구분"
 }

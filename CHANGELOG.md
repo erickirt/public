@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## 1.34.1 - 2026-06-10
+
+### Changed
+
+- Grid: Text filters now ignore case by default, with a Match Case toggle in each filter box. #577
+
+### Fixed
+
+- SQL Server: Index columns in the explorer now list key columns first (in key order), then INCLUDE columns.
+- Connection Pinning: A query running longer than the keepalive interval no longer drops the editor connection, preserving temp tables and session state.
+- QuestDB: Fixed query results showing no data grid and schema introspection failing to list tables. #1135
+- Editor: SQL Server statements now split at blank lines instead of merging after a temp table or DECLARE.
+
 ## 1.34.0 - 2026-06-09
 
 ### Changed

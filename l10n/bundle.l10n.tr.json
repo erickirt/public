@@ -4284,5 +4284,6 @@
   "Error dropping type: {0}": "Tür silinirken hata: {0}",
   "Delete all instances of {0}? The type definition is kept.": "{0} öğesinin tüm örnekleri silinsin mi? Tür tanımı korunur.",
   "All instances of {0} deleted": "{0} öğesinin tüm örnekleri silindi",
-  "Error truncating type: {0}": "Tür kesilirken hata: {0}"
+  "Error truncating type: {0}": "Tür kesilirken hata: {0}",
+  "Match Case": "Büyük/küçük harf"
 }

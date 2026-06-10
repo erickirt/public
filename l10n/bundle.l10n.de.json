@@ -4284,5 +4284,6 @@
   "Error dropping type: {0}": "Fehler beim Löschen des Typs: {0}",
   "Delete all instances of {0}? The type definition is kept.": "Alle Instanzen von {0} löschen? Die Typdefinition bleibt erhalten.",
   "All instances of {0} deleted": "Alle Instanzen von {0} gelöscht",
-  "Error truncating type: {0}": "Fehler beim Leeren des Typs: {0}"
+  "Error truncating type: {0}": "Fehler beim Leeren des Typs: {0}",
+  "Match Case": "Groß-/Kleinschreibung"
 }

@@ -4284,5 +4284,6 @@
   "Error dropping type: {0}": "Errore durante l'eliminazione del tipo: {0}",
   "Delete all instances of {0}? The type definition is kept.": "Eliminare tutte le istanze di {0}? La definizione del tipo viene mantenuta.",
   "All instances of {0} deleted": "Tutte le istanze di {0} eliminate",
-  "Error truncating type: {0}": "Errore durante il troncamento del tipo: {0}"
+  "Error truncating type: {0}": "Errore durante il troncamento del tipo: {0}",
+  "Match Case": "Maiuscole/minuscole"
 }

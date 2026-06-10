@@ -4287,5 +4287,6 @@
   "Error dropping type: {0}": "型の削除エラー: {0}",
   "Delete all instances of {0}? The type definition is kept.": "{0} のすべてのインスタンスを削除しますか？型定義は保持されます。",
   "All instances of {0} deleted": "{0} のすべてのインスタンスを削除しました",
-  "Error truncating type: {0}": "型の切り捨てエラー: {0}"
+  "Error truncating type: {0}": "型の切り捨てエラー: {0}",
+  "Match Case": "大文字と小文字を区別"
 }
