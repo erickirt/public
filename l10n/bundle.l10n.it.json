@@ -4285,5 +4285,22 @@
   "Delete all instances of {0}? The type definition is kept.": "Eliminare tutte le istanze di {0}? La definizione del tipo viene mantenuta.",
   "All instances of {0} deleted": "Tutte le istanze di {0} eliminate",
   "Error truncating type: {0}": "Errore durante il troncamento del tipo: {0}",
-  "Match Case": "Maiuscole/minuscole"
+  "Match Case": "Maiuscole/minuscole",
+  "Run Status": "Stato esecuzione",
+  "Client Type": "Tipo client",
+  "Client IP": "IP client",
+  "Last Activity": "Ultima attività",
+  "Blocked": "Bloccato",
+  "Blocked By": "Bloccato da",
+  "Server Version": "Versione server",
+  "DB Version": "Versione DB",
+  "Accept & Download": "Accetta e scarica",
+  "View License": "Visualizza licenza",
+  "By continuing you agree to obtain and use dmdb under Dameng's license. Choose \"View License\" to read it on npm.": "Continuando, accetti di ottenere e utilizzare dmdb secondo la licenza Dameng. Scegli \"Visualizza licenza\" per leggerla su npm.",
+  "The Dameng (DM8) driver uses Dameng's official \"dmdb\" Node.js driver, which is proprietary software under Dameng's commercial license. DBCode does not bundle it - it will be downloaded from the public npm registry for your own use.": "Il driver Dameng (DM8) utilizza il driver Node.js ufficiale \"dmdb\" di Dameng, un software proprietario sotto licenza commerciale Dameng. DBCode non lo include - verrà scaricato dal registro npm pubblico per uso personale.",
+  "fileInputOverlay": "Trascina e rilascia il file per importare i dati",
+  "fileInputOverlayBrowse": "Sfoglia i file",
+  "fileInputProcessing": "Elaborazione di ${variable}",
+  "fileInputProcessingFailed": "Errore durante l'elaborazione di ${variable}",
+  "calculatedColumnExpressionToolsLabel": "Inserisci"
 }

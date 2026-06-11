@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## 1.34.2 - 2026-06-11
+
+### Changed
+
+- Dameng: Preview support added. #666
+
+### Fixed
+
+- DB2: Fixed binary download failures after VS Code updates (upgraded to ibm_db 4 with version-independent bindings). #1137
+
 ## 1.34.1 - 2026-06-10
 
 ### Changed

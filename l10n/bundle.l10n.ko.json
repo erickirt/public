@@ -4285,5 +4285,22 @@
   "Delete all instances of {0}? The type definition is kept.": "{0}의 모든 인스턴스를 삭제하시겠습니까? 유형 정의는 유지됩니다.",
   "All instances of {0} deleted": "{0}의 모든 인스턴스 삭제됨",
   "Error truncating type: {0}": "유형 자르기 오류: {0}",
-  "Match Case": "대/소문자 구분"
+  "Match Case": "대/소문자 구분",
+  "Run Status": "실행 상태",
+  "Client Type": "클라이언트 유형",
+  "Client IP": "클라이언트 IP",
+  "Last Activity": "마지막 활동",
+  "Blocked": "차단됨",
+  "Blocked By": "차단한 항목",
+  "Server Version": "서버 버전",
+  "DB Version": "DB 버전",
+  "Accept & Download": "동의하고 다운로드",
+  "View License": "라이선스 보기",
+  "By continuing you agree to obtain and use dmdb under Dameng's license. Choose \"View License\" to read it on npm.": "계속함으로써 Dameng 라이선스에 따라 dmdb를 취득하고 사용하는 데 동의합니다. \"라이선스 보기\"를 선택하여 npm에서 확인하세요.",
+  "The Dameng (DM8) driver uses Dameng's official \"dmdb\" Node.js driver, which is proprietary software under Dameng's commercial license. DBCode does not bundle it - it will be downloaded from the public npm registry for your own use.": "Dameng (DM8) 드라이버는 Dameng의 공식 \"dmdb\" Node.js 드라이버를 사용합니다. 이는 Dameng 상업 라이선스 하의 독점 소프트웨어입니다. DBCode는 이를 번들하지 않습니다 - 개인 사용을 위해 공개 npm 레지스트리에서 다운로드됩니다.",
+  "fileInputOverlay": "파일을 드래그 앤 드롭하여 데이터 가져오기",
+  "fileInputOverlayBrowse": "파일 찾아보기",
+  "fileInputProcessing": "${variable} 처리 중",
+  "fileInputProcessingFailed": "${variable} 처리 오류",
+  "calculatedColumnExpressionToolsLabel": "삽입"
 }

@@ -4285,5 +4285,22 @@
   "Delete all instances of {0}? The type definition is kept.": "{0} öğesinin tüm örnekleri silinsin mi? Tür tanımı korunur.",
   "All instances of {0} deleted": "{0} öğesinin tüm örnekleri silindi",
   "Error truncating type: {0}": "Tür kesilirken hata: {0}",
-  "Match Case": "Büyük/küçük harf"
+  "Match Case": "Büyük/küçük harf",
+  "Run Status": "Çalışma Durumu",
+  "Client Type": "İstemci Türü",
+  "Client IP": "İstemci IP",
+  "Last Activity": "Son Etkinlik",
+  "Blocked": "Engellendi",
+  "Blocked By": "Engelleyen",
+  "Server Version": "Sunucu Sürümü",
+  "DB Version": "DB Sürümü",
+  "Accept & Download": "Kabul Et ve İndir",
+  "View License": "Lisansı Görüntüle",
+  "By continuing you agree to obtain and use dmdb under Dameng's license. Choose \"View License\" to read it on npm.": "Devam ederek dmdb'yi Dameng lisansı kapsamında edinmeyi ve kullanmayı kabul etmiş olursunuz. npm'de okumak için \"Lisansı Görüntüle\"yi seçin.",
+  "The Dameng (DM8) driver uses Dameng's official \"dmdb\" Node.js driver, which is proprietary software under Dameng's commercial license. DBCode does not bundle it - it will be downloaded from the public npm registry for your own use.": "Dameng (DM8) sürücüsü, Dameng'in ticari lisansı kapsamında özel yazılım olan resmi \"dmdb\" Node.js sürücüsünü kullanır. DBCode bunu dahil etmez - kendi kullanımınız için genel npm kayıt defterinden indirilecektir.",
+  "fileInputOverlay": "Veri içe aktarmak için dosyayı sürükleyip bırakın",
+  "fileInputOverlayBrowse": "Dosyalara göz at",
+  "fileInputProcessing": "${variable} işleniyor",
+  "fileInputProcessingFailed": "${variable} işlenirken hata oluştu",
+  "calculatedColumnExpressionToolsLabel": "Ekle"
 }

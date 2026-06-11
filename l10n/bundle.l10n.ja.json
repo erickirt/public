@@ -4288,5 +4288,22 @@
   "Delete all instances of {0}? The type definition is kept.": "{0} のすべてのインスタンスを削除しますか？型定義は保持されます。",
   "All instances of {0} deleted": "{0} のすべてのインスタンスを削除しました",
   "Error truncating type: {0}": "型の切り捨てエラー: {0}",
-  "Match Case": "大文字と小文字を区別"
+  "Match Case": "大文字と小文字を区別",
+  "Run Status": "実行ステータス",
+  "Client Type": "クライアントタイプ",
+  "Client IP": "クライアント IP",
+  "Last Activity": "最終アクティビティ",
+  "Blocked": "ブロック中",
+  "Blocked By": "ブロック元",
+  "Server Version": "サーバーバージョン",
+  "DB Version": "DB バージョン",
+  "Accept & Download": "同意してダウンロード",
+  "View License": "ライセンスを表示",
+  "By continuing you agree to obtain and use dmdb under Dameng's license. Choose \"View License\" to read it on npm.": "続行することで、Dameng のライセンスに従い dmdb を取得・使用することに同意します。「ライセンスを表示」を選択して npm でご確認ください。",
+  "The Dameng (DM8) driver uses Dameng's official \"dmdb\" Node.js driver, which is proprietary software under Dameng's commercial license. DBCode does not bundle it - it will be downloaded from the public npm registry for your own use.": "Dameng (DM8) ドライバーは Dameng の公式 \"dmdb\" Node.js ドライバーを使用します。これは Dameng の商用ライセンスのもとで提供されるプロプライエタリソフトウェアです。DBCode にはバンドルされていません - 個人利用のために公開 npm レジストリからダウンロードされます。",
+  "fileInputOverlay": "ファイルをドラッグ＆ドロップしてデータをインポート",
+  "fileInputOverlayBrowse": "ファイルを参照",
+  "fileInputProcessing": "${variable} を処理中",
+  "fileInputProcessingFailed": "${variable} の処理中にエラーが発生しました",
+  "calculatedColumnExpressionToolsLabel": "挿入"
 }

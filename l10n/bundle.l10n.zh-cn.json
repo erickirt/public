@@ -4285,5 +4285,22 @@
   "Delete all instances of {0}? The type definition is kept.": "删除 {0} 的所有实例？类型定义将保留。",
   "All instances of {0} deleted": "{0} 的所有实例已删除",
   "Error truncating type: {0}": "截断类型时出错：{0}",
-  "Match Case": "区分大小写"
+  "Match Case": "区分大小写",
+  "Run Status": "运行状态",
+  "Client Type": "客户端类型",
+  "Client IP": "客户端 IP",
+  "Last Activity": "最后活动",
+  "Blocked": "已阻塞",
+  "Blocked By": "阻塞者",
+  "Server Version": "服务器版本",
+  "DB Version": "数据库版本",
+  "Accept & Download": "接受并下载",
+  "View License": "查看许可证",
+  "By continuing you agree to obtain and use dmdb under Dameng's license. Choose \"View License\" to read it on npm.": "继续即表示您同意按照达梦许可证获取并使用 dmdb。选择\"查看许可证\"在 npm 上阅读。",
+  "The Dameng (DM8) driver uses Dameng's official \"dmdb\" Node.js driver, which is proprietary software under Dameng's commercial license. DBCode does not bundle it - it will be downloaded from the public npm registry for your own use.": "Dameng (DM8) 驱动使用达梦官方 \"dmdb\" Node.js 驱动，该驱动是达梦商业许可证下的专有软件。DBCode 不捆绑它——将从公共 npm 注册表下载供您自行使用。",
+  "fileInputOverlay": "拖放文件以导入数据",
+  "fileInputOverlayBrowse": "浏览文件",
+  "fileInputProcessing": "正在处理 ${variable}",
+  "fileInputProcessingFailed": "处理 ${variable} 时出错",
+  "calculatedColumnExpressionToolsLabel": "插入"
 }

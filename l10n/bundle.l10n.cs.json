@@ -4285,5 +4285,22 @@
   "Delete all instances of {0}? The type definition is kept.": "Odstranit všechny instance {0}? Definice typu bude zachována.",
   "All instances of {0} deleted": "Všechny instance {0} odstraněny",
   "Error truncating type: {0}": "Chyba při zkracování typu: {0}",
-  "Match Case": "Rozlišovat velikost"
+  "Match Case": "Rozlišovat velikost",
+  "Run Status": "Stav spuštění",
+  "Client Type": "Typ klienta",
+  "Client IP": "IP klienta",
+  "Last Activity": "Poslední aktivita",
+  "Blocked": "Blokováno",
+  "Blocked By": "Blokováno kým",
+  "Server Version": "Verze serveru",
+  "DB Version": "Verze DB",
+  "Accept & Download": "Přijmout a stáhnout",
+  "View License": "Zobrazit licenci",
+  "By continuing you agree to obtain and use dmdb under Dameng's license. Choose \"View License\" to read it on npm.": "Pokračováním souhlasíte se získáním a používáním dmdb pod licencí Dameng. Zvolte „Zobrazit licenci\" a přečtěte si ji na npm.",
+  "The Dameng (DM8) driver uses Dameng's official \"dmdb\" Node.js driver, which is proprietary software under Dameng's commercial license. DBCode does not bundle it - it will be downloaded from the public npm registry for your own use.": "Ovladač Dameng (DM8) používá oficiální Node.js ovladač \"dmdb\" od Damengu, proprietární software pod komerční licencí Damengu. DBCode ho nepřibaluje - bude stažen z veřejného registru npm pro vaše vlastní použití.",
+  "fileInputOverlay": "Přetáhněte soubor pro import dat",
+  "fileInputOverlayBrowse": "Procházet soubory",
+  "fileInputProcessing": "Zpracování ${variable}",
+  "fileInputProcessingFailed": "Chyba při zpracování ${variable}",
+  "calculatedColumnExpressionToolsLabel": "Vložit"
 }
