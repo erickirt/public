@@ -4302,5 +4302,22 @@
   "fileInputOverlayBrowse": "Przeglądaj pliki",
   "fileInputProcessing": "Przetwarzanie ${variable}",
   "fileInputProcessingFailed": "Błąd podczas przetwarzania ${variable}",
-  "calculatedColumnExpressionToolsLabel": "Wstaw"
+  "calculatedColumnExpressionToolsLabel": "Wstaw",
+  "tables": "tabele",
+  "Loading objects for {0}...": "Ładowanie obiektów dla {0}...",
+  "Could not load the object list for {0}.": "Nie można załadować listy obiektów dla {0}.",
+  "No objects found to back up in {0}.": "Nie znaleziono obiektów do kopii zapasowej w {0}.",
+  "Whole database": "Cała baza danych",
+  "Selected schemas": "Wybrane schematy",
+  "Selected {0}": "Wybrane {0}",
+  "What to back up?": "Co objąć kopią zapasową?",
+  "Select schemas to back up": "Wybierz schematy do kopii zapasowej",
+  "Select {0} to back up": "Wybierz {0} do kopii zapasowej",
+  "collections": "kolekcje",
+  "calculatedColumnTitleEmpty": "Wprowadź tytuł",
+  "Back up \"{0}\"": "Utwórz kopię zapasową „{0}\"",
+  "REST API URL": "Adres URL interfejsu REST API",
+  "Optional. JWT sent as the Authorization header when fetching /meta.": "Opcjonalne. JWT wysyłany jako nagłówek Authorization podczas pobierania /meta.",
+  "Stored in plain text in the connection config (only the connection password is encrypted). Avoid a long-lived token here.": "Przechowywane jako zwykły tekst w konfiguracji połączenia (szyfrowane jest tylko hasło). Unikaj tutaj długotrwałych tokenów.",
+  "Optional. When set, the schema is enriched from the /meta endpoint with descriptions, measures vs dimensions, and primary keys.": "Opcjonalne. Jeśli ustawiono, schemat zostaje wzbogacony z punktu końcowego /meta o opisy, miary, wymiary i klucze główne."
 }

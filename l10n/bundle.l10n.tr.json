@@ -4302,5 +4302,22 @@
   "fileInputOverlayBrowse": "Dosyalara göz at",
   "fileInputProcessing": "${variable} işleniyor",
   "fileInputProcessingFailed": "${variable} işlenirken hata oluştu",
-  "calculatedColumnExpressionToolsLabel": "Ekle"
+  "calculatedColumnExpressionToolsLabel": "Ekle",
+  "tables": "tablolar",
+  "Loading objects for {0}...": "{0} için nesneler yükleniyor...",
+  "Could not load the object list for {0}.": "{0} için nesne listesi yüklenemedi.",
+  "No objects found to back up in {0}.": "{0} içinde yedeklenecek nesne bulunamadı.",
+  "Whole database": "Tüm veritabanı",
+  "Selected schemas": "Seçili şemalar",
+  "Selected {0}": "Seçili {0}",
+  "What to back up?": "Ne yedeklensin?",
+  "Select schemas to back up": "Yedeklenecek şemaları seçin",
+  "Select {0} to back up": "Yedeklenecek {0} seçin",
+  "collections": "koleksiyonlar",
+  "calculatedColumnTitleEmpty": "Bir başlık girin",
+  "Back up \"{0}\"": "\"{0}\" yedekle",
+  "REST API URL": "REST API URL'si",
+  "Optional. JWT sent as the Authorization header when fetching /meta.": "İsteğe bağlı. /meta alınırken Authorization başlığı olarak gönderilen JWT.",
+  "Stored in plain text in the connection config (only the connection password is encrypted). Avoid a long-lived token here.": "Bağlantı yapılandırmasında düz metin olarak saklanır (yalnızca parola şifrelenir). Uzun ömürlü token kullanmaktan kaçının.",
+  "Optional. When set, the schema is enriched from the /meta endpoint with descriptions, measures vs dimensions, and primary keys.": "İsteğe bağlı. Ayarlandığında, şema /meta uç noktasından açıklamalar, ölçümler, boyutlar ve birincil anahtarlarla zenginleştirilir."
 }

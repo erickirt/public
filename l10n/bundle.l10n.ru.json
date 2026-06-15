@@ -4302,5 +4302,22 @@
   "fileInputOverlayBrowse": "Обзор файлов",
   "fileInputProcessing": "Обработка ${variable}",
   "fileInputProcessingFailed": "Ошибка при обработке ${variable}",
-  "calculatedColumnExpressionToolsLabel": "Вставить"
+  "calculatedColumnExpressionToolsLabel": "Вставить",
+  "tables": "таблицы",
+  "Loading objects for {0}...": "Загрузка объектов для {0}...",
+  "Could not load the object list for {0}.": "Не удалось загрузить список объектов для {0}.",
+  "No objects found to back up in {0}.": "В {0} не найдено объектов для резервного копирования.",
+  "Whole database": "Вся база данных",
+  "Selected schemas": "Выбранные схемы",
+  "Selected {0}": "Выбранные {0}",
+  "What to back up?": "Что резервировать?",
+  "Select schemas to back up": "Выбрать схемы для резервного копирования",
+  "Select {0} to back up": "Выбрать {0} для резервного копирования",
+  "collections": "коллекции",
+  "calculatedColumnTitleEmpty": "Введите заголовок",
+  "Back up \"{0}\"": "Резервная копия \"{0}\"",
+  "REST API URL": "URL REST API",
+  "Optional. JWT sent as the Authorization header when fetching /meta.": "Необязательно. JWT, отправляемый в заголовке Authorization при запросе /meta.",
+  "Stored in plain text in the connection config (only the connection password is encrypted). Avoid a long-lived token here.": "Хранится в открытом виде в конфигурации подключения (шифруется только пароль). Избегайте долгосрочных токенов.",
+  "Optional. When set, the schema is enriched from the /meta endpoint with descriptions, measures vs dimensions, and primary keys.": "Необязательно. Если задано, схема дополняется из конечной точки /meta описаниями, мерами, измерениями и первичными ключами."
 }

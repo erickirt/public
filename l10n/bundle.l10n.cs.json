@@ -4302,5 +4302,22 @@
   "fileInputOverlayBrowse": "Procházet soubory",
   "fileInputProcessing": "Zpracování ${variable}",
   "fileInputProcessingFailed": "Chyba při zpracování ${variable}",
-  "calculatedColumnExpressionToolsLabel": "Vložit"
+  "calculatedColumnExpressionToolsLabel": "Vložit",
+  "tables": "tabulky",
+  "Loading objects for {0}...": "Načítání objektů pro {0}...",
+  "Could not load the object list for {0}.": "Nepodařilo se načíst seznam objektů pro {0}.",
+  "No objects found to back up in {0}.": "V {0} nebyly nalezeny žádné objekty k zálohování.",
+  "Whole database": "Celá databáze",
+  "Selected schemas": "Vybraná schémata",
+  "Selected {0}": "Vybraná {0}",
+  "What to back up?": "Co zálohovat?",
+  "Select schemas to back up": "Vybrat schémata k zálohování",
+  "Select {0} to back up": "Vybrat {0} k zálohování",
+  "collections": "kolekce",
+  "calculatedColumnTitleEmpty": "Zadejte název",
+  "Back up \"{0}\"": "Zálohovat „{0}\"",
+  "REST API URL": "URL rozhraní REST API",
+  "Optional. JWT sent as the Authorization header when fetching /meta.": "Volitelné. JWT odeslaný jako hlavička Authorization při načítání /meta.",
+  "Stored in plain text in the connection config (only the connection password is encrypted). Avoid a long-lived token here.": "Uloženo jako prostý text v konfiguraci připojení (šifrováno je pouze heslo). Vyhněte se dlouhodobým tokenům.",
+  "Optional. When set, the schema is enriched from the /meta endpoint with descriptions, measures vs dimensions, and primary keys.": "Volitelné. Pokud je nastaveno, schéma se obohatí z koncového bodu /meta o popisy, míry, dimenze a primární klíče."
 }

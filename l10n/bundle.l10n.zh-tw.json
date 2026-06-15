@@ -4302,5 +4302,22 @@
   "fileInputOverlayBrowse": "瀏覽檔案",
   "fileInputProcessing": "正在處理 ${variable}",
   "fileInputProcessingFailed": "處理 ${variable} 時發生錯誤",
-  "calculatedColumnExpressionToolsLabel": "插入"
+  "calculatedColumnExpressionToolsLabel": "插入",
+  "tables": "資料表",
+  "Loading objects for {0}...": "正在載入 {0} 的物件...",
+  "Could not load the object list for {0}.": "無法載入 {0} 的物件清單。",
+  "No objects found to back up in {0}.": "在 {0} 中找不到要備份的物件。",
+  "Whole database": "整個資料庫",
+  "Selected schemas": "已選取的結構描述",
+  "Selected {0}": "已選取的 {0}",
+  "What to back up?": "要備份什麼？",
+  "Select schemas to back up": "選取要備份的結構描述",
+  "Select {0} to back up": "選取要備份的 {0}",
+  "collections": "集合",
+  "calculatedColumnTitleEmpty": "輸入標題",
+  "Back up \"{0}\"": "備份\"{0}\"",
+  "REST API URL": "REST API URL",
+  "Optional. JWT sent as the Authorization header when fetching /meta.": "選填。擷取 /meta 時作為 Authorization 標頭傳送的 JWT。",
+  "Stored in plain text in the connection config (only the connection password is encrypted). Avoid a long-lived token here.": "以純文字儲存在連線設定中（僅連線密碼已加密）。請避免在此使用長效權杖。",
+  "Optional. When set, the schema is enriched from the /meta endpoint with descriptions, measures vs dimensions, and primary keys.": "選用。設定後，將從 /meta 端點以描述、量值、維度和主鍵豐富結構描述。"
 }

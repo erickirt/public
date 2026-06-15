@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## 1.34.3 - 2026-06-15
+
+### Changed
+
+- Cube: Added a read-only driver for the Cube semantic layer (query over the SQL API, schema discovery, optional /meta enrichment).
+- Backup: Back up selected schemas or tables instead of only the whole database (PostgreSQL, MySQL/MariaDB, MongoDB, SQLite).
+
+### Fixed
+
+- Webviews: Fixed blank panels (connection form, query builder, results, etc.) in code-server / VS Code for the Web on Safari and iPadOS. #1113
+- MCP: Fixed the auto-registered MCP server failing to connect in recent Cursor versions. #1139
+- SQL Server: Windows Integrated Auth now re-downloads a missing SSPI native binding automatically instead of failing with "Failed to load SSPI module".
+
 ## 1.34.2 - 2026-06-11
 
 ### Changed

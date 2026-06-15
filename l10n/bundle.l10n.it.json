@@ -4302,5 +4302,22 @@
   "fileInputOverlayBrowse": "Sfoglia i file",
   "fileInputProcessing": "Elaborazione di ${variable}",
   "fileInputProcessingFailed": "Errore durante l'elaborazione di ${variable}",
-  "calculatedColumnExpressionToolsLabel": "Inserisci"
+  "calculatedColumnExpressionToolsLabel": "Inserisci",
+  "tables": "tabelle",
+  "Loading objects for {0}...": "Caricamento oggetti per {0}...",
+  "Could not load the object list for {0}.": "Impossibile caricare l'elenco oggetti per {0}.",
+  "No objects found to back up in {0}.": "Nessun oggetto da salvare trovato in {0}.",
+  "Whole database": "Database intero",
+  "Selected schemas": "Schemi selezionati",
+  "Selected {0}": "{0} selezionati",
+  "What to back up?": "Cosa salvare?",
+  "Select schemas to back up": "Seleziona schemi da salvare",
+  "Select {0} to back up": "Seleziona {0} da salvare",
+  "collections": "collezioni",
+  "calculatedColumnTitleEmpty": "Inserisci un titolo",
+  "Back up \"{0}\"": "Esegui backup di \"{0}\"",
+  "REST API URL": "URL API REST",
+  "Optional. JWT sent as the Authorization header when fetching /meta.": "Facoltativo. JWT inviato nell'intestazione Authorization durante il recupero di /meta.",
+  "Stored in plain text in the connection config (only the connection password is encrypted). Avoid a long-lived token here.": "Memorizzato in testo normale nella configurazione della connessione (solo la password è cifrata). Evita un token di lunga durata qui.",
+  "Optional. When set, the schema is enriched from the /meta endpoint with descriptions, measures vs dimensions, and primary keys.": "Facoltativo. Se impostato, lo schema viene arricchito dall'endpoint /meta con descrizioni, misure, dimensioni e chiavi primarie."
 }

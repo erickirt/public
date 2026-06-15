@@ -4302,5 +4302,22 @@
   "fileInputOverlayBrowse": "浏览文件",
   "fileInputProcessing": "正在处理 ${variable}",
   "fileInputProcessingFailed": "处理 ${variable} 时出错",
-  "calculatedColumnExpressionToolsLabel": "插入"
+  "calculatedColumnExpressionToolsLabel": "插入",
+  "tables": "表",
+  "Loading objects for {0}...": "正在加载 {0} 的对象...",
+  "Could not load the object list for {0}.": "无法加载 {0} 的对象列表。",
+  "No objects found to back up in {0}.": "在 {0} 中未找到要备份的对象。",
+  "Whole database": "整个数据库",
+  "Selected schemas": "已选架构",
+  "Selected {0}": "已选 {0}",
+  "What to back up?": "备份哪些内容？",
+  "Select schemas to back up": "选择要备份的架构",
+  "Select {0} to back up": "选择要备份的 {0}",
+  "collections": "集合",
+  "calculatedColumnTitleEmpty": "输入标题",
+  "Back up \"{0}\"": "备份\"{0}\"",
+  "REST API URL": "REST API URL",
+  "Optional. JWT sent as the Authorization header when fetching /meta.": "可选。获取 /meta 时作为 Authorization 标头发送的 JWT。",
+  "Stored in plain text in the connection config (only the connection password is encrypted). Avoid a long-lived token here.": "以明文存储在连接配置中（仅连接密码已加密）。避免在此使用长期令牌。",
+  "Optional. When set, the schema is enriched from the /meta endpoint with descriptions, measures vs dimensions, and primary keys.": "可选。设置后，将从 /meta 端点使用描述、度量、维度和主键丰富架构。"
 }

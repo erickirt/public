@@ -4305,5 +4305,22 @@
   "fileInputOverlayBrowse": "ファイルを参照",
   "fileInputProcessing": "${variable} を処理中",
   "fileInputProcessingFailed": "${variable} の処理中にエラーが発生しました",
-  "calculatedColumnExpressionToolsLabel": "挿入"
+  "calculatedColumnExpressionToolsLabel": "挿入",
+  "tables": "テーブル",
+  "Loading objects for {0}...": "{0} のオブジェクトを読み込み中...",
+  "Could not load the object list for {0}.": "{0} のオブジェクト一覧を読み込めませんでした。",
+  "No objects found to back up in {0}.": "{0} にバックアップするオブジェクトが見つかりませんでした。",
+  "Whole database": "データベース全体",
+  "Selected schemas": "選択したスキーマ",
+  "Selected {0}": "選択した {0}",
+  "What to back up?": "バックアップ対象は？",
+  "Select schemas to back up": "バックアップするスキーマを選択",
+  "Select {0} to back up": "バックアップする {0} を選択",
+  "collections": "コレクション",
+  "calculatedColumnTitleEmpty": "タイトルを入力",
+  "Back up \"{0}\"": "\"{0}\"をバックアップ",
+  "REST API URL": "REST API URL",
+  "Optional. JWT sent as the Authorization header when fetching /meta.": "省略可能。/meta 取得時に Authorization ヘッダーとして送信される JWT。",
+  "Stored in plain text in the connection config (only the connection password is encrypted). Avoid a long-lived token here.": "接続設定に平文で保存されます（パスワードのみ暗号化）。長期トークンの使用は避けてください。",
+  "Optional. When set, the schema is enriched from the /meta endpoint with descriptions, measures vs dimensions, and primary keys.": "省略可能。設定すると、/meta エンドポイントから説明、メジャー、ディメンション、主キーでスキーマが拡充されます。"
 }
