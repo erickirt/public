@@ -1,5 +1,21 @@
 # CHANGELOG
 
+## 1.35.0 - 2026-06-18
+
+### Changed
+
+- Autocomplete: Show function and stored-procedure parameters in the completion list.
+- Teradata: Preview support added. #641
+- Weaviate: Multi-tenancy support - browse, search, edit, and manage tenants in the tree. #1128
+
+### Fixed
+
+- ClickHouse: Fixed SSL connections failing with "self signed certificate in certificate chain" when a CA certificate is provided. #735
+- Connections: Partition items now have a right-click menu (open, script, search, export, explore, diagram).
+- Editor: Fixed running a schema-switch command (SET search_path, USE SCHEMA, etc.) throwing a runtime error.
+- Results: Case-insensitive filtering on UUID and other non-text columns no longer errors with "function upper(uuid) does not exist". #1140
+- Weaviate: Data grid now shows object vectors.
+
 ## 1.34.3 - 2026-06-15
 
 ### Changed

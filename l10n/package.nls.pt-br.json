@@ -377,5 +377,8 @@
   "Set Inferred Relationships": "Definir relações inferidas",
   "Set the inferred relationship patterns for a connection.": "Definir os padrões de relações inferidas para uma conexão.",
   "Get Inferred Relationships": "Obter relações inferidas",
-  "Get the inferred relationship patterns for a connection.": "Obter os padrões de relações inferidas para uma conexão."
+  "Get the inferred relationship patterns for a connection.": "Obter os padrões de relações inferidas para uma conexão.",
+  "Activate": "Ativar",
+  "Deactivate": "Desativar",
+  "Offload": "Descarregar"
 }

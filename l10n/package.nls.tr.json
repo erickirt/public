@@ -377,5 +377,8 @@
   "Set Inferred Relationships": "Çıkarılan İlişkileri Ayarla",
   "Set the inferred relationship patterns for a connection.": "Bir bağlantı için çıkarılan ilişki kalıplarını ayarlayın.",
   "Get Inferred Relationships": "Çıkarılan İlişkileri Al",
-  "Get the inferred relationship patterns for a connection.": "Bir bağlantı için çıkarılan ilişki kalıplarını alın."
+  "Get the inferred relationship patterns for a connection.": "Bir bağlantı için çıkarılan ilişki kalıplarını alın.",
+  "Activate": "Etkinleştir",
+  "Deactivate": "Devre Dışı Bırak",
+  "Offload": "Boşalt"
 }

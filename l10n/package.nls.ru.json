@@ -377,5 +377,8 @@
   "Set Inferred Relationships": "Задать выведенные связи",
   "Set the inferred relationship patterns for a connection.": "Задать шаблоны выведенных связей для подключения.",
   "Get Inferred Relationships": "Получить выведенные связи",
-  "Get the inferred relationship patterns for a connection.": "Получить шаблоны выведенных связей для подключения."
+  "Get the inferred relationship patterns for a connection.": "Получить шаблоны выведенных связей для подключения.",
+  "Activate": "Активировать",
+  "Deactivate": "Деактивировать",
+  "Offload": "Выгрузить"
 }

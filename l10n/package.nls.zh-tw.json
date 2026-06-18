@@ -377,5 +377,8 @@
   "Set Inferred Relationships": "設定推斷關係",
   "Set the inferred relationship patterns for a connection.": "為連線設定推斷關係模式。",
   "Get Inferred Relationships": "取得推斷關係",
-  "Get the inferred relationship patterns for a connection.": "取得連線的推斷關係模式。"
+  "Get the inferred relationship patterns for a connection.": "取得連線的推斷關係模式。",
+  "Activate": "啟用",
+  "Deactivate": "停用",
+  "Offload": "卸載"
 }

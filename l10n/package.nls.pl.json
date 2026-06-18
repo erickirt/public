@@ -377,5 +377,8 @@
   "Set Inferred Relationships": "Ustaw wywnioskowane relacje",
   "Set the inferred relationship patterns for a connection.": "Ustaw wzorce wywnioskowanych relacji dla połączenia.",
   "Get Inferred Relationships": "Pobierz wywnioskowane relacje",
-  "Get the inferred relationship patterns for a connection.": "Pobierz wzorce wywnioskowanych relacji dla połączenia."
+  "Get the inferred relationship patterns for a connection.": "Pobierz wzorce wywnioskowanych relacji dla połączenia.",
+  "Activate": "Aktywuj",
+  "Deactivate": "Dezaktywuj",
+  "Offload": "Przenieś"
 }

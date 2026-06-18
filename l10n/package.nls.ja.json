@@ -377,5 +377,8 @@
   "Set Inferred Relationships": "推論リレーションシップの設定",
   "Set the inferred relationship patterns for a connection.": "接続の推論リレーションシップパターンを設定します。",
   "Get Inferred Relationships": "推論リレーションシップの取得",
-  "Get the inferred relationship patterns for a connection.": "接続の推論リレーションシップパターンを取得します。"
+  "Get the inferred relationship patterns for a connection.": "接続の推論リレーションシップパターンを取得します。",
+  "Activate": "有効化",
+  "Deactivate": "無効化",
+  "Offload": "オフロード"
 }

@@ -377,5 +377,8 @@
   "Set Inferred Relationships": "Nastavit odvozené vztahy",
   "Set the inferred relationship patterns for a connection.": "Nastavit vzory odvozených vztahů pro připojení.",
   "Get Inferred Relationships": "Získat odvozené vztahy",
-  "Get the inferred relationship patterns for a connection.": "Získat vzory odvozených vztahů pro připojení."
+  "Get the inferred relationship patterns for a connection.": "Získat vzory odvozených vztahů pro připojení.",
+  "Activate": "Aktivovat",
+  "Deactivate": "Deaktivovat",
+  "Offload": "Přesunout"
 }
