@@ -4,7 +4,7 @@
     "pricing": "Free",
     "description": "Database client for VS Code, Cursor & Windsurf with first-class Copilot & MCP integration. 50+ databases, SQL Notebooks, ER diagrams, data editing, secure sharing. A modern alternative to DBeaver, DataGrip & TablePlus - inside your editor.",
     "publisher": "dbcode",
-    "version": "1.35.0",
+    "version": "1.35.1",
     "icon": "out/resources/logos/logo.png",
     "galleryBanner": {
         "color": "#e4ddff",
@@ -6276,6 +6276,7 @@
         "version": "tsx ./scripts/changelog.ts && git add CHANGELOG.md changelog.d",
         "check-types:file": "node ./scripts/check-types-file.js",
         "check-types": "node ./scripts/check-types.js",
+        "check-biome": "biome check src",
         "lint": "biome check src",
         "lint:fix": "biome check --write src",
         "ls:fetch-grammars": "tsx scripts/ls-fetch-grammars.ts",
@@ -6325,7 +6326,7 @@
         "apache-arrow": "19.0.1",
         "big.js": "^6.2.2",
         "dmdb": "1.0.49630",
-        "esbuild": "^0.25.0",
+        "esbuild": "^0.28.0",
         "esbuild-plugin-copy": "^2.1.1",
         "expect": "^29.7.0",
         "git-pull-run": "^1.5.0",
@@ -6501,7 +6502,8 @@
             "tmp": ">=0.2.6 <0.3",
             "serialize-javascript": ">=7.0.5 <8",
             "diff": ">=8.0.3 <9",
-            "brace-expansion@5": ">=5.0.6 <6"
+            "brace-expansion@5": ">=5.0.6 <6",
+            "esbuild": ">=0.28.1 <0.29"
         },
         "onlyBuiltDependencies": [
             "@biomejs/biome",

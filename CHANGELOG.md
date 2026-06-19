@@ -1,5 +1,13 @@
 # CHANGELOG
 
+## 1.35.1 - 2026-06-19
+
+### Fixed
+
+- DuckLake: Fixed read-only connections failing to open existing catalogs. #1141
+- Trino: Fixed table scrolling pagination generating invalid OFFSET syntax. #1142
+- Results Grid: Fixed text-search filters on UUID, enum, and other non-text columns. #1140
+
 ## 1.35.0 - 2026-06-18
 
 ### Changed
