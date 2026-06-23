@@ -380,5 +380,7 @@
   "Get the inferred relationship patterns for a connection.": "接続の推論リレーションシップパターンを取得します。",
   "Activate": "有効化",
   "Deactivate": "無効化",
-  "Offload": "オフロード"
+  "Offload": "オフロード",
+  "Copy Data": "データのコピー",
+  "Copies query results from one connection into a table on another connection.": "クエリ結果を一方の接続から別の接続のテーブルにコピーします。"
 }

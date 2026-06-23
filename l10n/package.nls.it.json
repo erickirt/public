@@ -380,5 +380,7 @@
   "Get the inferred relationship patterns for a connection.": "Ottieni i modelli di relazioni inferite per una connessione.",
   "Activate": "Attiva",
   "Deactivate": "Disattiva",
-  "Offload": "Scarica"
+  "Offload": "Scarica",
+  "Copy Data": "Copia dati",
+  "Copies query results from one connection into a table on another connection.": "Copia i risultati della query da una connessione a una tabella su un'altra connessione."
 }

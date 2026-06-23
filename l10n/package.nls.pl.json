@@ -380,5 +380,7 @@
   "Get the inferred relationship patterns for a connection.": "Pobierz wzorce wywnioskowanych relacji dla połączenia.",
   "Activate": "Aktywuj",
   "Deactivate": "Dezaktywuj",
-  "Offload": "Przenieś"
+  "Offload": "Przenieś",
+  "Copy Data": "Kopiuj dane",
+  "Copies query results from one connection into a table on another connection.": "Kopiuje wyniki zapytania z jednego połączenia do tabeli w innym połączeniu."
 }

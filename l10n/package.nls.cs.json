@@ -380,5 +380,7 @@
   "Get the inferred relationship patterns for a connection.": "Získat vzory odvozených vztahů pro připojení.",
   "Activate": "Aktivovat",
   "Deactivate": "Deaktivovat",
-  "Offload": "Přesunout"
+  "Offload": "Přesunout",
+  "Copy Data": "Kopírovat data",
+  "Copies query results from one connection into a table on another connection.": "Zkopíruje výsledky dotazu z jednoho připojení do tabulky na jiném připojení."
 }

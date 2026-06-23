@@ -1,5 +1,22 @@
 # CHANGELOG
 
+## 1.35.2 - 2026-06-23
+
+### Changed
+
+- Results Grid: Filter date and timestamp columns by year or month, plus an expandable Year > Month > Day tree in the column filter. #1144
+- DocumentDB: Added Amazon DocumentDB support (MongoDB-compatible) with DocumentDB-ready connection defaults.
+- DuckLake: Added Azure (ADLS Gen2 and Blob) as a data storage backend.
+- Explore: Now works on Join and Union results, including across connections.
+- Import: Batched inserts with duplicate handling and skip-bad-rows options.
+- MCP: New `dbcode-copy-data` tool copies query results between connections with duplicate skip/replace handling and live progress. #1136
+
+### Fixed
+
+- MongoDB: The Certificate Verification setting now applies to the live connection, not just the copied connection string.
+- Results: Query timer now shows the elapsed time after the query finishes instead of 0. #1145
+- Packaging: Eliminated false-positive secret-scanner detections that could block the extension download.
+
 ## 1.35.1 - 2026-06-19
 
 ### Fixed

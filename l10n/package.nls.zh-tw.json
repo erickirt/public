@@ -380,5 +380,7 @@
   "Get the inferred relationship patterns for a connection.": "取得連線的推斷關係模式。",
   "Activate": "啟用",
   "Deactivate": "停用",
-  "Offload": "卸載"
+  "Offload": "卸載",
+  "Copy Data": "複製資料",
+  "Copies query results from one connection into a table on another connection.": "將查詢結果從一個連線複製到另一個連線的資料表中。"
 }

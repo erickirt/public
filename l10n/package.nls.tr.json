@@ -380,5 +380,7 @@
   "Get the inferred relationship patterns for a connection.": "Bir bağlantı için çıkarılan ilişki kalıplarını alın.",
   "Activate": "Etkinleştir",
   "Deactivate": "Devre Dışı Bırak",
-  "Offload": "Boşalt"
+  "Offload": "Boşalt",
+  "Copy Data": "Verileri Kopyala",
+  "Copies query results from one connection into a table on another connection.": "Sorgu sonuçlarını bir bağlantıdan başka bir bağlantıdaki tabloya kopyalar."
 }

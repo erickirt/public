@@ -380,5 +380,7 @@
   "Get the inferred relationship patterns for a connection.": "연결에 대한 유추된 관계 패턴을 가져옵니다.",
   "Activate": "활성화",
   "Deactivate": "비활성화",
-  "Offload": "오프로드"
+  "Offload": "오프로드",
+  "Copy Data": "데이터 복사",
+  "Copies query results from one connection into a table on another connection.": "한 연결의 쿼리 결과를 다른 연결의 테이블로 복사합니다."
 }

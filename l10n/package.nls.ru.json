@@ -380,5 +380,7 @@
   "Get the inferred relationship patterns for a connection.": "Получить шаблоны выведенных связей для подключения.",
   "Activate": "Активировать",
   "Deactivate": "Деактивировать",
-  "Offload": "Выгрузить"
+  "Offload": "Выгрузить",
+  "Copy Data": "Копировать данные",
+  "Copies query results from one connection into a table on another connection.": "Копирует результаты запроса из одного подключения в таблицу другого подключения."
 }
