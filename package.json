@@ -4,7 +4,7 @@
     "pricing": "Free",
     "description": "Database client for VS Code, Cursor & Windsurf with first-class Copilot & MCP integration. 50+ databases, SQL Notebooks, ER diagrams, data editing, secure sharing. A modern alternative to DBeaver, DataGrip & TablePlus - inside your editor.",
     "publisher": "dbcode",
-    "version": "1.35.2",
+    "version": "1.35.3",
     "icon": "out/resources/logos/logo.png",
     "galleryBanner": {
         "color": "#e4ddff",
@@ -1075,6 +1075,11 @@
                 "icon": "$(edit)"
             },
             {
+                "command": "dbcode.connections.bindFolder",
+                "title": "%Set Folder Connection with DBCode%",
+                "category": "DBCode"
+            },
+            {
                 "command": "dbcode.database.create",
                 "title": "%Create Database%",
                 "category": "DBCode",
@@ -1682,23 +1687,28 @@
                 },
                 {
                     "id": "dbcode.tunnels.view",
-                    "name": "%Tunnels%"
+                    "name": "%Tunnels%",
+                    "visibility": "collapsed"
                 },
                 {
                     "id": "dbcode.authProfiles.view",
-                    "name": "%Authentication Profiles%"
+                    "name": "%Authentication Profiles%",
+                    "visibility": "collapsed"
                 },
                 {
                     "id": "dbcode.library.view",
-                    "name": "%Library%"
+                    "name": "%Library%",
+                    "visibility": "collapsed"
                 },
                 {
                     "id": "dbcode.history.view",
-                    "name": "%History%"
+                    "name": "%History%",
+                    "visibility": "collapsed"
                 },
                 {
                     "id": "dbcode.account.view",
-                    "name": "%Account%"
+                    "name": "%Account%",
+                    "visibility": "collapsed"
                 },
                 {
                     "id": "dbcode.streams.view",
@@ -2506,6 +2516,11 @@
             "explorer/context": [
                 {
                     "command": "dbcode.watchedFolders.add",
+                    "when": "isFileSystemResource === true && explorerResourceIsFolder === true",
+                    "group": "find"
+                },
+                {
+                    "command": "dbcode.connections.bindFolder",
                     "when": "isFileSystemResource === true && explorerResourceIsFolder === true",
                     "group": "find"
                 }
@@ -4477,6 +4492,37 @@
                             "database"
                         ],
                         "markdownDescription": "%The default connection for the workspace. Can be set with the command: DBCode: Select Workspace Default Connection.%"
+                    },
+                    "dbcode.connectionBindings": {
+                        "type": "array",
+                        "scope": "resource",
+                        "default": [],
+                        "markdownDescription": "%Set a folder's default connection and database. DBCode uses it for SQL files you open inside the folder, with subfolder inheritance.%",
+                        "items": {
+                            "type": "object",
+                            "required": [
+                                "path",
+                                "connectionId",
+                                "database"
+                            ],
+                            "additionalProperties": false,
+                            "properties": {
+                                "path": {
+                                    "type": "string",
+                                    "markdownDescription": "%Glob matched against the file's workspace-relative path, e.g. `85/mc85/**`.%"
+                                },
+                                "connectionId": {
+                                    "type": "string",
+                                    "markdownDescription": "%The connection. Use the Set Folder Connection with DBCode command to fill this in.%"
+                                },
+                                "database": {
+                                    "type": "string"
+                                },
+                                "schema": {
+                                    "type": "string"
+                                }
+                            }
+                        }
                     },
                     "dbcode.tabTitle.separator": {
                         "order": 5,
@@ -6518,6 +6564,7 @@
         "magic-bytes.js": "^1.13.0",
         "maplibre-gl": "^5.7.1",
         "mariadb": "^3.4.2",
+        "minimatch": "10.2.5",
         "monaco-editor": "^0.52.2",
         "mongodb": "^6.21.0",
         "mssql": "^11.0.1",

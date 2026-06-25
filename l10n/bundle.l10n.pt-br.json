@@ -3151,7 +3151,6 @@
   "DB-managed (auto-detected): {0}": "Gerenciado pelo BD (detectado automaticamente): {0}",
   "Recommended": "Recomendado",
   "Vector Search": "Pesquisa vetorial",
-  "{0}-dim": "{0} dim",
   "DBCode AI (Pro)": "DBCode AI (Pro)",
   "Upgrade to Pro for hosted embedding models": "Faça upgrade para Pro para modelos de embedding hospedados",
   "Endpoint unreachable: {0}": "Endpoint inacessível: {0}",
@@ -3591,5 +3590,16 @@
   "Copying data between connections": "Copiando dados entre conexões",
   "Copy Data Between Connections ?": "Copiar dados entre conexões ?",
   "Copy Data": "Copiar dados",
-  "Failed to open Explore for the combined result.": "Falha ao abrir o Explorar para o resultado combinado."
+  "Failed to open Explore for the combined result.": "Falha ao abrir o Explorar para o resultado combinado.",
+  "Americas": "Américas",
+  "European Union": "União Europeia",
+  "Asia-Pacific": "Ásia-Pacífico",
+  "{0} (recommended)": "{0} (recomendado)",
+  "The embedding model '{0}' is no longer available. Set a new embedding model for '{1}'.": "O modelo de embedding '{0}' não está mais disponível. Defina um novo modelo de embedding para '{1}'.",
+  "Multilingual, versatile": "Multilíngue, versátil",
+  "English, higher quality": "Inglês, maior qualidade",
+  "Best for long inputs": "Ideal para entradas longas",
+  "Folder Connections": "Conexões de pasta",
+  "This file's folder has a connection set in DBCode, but folder connections need a Pro subscription.": "A pasta deste arquivo tem uma conexão configurada no DBCode, mas conexões de pasta requerem uma assinatura Pro.",
+  "Set folder {0} to use {1}.": "Definir a pasta {0} para usar {1}."
 }

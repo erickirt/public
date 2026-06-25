@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 1.35.3 - 2026-06-25
+
+### Changed
+
+- DB Explorer: Set a default connection and database for a folder; SQL files you open inside it use it automatically, with subfolder inheritance.
+- Query Builder: Foreign-key join edges now show crow's-foot cardinality markers, indicating relationship direction like the ER diagram.
+
+### Fixed
+
+- MySQL: Functional indexes no longer break schema loading, which left the explorer with no tables. #1146
+- Sharing: Uploads now on Cloudflare R2, storage regions are Americas, European Union, and Asia-Pacific.
+
 ## 1.35.2 - 2026-06-23
 
 ### Changed
