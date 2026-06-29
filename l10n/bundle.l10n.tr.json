@@ -318,7 +318,6 @@
   "Windows Authentication": "Windows Kimlik Doğrulaması",
   "Domain": "Etki Alanı",
   "Instance Name": "Örnek Adı",
-  "Select the tenant.": "Kiracıyı seçin.",
   "Microsoft Entra ID": "Microsoft Entra ID",
   "MongoDB Protocol": "MongoDB Protokolü",
   "Nothing returned. Try using db.collection('name').find();": "Hiçbir şey döndürülmedi. db.collection('name').find() kullanmayı deneyin;",
@@ -4410,5 +4409,16 @@
   "Best for long inputs": "Uzun girişler için en iyi",
   "Folder Connections": "Klasör Bağlantıları",
   "This file's folder has a connection set in DBCode, but folder connections need a Pro subscription.": "Bu dosyanın klasörü DBCode'da bir bağlantı ayarına sahip, ancak klasör bağlantıları Pro aboneliği gerektirir.",
-  "Set folder {0} to use {1}.": "{0} klasörünü {1} kullanacak şekilde ayarla."
+  "Set folder {0} to use {1}.": "{0} klasörünü {1} kullanacak şekilde ayarla.",
+  "Pool Idle Timeout": "Havuz Boşta Kalma Zaman Aşımı",
+  "Close idle pooled connections after this period.": "Bu süreden sonra havuzdaki boşta kalan bağlantıları kapatır.",
+  "Lower values release connections sooner on servers with a connection limit.": "Daha düşük değerler, bağlantı sınırı olan sunucularda bağlantıları daha erken serbest bırakır.",
+  "Maximum concurrent connections per database.": "Veritabanı başına maksimum eşzamanlı bağlantı sayısı.",
+  "Lower this to respect a server-side connection limit.": "Sunucu tarafı bağlantı sınırına uymak için bu değeri düşürün.",
+  "Microsoft Entra ID (Default credentials)": "Microsoft Entra ID (Varsayılan kimlik bilgileri)",
+  "For Azure SQL: Azure CLI, environment, managed identity, or browser sign-in - resolved automatically": "Azure SQL için: Azure CLI, ortam, yönetilen kimlik veya tarayıcı oturumu - otomatik olarak çözümlenir",
+  "Azure CLI, environment, managed identity, or browser sign-in - resolved automatically": "Azure CLI, ortam, yönetilen kimlik veya tarayıcı oturumu - otomatik olarak çözümlenir",
+  "Quack Server": "Quack Sunucusu",
+  "Remote DuckDB catalog served over the quack protocol": "quack protokolü üzerinden sunulan uzak DuckDB kataloğu",
+  "Optional authentication token for the quack server.": "quack sunucusu için isteğe bağlı kimlik doğrulama belirteci."
 }

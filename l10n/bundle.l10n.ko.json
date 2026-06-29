@@ -318,7 +318,6 @@
   "Windows Authentication": "Windows 인증",
   "Domain": "도메인",
   "Instance Name": "인스턴스 이름",
-  "Select the tenant.": "테넌트를 선택합니다.",
   "Microsoft Entra ID": "Microsoft Entra ID",
   "MongoDB Protocol": "MongoDB 프로토콜",
   "Nothing returned. Try using db.collection('name').find();": "아무것도 반환되지 않았습니다. db.collection('name').find(); 사용을 시도해 보세요.",
@@ -4410,5 +4409,16 @@
   "Best for long inputs": "긴 입력에 최적",
   "Folder Connections": "폴더 연결",
   "This file's folder has a connection set in DBCode, but folder connections need a Pro subscription.": "이 파일의 폴더에 DBCode에서 연결이 설정되어 있지만, 폴더 연결은 Pro 구독이 필요합니다.",
-  "Set folder {0} to use {1}.": "폴더 {0}을(를) {1}을(를) 사용하도록 설정합니다."
+  "Set folder {0} to use {1}.": "폴더 {0}을(를) {1}을(를) 사용하도록 설정합니다.",
+  "Pool Idle Timeout": "풀 유휴 시간 초과",
+  "Close idle pooled connections after this period.": "이 기간 후에 유휴 풀 연결을 닫습니다.",
+  "Lower values release connections sooner on servers with a connection limit.": "값이 낮을수록 연결 제한이 있는 서버에서 더 빨리 연결을 해제합니다.",
+  "Maximum concurrent connections per database.": "데이터베이스당 최대 동시 연결 수.",
+  "Lower this to respect a server-side connection limit.": "서버 측 연결 제한을 준수하려면 이 값을 낮추세요.",
+  "Microsoft Entra ID (Default credentials)": "Microsoft Entra ID (기본 자격 증명)",
+  "For Azure SQL: Azure CLI, environment, managed identity, or browser sign-in - resolved automatically": "Azure SQL용: Azure CLI, 환경, 관리 ID 또는 브라우저 로그인 - 자동으로 확인됩니다",
+  "Azure CLI, environment, managed identity, or browser sign-in - resolved automatically": "Azure CLI, 환경, 관리 ID 또는 브라우저 로그인 - 자동으로 확인됩니다",
+  "Quack Server": "Quack 서버",
+  "Remote DuckDB catalog served over the quack protocol": "quack 프로토콜로 제공되는 원격 DuckDB 카탈로그",
+  "Optional authentication token for the quack server.": "quack 서버의 선택적 인증 토큰."
 }

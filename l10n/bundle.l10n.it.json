@@ -318,7 +318,6 @@
   "Windows Authentication": "Autenticazione Windows",
   "Domain": "Dominio",
   "Instance Name": "Nome istanza",
-  "Select the tenant.": "Selezionare il tenant.",
   "Microsoft Entra ID": "Microsoft Entra ID",
   "MongoDB Protocol": "Protocollo MongoDB",
   "Nothing returned. Try using db.collection('name').find();": "Nessun risultato restituito. Prova a usare db.collection('name').find();",
@@ -4410,5 +4409,16 @@
   "Best for long inputs": "Ottimale per input lunghi",
   "Folder Connections": "Connessioni cartella",
   "This file's folder has a connection set in DBCode, but folder connections need a Pro subscription.": "La cartella di questo file ha una connessione impostata in DBCode, ma le connessioni cartella richiedono un abbonamento Pro.",
-  "Set folder {0} to use {1}.": "Imposta la cartella {0} per usare {1}."
+  "Set folder {0} to use {1}.": "Imposta la cartella {0} per usare {1}.",
+  "Pool Idle Timeout": "Timeout inattività pool",
+  "Close idle pooled connections after this period.": "Chiude le connessioni inattive del pool dopo questo periodo.",
+  "Lower values release connections sooner on servers with a connection limit.": "Valori più bassi rilasciano le connessioni prima sui server con un limite di connessioni.",
+  "Maximum concurrent connections per database.": "Numero massimo di connessioni simultanee per database.",
+  "Lower this to respect a server-side connection limit.": "Riduci questo valore per rispettare il limite di connessioni lato server.",
+  "Microsoft Entra ID (Default credentials)": "Microsoft Entra ID (Credenziali predefinite)",
+  "For Azure SQL: Azure CLI, environment, managed identity, or browser sign-in - resolved automatically": "Per Azure SQL: Azure CLI, ambiente, identità gestita o accesso tramite browser - risolto automaticamente",
+  "Azure CLI, environment, managed identity, or browser sign-in - resolved automatically": "Azure CLI, ambiente, identità gestita o accesso tramite browser - risolto automaticamente",
+  "Quack Server": "Quack Server",
+  "Remote DuckDB catalog served over the quack protocol": "Catalogo DuckDB remoto servito tramite il protocollo quack",
+  "Optional authentication token for the quack server.": "Token di autenticazione opzionale per il server quack."
 }

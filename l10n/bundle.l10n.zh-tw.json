@@ -318,7 +318,6 @@
   "Windows Authentication": "Windows 驗證",
   "Domain": "網域",
   "Instance Name": "執行個體名稱",
-  "Select the tenant.": "選擇租用戶。",
   "Microsoft Entra ID": "Microsoft Entra ID",
   "MongoDB Protocol": "MongoDB 通訊協定",
   "Nothing returned. Try using db.collection('name').find();": "未傳回任何內容。請嘗試使用 db.collection('name').find();",
@@ -4410,5 +4409,16 @@
   "Best for long inputs": "適合長輸入",
   "Folder Connections": "資料夾連線",
   "This file's folder has a connection set in DBCode, but folder connections need a Pro subscription.": "此檔案的資料夾已在 DBCode 中設定連線，但資料夾連線需要 Pro 訂閱。",
-  "Set folder {0} to use {1}.": "將資料夾 {0} 設定為使用 {1}。"
+  "Set folder {0} to use {1}.": "將資料夾 {0} 設定為使用 {1}。",
+  "Pool Idle Timeout": "連線池閒置逾時",
+  "Close idle pooled connections after this period.": "在此時間段後關閉閒置的連線池連線。",
+  "Lower values release connections sooner on servers with a connection limit.": "較小的值可在連線數有限的伺服器上更早釋放連線。",
+  "Maximum concurrent connections per database.": "每個資料庫的最大並行連線數。",
+  "Lower this to respect a server-side connection limit.": "降低此值以遵守伺服器端連線限制。",
+  "Microsoft Entra ID (Default credentials)": "Microsoft Entra ID（預設認證）",
+  "For Azure SQL: Azure CLI, environment, managed identity, or browser sign-in - resolved automatically": "適用於 Azure SQL：Azure CLI、環境、受控識別或瀏覽器登入 - 自動解析",
+  "Azure CLI, environment, managed identity, or browser sign-in - resolved automatically": "Azure CLI、環境、受控識別或瀏覽器登入 - 自動解析",
+  "Quack Server": "Quack 伺服器",
+  "Remote DuckDB catalog served over the quack protocol": "透過 quack 通訊協定提供的遠端 DuckDB 目錄",
+  "Optional authentication token for the quack server.": "quack 伺服器的可選驗證權杖。"
 }

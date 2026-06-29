@@ -1,5 +1,20 @@
 # CHANGELOG
 
+## 1.35.4 - 2026-06-29
+
+### Changed
+
+- SQL Server: Added "Microsoft Entra ID (Default credentials)" authentication for Azure SQL, Azure Synapse, Fabric, and Dataverse - authenticates automatically via Azure CLI, environment, or managed identity (and works in VS Code forks, which can't use the built-in Microsoft sign-in).
+- DuckLake: Added support for quack-served (remote DuckDB) catalogs.
+
+### Fixed
+
+- SQL Server: Microsoft Entra ID (via VS Code) sign-in now finds the right tenant automatically for accounts that belong to multiple tenants, instead of failing when it guessed wrong. No tenant ID to look up or enter.
+- SQL Server: Loading databases on an Azure SQL connection no longer fails with "Invalid object name 'sys.master_files'".
+- Query Builder & ER Diagram: A composite (multi-column) foreign key now draws as a single directed line with the correct crow's-foot cardinality, instead of one line per column.
+- SQL Server: Microsoft Entra ID auth profiles now work with Azure SQL, Azure Synapse, Fabric, and Dataverse connections, previously they failed with "Cannot determine token resource URL".
+- MySQL: Pools no longer pre-open 10 connections per database, and connection pool size and idle timeout are now configurable, fixing connection-limit exhaustion (error 1226) on capped accounts.
+
 ## 1.35.3 - 2026-06-25
 
 ### Changed

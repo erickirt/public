@@ -318,7 +318,6 @@
   "Windows Authentication": "Windows-Authentifizierung",
   "Domain": "Domäne",
   "Instance Name": "Instanzname",
-  "Select the tenant.": "Wählen Sie den Mandanten aus.",
   "Microsoft Entra ID": "Microsoft Entra ID",
   "MongoDB Protocol": "MongoDB-Protokoll",
   "Nothing returned. Try using db.collection('name').find();": "Keine Rückgabe. Versuchen Sie db.collection('name').find();",
@@ -4410,5 +4409,16 @@
   "Best for long inputs": "Optimal für lange Eingaben",
   "Folder Connections": "Ordnerverbindungen",
   "This file's folder has a connection set in DBCode, but folder connections need a Pro subscription.": "Der Ordner dieser Datei hat eine Verbindung in DBCode, aber Ordnerverbindungen erfordern ein Pro-Abonnement.",
-  "Set folder {0} to use {1}.": "Ordner {0} auf {1} setzen."
+  "Set folder {0} to use {1}.": "Ordner {0} auf {1} setzen.",
+  "Pool Idle Timeout": "Pool-Leerlauftimeout",
+  "Close idle pooled connections after this period.": "Schließt inaktive Pool-Verbindungen nach diesem Zeitraum.",
+  "Lower values release connections sooner on servers with a connection limit.": "Niedrigere Werte geben Verbindungen früher auf Servern mit Verbindungslimit frei.",
+  "Maximum concurrent connections per database.": "Maximale gleichzeitige Verbindungen pro Datenbank.",
+  "Lower this to respect a server-side connection limit.": "Verringern Sie diesen Wert, um ein serverseitiges Verbindungslimit einzuhalten.",
+  "Microsoft Entra ID (Default credentials)": "Microsoft Entra ID (Standardanmeldeinformationen)",
+  "For Azure SQL: Azure CLI, environment, managed identity, or browser sign-in - resolved automatically": "Für Azure SQL: Azure CLI, Umgebung, verwaltete Identität oder Browser-Anmeldung - wird automatisch aufgelöst",
+  "Azure CLI, environment, managed identity, or browser sign-in - resolved automatically": "Azure CLI, Umgebung, verwaltete Identität oder Browser-Anmeldung - wird automatisch aufgelöst",
+  "Quack Server": "Quack Server",
+  "Remote DuckDB catalog served over the quack protocol": "Remote-DuckDB-Katalog, bereitgestellt über das Quack-Protokoll",
+  "Optional authentication token for the quack server.": "Optionales Authentifizierungstoken für den Quack-Server."
 }

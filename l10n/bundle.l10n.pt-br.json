@@ -3601,5 +3601,16 @@
   "Best for long inputs": "Ideal para entradas longas",
   "Folder Connections": "Conexões de pasta",
   "This file's folder has a connection set in DBCode, but folder connections need a Pro subscription.": "A pasta deste arquivo tem uma conexão configurada no DBCode, mas conexões de pasta requerem uma assinatura Pro.",
-  "Set folder {0} to use {1}.": "Definir a pasta {0} para usar {1}."
+  "Set folder {0} to use {1}.": "Definir a pasta {0} para usar {1}.",
+  "Pool Idle Timeout": "Tempo limite de ociosidade do pool",
+  "Close idle pooled connections after this period.": "Fecha conexões ociosas do pool após este período.",
+  "Lower values release connections sooner on servers with a connection limit.": "Valores menores liberam conexões mais cedo em servidores com limite de conexões.",
+  "Maximum concurrent connections per database.": "Máximo de conexões simultâneas por banco de dados.",
+  "Lower this to respect a server-side connection limit.": "Reduza este valor para respeitar o limite de conexões do servidor.",
+  "Microsoft Entra ID (Default credentials)": "Microsoft Entra ID (Credenciais padrão)",
+  "For Azure SQL: Azure CLI, environment, managed identity, or browser sign-in - resolved automatically": "Para Azure SQL: Azure CLI, ambiente, identidade gerenciada ou login pelo navegador - resolvido automaticamente",
+  "Azure CLI, environment, managed identity, or browser sign-in - resolved automatically": "Azure CLI, ambiente, identidade gerenciada ou login pelo navegador - resolvido automaticamente",
+  "Quack Server": "Quack Server",
+  "Remote DuckDB catalog served over the quack protocol": "Catálogo DuckDB remoto servido pelo protocolo quack",
+  "Optional authentication token for the quack server.": "Token de autenticação opcional para o servidor quack."
 }

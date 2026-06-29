@@ -318,7 +318,6 @@
   "Windows Authentication": "Ověřování Windows",
   "Domain": "Doména",
   "Instance Name": "Název instance",
-  "Select the tenant.": "Vyberte klienta.",
   "Microsoft Entra ID": "Microsoft Entra ID",
   "MongoDB Protocol": "Protokol MongoDB",
   "Nothing returned. Try using db.collection('name').find();": "Nic se nevrátilo. Zkuste použít db.collection('name').find();",
@@ -4410,5 +4409,16 @@
   "Best for long inputs": "Nejlepší pro dlouhé vstupy",
   "Folder Connections": "Připojení složky",
   "This file's folder has a connection set in DBCode, but folder connections need a Pro subscription.": "Složka tohoto souboru má v DBCode nastavené připojení, ale připojení složek vyžaduje předplatné Pro.",
-  "Set folder {0} to use {1}.": "Nastavit složku {0} pro použití {1}."
+  "Set folder {0} to use {1}.": "Nastavit složku {0} pro použití {1}.",
+  "Pool Idle Timeout": "Časový limit nečinnosti fondu",
+  "Close idle pooled connections after this period.": "Zavře nečinná sdružená připojení po uplynutí tohoto období.",
+  "Lower values release connections sooner on servers with a connection limit.": "Nižší hodnoty uvolňují připojení dříve na serverech s omezením připojení.",
+  "Maximum concurrent connections per database.": "Maximální počet souběžných připojení na databázi.",
+  "Lower this to respect a server-side connection limit.": "Snižte tuto hodnotu, abyste dodrželi limit připojení na straně serveru.",
+  "Microsoft Entra ID (Default credentials)": "Microsoft Entra ID (Výchozí přihlašovací údaje)",
+  "For Azure SQL: Azure CLI, environment, managed identity, or browser sign-in - resolved automatically": "Pro Azure SQL: Azure CLI, prostředí, spravovaná identita nebo přihlášení přes prohlížeč - vyřešeno automaticky",
+  "Azure CLI, environment, managed identity, or browser sign-in - resolved automatically": "Azure CLI, prostředí, spravovaná identita nebo přihlášení přes prohlížeč - vyřešeno automaticky",
+  "Quack Server": "Quack Server",
+  "Remote DuckDB catalog served over the quack protocol": "Vzdálený katalog DuckDB poskytovaný přes protokol quack",
+  "Optional authentication token for the quack server.": "Volitelný ověřovací token pro server quack."
 }
