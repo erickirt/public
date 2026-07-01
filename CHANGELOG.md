@@ -1,5 +1,21 @@
 # CHANGELOG
 
+## 1.35.6 - 2026-07-01
+
+## 1.35.5 - 2026-07-01
+
+### Changed
+
+- Connections: Redesigned the connection form and driver picker.
+- MongoDB: Kerberos (GSSAPI) authentication now works.
+- MSSQL: Integrated (Kerberos) authentication now works on macOS and Linux, not just Windows.
+
+### Fixed
+
+- Packaging: Addressed antivirus false-positive detections that could flag or block the extension download.
+- SQL Server: Fixed Azure SQL connections failing with error 40613 on servers using the Redirect connection policy.
+- Export: Fixed SQL INSERT export producing invalid array literals for Postgres array columns. #1149
+
 ## 1.35.4 - 2026-06-29
 
 ### Changed
