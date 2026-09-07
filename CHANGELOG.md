@@ -1,5 +1,23 @@
 # CHANGELOG
 
+## 1.38.1 - 2026-09-07
+
+### Changed
+
+- Appwrite: Added preview support for browsing and editing Appwrite databases. #831
+- Convex: Added preview support for browsing and editing Convex deployments. #479
+- Drivers: Added LevelDB support for browsing and editing on-disk key/value stores. #809
+
+### Fixed
+
+- AnalyticDB for MySQL: Fixed table columns not loading because introspection referenced the unsupported GENERATION_EXPRESSION column. #363
+- Kafka: Non-Pro users can now open a snapshot of a topic.
+- SQL Server: Fixed Integrated (Kerberos) authentication on Windows failing with error 18452 by building the SPN in the service/host form SSPI expects. #1223
+- PostgreSQL: Schema introspection no longer fails when the connecting role lacks SELECT on pg_enum. #1226
+- RabbitMQ: Non-Pro users can now open a snapshot of a queue.
+- Timeplus: Non-Pro users can now open a stream as a historical table, with a play control to start live streaming.
+- Trino: Table and column comments now show in the tree, autocomplete, and grid headers. #1224
+
 ## 1.38.0 - 2026-09-03
 
 ### Changed

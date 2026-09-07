@@ -1,16 +1,16 @@
 {
 	"bomFormat": "CycloneDX",
 	"specVersion": "1.6",
-	"serialNumber": "urn:uuid:22057818-57e3-6361-25c8-56b79214c5c1",
+	"serialNumber": "urn:uuid:276c3d6a-9a77-c55f-3d21-91bc75ecf93d",
 	"version": 1,
 	"metadata": {
 		"component": {
 			"type": "application",
 			"name": "dbcode",
-			"version": "1.38.0",
+			"version": "1.38.1",
 			"publisher": "dbcode",
 			"description": "Database client for VS Code, Cursor, Windsurf, Antigravity & Kiro - and the database layer for your AI agent, with built-in MCP & Copilot tools. 90+ databases, SQL Notebooks, ER diagrams, data editing, secure sharing. A modern alternative to DBeaver, DataGrip & TablePlus.",
-			"purl": "pkg:generic/dbcode@1.38.0",
+			"purl": "pkg:generic/dbcode@1.38.1",
 			"externalReferences": [
 				{
 					"type": "website",
@@ -7262,6 +7262,26 @@
 		},
 		{
 			"type": "library",
+			"name": "@trinodb/trino-js-client",
+			"version": "0.3.1",
+			"purl": "pkg:npm/%40trinodb%2Ftrino-js-client@0.3.1",
+			"licenses": [
+				{
+					"license": {
+						"id": "Apache-2.0"
+					}
+				}
+			],
+			"publisher": "Trino Javascript contributors",
+			"externalReferences": [
+				{
+					"type": "website",
+					"url": "https://github.com/trinodb/trino-js-client"
+				}
+			]
+		},
+		{
+			"type": "library",
 			"name": "@turf/bbox",
 			"version": "7.3.5",
 			"purl": "pkg:npm/%40turf%2Fbbox@7.3.5",
@@ -8566,6 +8586,25 @@
 				{
 					"type": "website",
 					"url": "deeplay-io/abort-controller-x"
+				}
+			]
+		},
+		{
+			"type": "library",
+			"name": "abstract-level",
+			"version": "3.1.1",
+			"purl": "pkg:npm/abstract-level@3.1.1",
+			"licenses": [
+				{
+					"license": {
+						"id": "MIT"
+					}
+				}
+			],
+			"externalReferences": [
+				{
+					"type": "website",
+					"url": "https://github.com/Level/abstract-level"
 				}
 			]
 		},
@@ -10868,6 +10907,25 @@
 				{
 					"type": "website",
 					"url": "jorgebucaran/classcat"
+				}
+			]
+		},
+		{
+			"type": "library",
+			"name": "classic-level",
+			"version": "3.0.0",
+			"purl": "pkg:npm/classic-level@3.0.0",
+			"licenses": [
+				{
+					"license": {
+						"id": "MIT"
+					}
+				}
+			],
+			"externalReferences": [
+				{
+					"type": "website",
+					"url": "https://github.com/Level/classic-level"
 				}
 			]
 		},
@@ -13698,8 +13756,8 @@
 		{
 			"type": "library",
 			"name": "fflate",
-			"version": "0.8.2",
-			"purl": "pkg:npm/fflate@0.8.2",
+			"version": "0.8.3",
+			"purl": "pkg:npm/fflate@0.8.3",
 			"licenses": [
 				{
 					"license": {
@@ -15971,6 +16029,26 @@
 		},
 		{
 			"type": "library",
+			"name": "is-buffer",
+			"version": "2.0.5",
+			"purl": "pkg:npm/is-buffer@2.0.5",
+			"licenses": [
+				{
+					"license": {
+						"id": "MIT"
+					}
+				}
+			],
+			"publisher": "Feross Aboukhadijeh",
+			"externalReferences": [
+				{
+					"type": "website",
+					"url": "https://github.com/feross/is-buffer"
+				}
+			]
+		},
+		{
+			"type": "library",
 			"name": "is-callable",
 			"version": "1.2.7",
 			"purl": "pkg:npm/is-callable@1.2.7",
@@ -16950,6 +17028,44 @@
 		},
 		{
 			"type": "library",
+			"name": "level-supports",
+			"version": "6.2.0",
+			"purl": "pkg:npm/level-supports@6.2.0",
+			"licenses": [
+				{
+					"license": {
+						"id": "MIT"
+					}
+				}
+			],
+			"externalReferences": [
+				{
+					"type": "website",
+					"url": "https://github.com/Level/supports"
+				}
+			]
+		},
+		{
+			"type": "library",
+			"name": "level-transcoder",
+			"version": "1.0.1",
+			"purl": "pkg:npm/level-transcoder@1.0.1",
+			"licenses": [
+				{
+					"license": {
+						"id": "MIT"
+					}
+				}
+			],
+			"externalReferences": [
+				{
+					"type": "website",
+					"url": "Level/transcoder"
+				}
+			]
+		},
+		{
+			"type": "library",
 			"name": "lib0",
 			"version": "0.2.117",
 			"purl": "pkg:npm/lib0@0.2.117",
@@ -17813,6 +17929,26 @@
 				{
 					"type": "website",
 					"url": "https://github.com/es-shims/math-intrinsics"
+				}
+			]
+		},
+		{
+			"type": "library",
+			"name": "maybe-combine-errors",
+			"version": "1.0.0",
+			"purl": "pkg:npm/maybe-combine-errors@1.0.0",
+			"licenses": [
+				{
+					"license": {
+						"id": "MIT"
+					}
+				}
+			],
+			"publisher": "Vincent Weevers",
+			"externalReferences": [
+				{
+					"type": "website",
+					"url": "https://github.com/vweevers/maybe-combine-errors"
 				}
 			]
 		},
@@ -19051,6 +19187,26 @@
 		},
 		{
 			"type": "library",
+			"name": "module-error",
+			"version": "1.0.2",
+			"purl": "pkg:npm/module-error@1.0.2",
+			"licenses": [
+				{
+					"license": {
+						"id": "MIT"
+					}
+				}
+			],
+			"publisher": "Vincent Weevers",
+			"externalReferences": [
+				{
+					"type": "website",
+					"url": "vweevers/module-error"
+				}
+			]
+		},
+		{
+			"type": "library",
 			"name": "moment",
 			"version": "2.30.1",
 			"purl": "pkg:npm/moment@2.30.1",
@@ -19343,6 +19499,26 @@
 				{
 					"type": "website",
 					"url": "https://github.com/inspiredware/napi-build-utils"
+				}
+			]
+		},
+		{
+			"type": "library",
+			"name": "napi-macros",
+			"version": "2.2.2",
+			"purl": "pkg:npm/napi-macros@2.2.2",
+			"licenses": [
+				{
+					"license": {
+						"id": "MIT"
+					}
+				}
+			],
+			"publisher": "Mathias Buus (@mafintosh)",
+			"externalReferences": [
+				{
+					"type": "website",
+					"url": "https://github.com/mafintosh/napi-macros"
 				}
 			]
 		},
@@ -19757,6 +19933,26 @@
 				{
 					"type": "website",
 					"url": "https://github.com/digitalbazaar/forge"
+				}
+			]
+		},
+		{
+			"type": "library",
+			"name": "node-gyp-build",
+			"version": "4.8.4",
+			"purl": "pkg:npm/node-gyp-build@4.8.4",
+			"licenses": [
+				{
+					"license": {
+						"id": "MIT"
+					}
+				}
+			],
+			"publisher": "Mathias Buus (@mafintosh)",
+			"externalReferences": [
+				{
+					"type": "website",
+					"url": "https://github.com/prebuild/node-gyp-build"
 				}
 			]
 		},
@@ -24813,8 +25009,8 @@
 		{
 			"type": "library",
 			"name": "toml",
-			"version": "3.0.0",
-			"purl": "pkg:npm/toml@3.0.0",
+			"version": "4.3.0",
+			"purl": "pkg:npm/toml@4.3.0",
 			"licenses": [
 				{
 					"license": {
@@ -24927,26 +25123,6 @@
 				{
 					"type": "website",
 					"url": "wooorm/trim-trailing-lines"
-				}
-			]
-		},
-		{
-			"type": "library",
-			"name": "trino-client",
-			"version": "0.2.9",
-			"purl": "pkg:npm/trino-client@0.2.9",
-			"licenses": [
-				{
-					"license": {
-						"id": "Apache-2.0"
-					}
-				}
-			],
-			"publisher": "Trino Javascript contributors",
-			"externalReferences": [
-				{
-					"type": "website",
-					"url": "https://github.com/trinodb/trino-js-client"
 				}
 			]
 		},
