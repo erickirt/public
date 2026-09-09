@@ -429,5 +429,14 @@
   "Your editor's AI agent can query, explain, and change your databases through DBCode's built-in tools.\n[Enable AI Tools](command:dbcode.walkthrough.ai)\n[Connect an External Agent](command:dbcode.walkthrough.agent)": "편집기의 AI 에이전트가 DBCode의 내장 도구를 통해 데이터베이스를 쿼리하고, 설명하고, 변경할 수 있습니다.\n[AI 도구 사용](command:dbcode.walkthrough.ai)\n[외부 에이전트 연결](command:dbcode.walkthrough.agent)",
   "Enable AI Tools in This Editor": "이 편집기에서 AI 도구 사용",
   "Connect an AI Agent": "AI 에이전트 연결",
-  "Default height (in pixels) of a notebook result grid. You can still drag the bottom border of any grid to resize it, and that height is saved with the notebook.": "노트북 결과 그리드의 기본 높이(픽셀)입니다. 그리드의 아래쪽 경계를 드래그하여 크기를 조정할 수 있으며, 해당 높이는 노트북과 함께 저장됩니다."
+  "Default height (in pixels) of a notebook result grid. You can still drag the bottom border of any grid to resize it, and that height is saved with the notebook.": "노트북 결과 그리드의 기본 높이(픽셀)입니다. 그리드의 아래쪽 경계를 드래그하여 크기를 조정할 수 있으며, 해당 높이는 노트북과 함께 저장됩니다.",
+  "Re-authenticate": "다시 인증",
+  "New Subgroup": "새 하위 그룹",
+  "Reorder Up": "순서 위로",
+  "Reorder Down": "순서 아래로",
+  "Move Out of Group": "그룹에서 빼기",
+  "Set Color": "색상 설정",
+  "Clear Color": "색상 지우기",
+  "Install CLI": "CLI 설치",
+  "Per-group metadata (color) keyed by group path. Managed via the group right-click menu.": "그룹 경로를 키로 하는 그룹별 메타데이터(색상). 그룹 마우스 오른쪽 버튼 메뉴에서 관리합니다."
 }

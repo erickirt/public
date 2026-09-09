@@ -429,5 +429,14 @@
   "Your editor's AI agent can query, explain, and change your databases through DBCode's built-in tools.\n[Enable AI Tools](command:dbcode.walkthrough.ai)\n[Connect an External Agent](command:dbcode.walkthrough.agent)": "Agent AI vašeho editoru může dotazovat, vysvětlovat a měnit vaše databáze pomocí vestavěných nástrojů DBCode.\n[Povolit nástroje AI](command:dbcode.walkthrough.ai)\n[Připojit externího agenta](command:dbcode.walkthrough.agent)",
   "Enable AI Tools in This Editor": "Povolit nástroje AI v tomto editoru",
   "Connect an AI Agent": "Připojit agenta AI",
-  "Default height (in pixels) of a notebook result grid. You can still drag the bottom border of any grid to resize it, and that height is saved with the notebook.": "Výchozí výška (v pixelech) mřížky výsledků v poznámkovém bloku. Velikost můžete stále změnit přetažením spodního okraje libovolné mřížky a tato výška se uloží spolu s poznámkovým blokem."
+  "Default height (in pixels) of a notebook result grid. You can still drag the bottom border of any grid to resize it, and that height is saved with the notebook.": "Výchozí výška (v pixelech) mřížky výsledků v poznámkovém bloku. Velikost můžete stále změnit přetažením spodního okraje libovolné mřížky a tato výška se uloží spolu s poznámkovým blokem.",
+  "Re-authenticate": "Znovu ověřit",
+  "New Subgroup": "Nová podskupina",
+  "Reorder Up": "Přeřadit nahoru",
+  "Reorder Down": "Přeřadit dolů",
+  "Move Out of Group": "Přesunout ze skupiny",
+  "Set Color": "Nastavit barvu",
+  "Clear Color": "Vymazat barvu",
+  "Install CLI": "Nainstalovat CLI",
+  "Per-group metadata (color) keyed by group path. Managed via the group right-click menu.": "Metadata jednotlivých skupin (barva) klíčovaná cestou skupiny. Spravováno přes místní nabídku skupiny."
 }

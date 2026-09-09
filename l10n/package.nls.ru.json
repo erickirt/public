@@ -429,5 +429,14 @@
   "Your editor's AI agent can query, explain, and change your databases through DBCode's built-in tools.\n[Enable AI Tools](command:dbcode.walkthrough.ai)\n[Connect an External Agent](command:dbcode.walkthrough.agent)": "ИИ-агент вашего редактора может выполнять запросы, объяснять и изменять ваши базы данных с помощью встроенных инструментов DBCode.\n[Включить инструменты ИИ](command:dbcode.walkthrough.ai)\n[Подключить внешнего агента](command:dbcode.walkthrough.agent)",
   "Enable AI Tools in This Editor": "Включить инструменты ИИ в этом редакторе",
   "Connect an AI Agent": "Подключить ИИ-агента",
-  "Default height (in pixels) of a notebook result grid. You can still drag the bottom border of any grid to resize it, and that height is saved with the notebook.": "Высота по умолчанию (в пикселях) таблицы результатов в блокноте. Вы по-прежнему можете перетащить нижнюю границу любой таблицы, чтобы изменить её размер, и эта высота сохраняется вместе с блокнотом."
+  "Default height (in pixels) of a notebook result grid. You can still drag the bottom border of any grid to resize it, and that height is saved with the notebook.": "Высота по умолчанию (в пикселях) таблицы результатов в блокноте. Вы по-прежнему можете перетащить нижнюю границу любой таблицы, чтобы изменить её размер, и эта высота сохраняется вместе с блокнотом.",
+  "Re-authenticate": "Повторная аутентификация",
+  "New Subgroup": "Новая подгруппа",
+  "Reorder Up": "Переместить выше",
+  "Reorder Down": "Переместить ниже",
+  "Move Out of Group": "Переместить из группы",
+  "Set Color": "Задать цвет",
+  "Clear Color": "Очистить цвет",
+  "Install CLI": "Установить CLI",
+  "Per-group metadata (color) keyed by group path. Managed via the group right-click menu.": "Метаданные группы (цвет) с ключом по пути группы. Управляются через контекстное меню группы."
 }

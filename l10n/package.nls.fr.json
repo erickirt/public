@@ -429,5 +429,14 @@
   "Your editor's AI agent can query, explain, and change your databases through DBCode's built-in tools.\n[Enable AI Tools](command:dbcode.walkthrough.ai)\n[Connect an External Agent](command:dbcode.walkthrough.agent)": "L'agent IA de votre éditeur peut interroger, expliquer et modifier vos bases de données grâce aux outils intégrés de DBCode.\n[Activer les outils IA](command:dbcode.walkthrough.ai)\n[Connecter un agent externe](command:dbcode.walkthrough.agent)",
   "Enable AI Tools in This Editor": "Activer les outils IA dans cet éditeur",
   "Connect an AI Agent": "Connecter un agent IA",
-  "Default height (in pixels) of a notebook result grid. You can still drag the bottom border of any grid to resize it, and that height is saved with the notebook.": "Hauteur par défaut (en pixels) d'une grille de résultats de notebook. Vous pouvez toujours faire glisser le bord inférieur d'une grille pour la redimensionner, et cette hauteur est enregistrée avec le notebook."
+  "Default height (in pixels) of a notebook result grid. You can still drag the bottom border of any grid to resize it, and that height is saved with the notebook.": "Hauteur par défaut (en pixels) d'une grille de résultats de notebook. Vous pouvez toujours faire glisser le bord inférieur d'une grille pour la redimensionner, et cette hauteur est enregistrée avec le notebook.",
+  "Re-authenticate": "Se réauthentifier",
+  "New Subgroup": "Nouveau sous-groupe",
+  "Reorder Up": "Réordonner vers le haut",
+  "Reorder Down": "Réordonner vers le bas",
+  "Move Out of Group": "Sortir du groupe",
+  "Set Color": "Définir la couleur",
+  "Clear Color": "Effacer la couleur",
+  "Install CLI": "Installer la CLI",
+  "Per-group metadata (color) keyed by group path. Managed via the group right-click menu.": "Métadonnées par groupe (couleur) indexées par chemin de groupe. Gérées via le menu contextuel du groupe."
 }

@@ -429,5 +429,14 @@
   "Your editor's AI agent can query, explain, and change your databases through DBCode's built-in tools.\n[Enable AI Tools](command:dbcode.walkthrough.ai)\n[Connect an External Agent](command:dbcode.walkthrough.agent)": "エディターの AI エージェントは、DBCode の組み込みツールを通じてデータベースのクエリ、説明、変更を行えます。\n[AI ツールを有効化](command:dbcode.walkthrough.ai)\n[外部エージェントを接続](command:dbcode.walkthrough.agent)",
   "Enable AI Tools in This Editor": "このエディターで AI ツールを有効化",
   "Connect an AI Agent": "AI エージェントを接続",
-  "Default height (in pixels) of a notebook result grid. You can still drag the bottom border of any grid to resize it, and that height is saved with the notebook.": "ノートブックの結果グリッドの既定の高さ（ピクセル単位）。グリッドの下端をドラッグしてサイズを変更でき、その高さはノートブックとともに保存されます。"
+  "Default height (in pixels) of a notebook result grid. You can still drag the bottom border of any grid to resize it, and that height is saved with the notebook.": "ノートブックの結果グリッドの既定の高さ（ピクセル単位）。グリッドの下端をドラッグしてサイズを変更でき、その高さはノートブックとともに保存されます。",
+  "Re-authenticate": "再認証",
+  "New Subgroup": "新しいサブグループ",
+  "Reorder Up": "並び順を上へ",
+  "Reorder Down": "並び順を下へ",
+  "Move Out of Group": "グループから移動",
+  "Set Color": "色を設定",
+  "Clear Color": "色をクリア",
+  "Install CLI": "CLI をインストール",
+  "Per-group metadata (color) keyed by group path. Managed via the group right-click menu.": "グループパスをキーとするグループごとのメタデータ（色）。グループの右クリックメニューから管理します。"
 }

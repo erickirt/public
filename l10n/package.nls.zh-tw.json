@@ -429,5 +429,14 @@
   "Your editor's AI agent can query, explain, and change your databases through DBCode's built-in tools.\n[Enable AI Tools](command:dbcode.walkthrough.ai)\n[Connect an External Agent](command:dbcode.walkthrough.agent)": "您編輯器的 AI 代理可以透過 DBCode 的內建工具查詢、解釋和變更您的資料庫。\n[啟用 AI 工具](command:dbcode.walkthrough.ai)\n[連線外部代理](command:dbcode.walkthrough.agent)",
   "Enable AI Tools in This Editor": "在此編輯器中啟用 AI 工具",
   "Connect an AI Agent": "連線 AI 代理",
-  "Default height (in pixels) of a notebook result grid. You can still drag the bottom border of any grid to resize it, and that height is saved with the notebook.": "筆記本結果格線的預設高度（以像素為單位）。你仍然可以拖曳任何格線的底部邊框來調整大小，該高度會隨筆記本一起儲存。"
+  "Default height (in pixels) of a notebook result grid. You can still drag the bottom border of any grid to resize it, and that height is saved with the notebook.": "筆記本結果格線的預設高度（以像素為單位）。你仍然可以拖曳任何格線的底部邊框來調整大小，該高度會隨筆記本一起儲存。",
+  "Re-authenticate": "重新驗證身分",
+  "New Subgroup": "新增子群組",
+  "Reorder Up": "上移排序",
+  "Reorder Down": "下移排序",
+  "Move Out of Group": "移出群組",
+  "Set Color": "設定顏色",
+  "Clear Color": "清除顏色",
+  "Install CLI": "安裝 CLI",
+  "Per-group metadata (color) keyed by group path. Managed via the group right-click menu.": "以群組路徑為索引的群組中繼資料（顏色）。透過群組的右鍵選單管理。"
 }

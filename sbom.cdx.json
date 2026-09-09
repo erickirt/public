@@ -1,16 +1,16 @@
 {
 	"bomFormat": "CycloneDX",
 	"specVersion": "1.6",
-	"serialNumber": "urn:uuid:276c3d6a-9a77-c55f-3d21-91bc75ecf93d",
+	"serialNumber": "urn:uuid:2ccb5fcc-8c79-f312-96e8-464a86bef82d",
 	"version": 1,
 	"metadata": {
 		"component": {
 			"type": "application",
 			"name": "dbcode",
-			"version": "1.38.1",
+			"version": "1.38.2",
 			"publisher": "dbcode",
 			"description": "Database client for VS Code, Cursor, Windsurf, Antigravity & Kiro - and the database layer for your AI agent, with built-in MCP & Copilot tools. 90+ databases, SQL Notebooks, ER diagrams, data editing, secure sharing. A modern alternative to DBeaver, DataGrip & TablePlus.",
-			"purl": "pkg:generic/dbcode@1.38.1",
+			"purl": "pkg:generic/dbcode@1.38.2",
 			"externalReferences": [
 				{
 					"type": "website",
@@ -4512,12 +4512,12 @@
 		{
 			"type": "library",
 			"name": "@mapbox/jsonlint-lines-primitives",
-			"version": "2.0.2",
-			"purl": "pkg:npm/%40mapbox%2Fjsonlint-lines-primitives@2.0.2",
+			"version": "2.0.3",
+			"purl": "pkg:npm/%40mapbox%2Fjsonlint-lines-primitives@2.0.3",
 			"licenses": [
 				{
 					"license": {
-						"id": "Unknown"
+						"id": "MIT"
 					}
 				}
 			],
@@ -4572,8 +4572,8 @@
 		{
 			"type": "library",
 			"name": "@mapbox/unitbezier",
-			"version": "0.0.1",
-			"purl": "pkg:npm/%40mapbox%2Funitbezier@0.0.1",
+			"version": "1.0.0",
+			"purl": "pkg:npm/%40mapbox%2Funitbezier@1.0.0",
 			"licenses": [
 				{
 					"license": {
@@ -4591,8 +4591,8 @@
 		{
 			"type": "library",
 			"name": "@mapbox/vector-tile",
-			"version": "2.0.4",
-			"purl": "pkg:npm/%40mapbox%2Fvector-tile@2.0.4",
+			"version": "3.0.0",
+			"purl": "pkg:npm/%40mapbox%2Fvector-tile@3.0.0",
 			"licenses": [
 				{
 					"license": {
@@ -4609,49 +4609,9 @@
 		},
 		{
 			"type": "library",
-			"name": "@mapbox/whoots-js",
-			"version": "3.1.0",
-			"purl": "pkg:npm/%40mapbox%2Fwhoots-js@3.1.0",
-			"licenses": [
-				{
-					"license": {
-						"id": "ISC"
-					}
-				}
-			],
-			"publisher": "Bryan Housel <bryan@mapbox.com>",
-			"externalReferences": [
-				{
-					"type": "website",
-					"url": "mapbox/whoots-js"
-				}
-			]
-		},
-		{
-			"type": "library",
 			"name": "@maplibre/geojson-vt",
-			"version": "5.0.4",
-			"purl": "pkg:npm/%40maplibre%2Fgeojson-vt@5.0.4",
-			"licenses": [
-				{
-					"license": {
-						"id": "ISC"
-					}
-				}
-			],
-			"publisher": "Vladimir Agafonkin",
-			"externalReferences": [
-				{
-					"type": "website",
-					"url": "https://github.com/maplibre/geojson-vt"
-				}
-			]
-		},
-		{
-			"type": "library",
-			"name": "@maplibre/geojson-vt",
-			"version": "6.1.0",
-			"purl": "pkg:npm/%40maplibre%2Fgeojson-vt@6.1.0",
+			"version": "6.1.1",
+			"purl": "pkg:npm/%40maplibre%2Fgeojson-vt@6.1.1",
 			"licenses": [
 				{
 					"license": {
@@ -4670,8 +4630,8 @@
 		{
 			"type": "library",
 			"name": "@maplibre/maplibre-gl-style-spec",
-			"version": "24.8.5",
-			"purl": "pkg:npm/%40maplibre%2Fmaplibre-gl-style-spec@24.8.5",
+			"version": "26.4.1",
+			"purl": "pkg:npm/%40maplibre%2Fmaplibre-gl-style-spec@26.4.1",
 			"licenses": [
 				{
 					"license": {
@@ -4690,8 +4650,8 @@
 		{
 			"type": "library",
 			"name": "@maplibre/mlt",
-			"version": "1.1.9",
-			"purl": "pkg:npm/%40maplibre%2Fmlt@1.1.9",
+			"version": "1.2.0",
+			"purl": "pkg:npm/%40maplibre%2Fmlt@1.2.0",
 			"licenses": [
 				{
 					"expression": "(MIT OR Apache-2.0)"
@@ -4707,8 +4667,8 @@
 		{
 			"type": "library",
 			"name": "@maplibre/vt-pbf",
-			"version": "4.3.0",
-			"purl": "pkg:npm/%40maplibre%2Fvt-pbf@4.3.0",
+			"version": "4.3.2",
+			"purl": "pkg:npm/%40maplibre%2Fvt-pbf@4.3.2",
 			"licenses": [
 				{
 					"license": {
@@ -8084,25 +8044,6 @@
 		},
 		{
 			"type": "library",
-			"name": "@types/supercluster",
-			"version": "7.1.3",
-			"purl": "pkg:npm/%40types%2Fsupercluster@7.1.3",
-			"licenses": [
-				{
-					"license": {
-						"id": "MIT"
-					}
-				}
-			],
-			"externalReferences": [
-				{
-					"type": "website",
-					"url": "https://github.com/DefinitelyTyped/DefinitelyTyped"
-				}
-			]
-		},
-		{
-			"type": "library",
 			"name": "@types/thrift",
 			"version": "0.10.17",
 			"purl": "pkg:npm/%40types%2Fthrift@0.10.17",
@@ -11351,6 +11292,26 @@
 		{
 			"type": "library",
 			"name": "commander",
+			"version": "15.0.0",
+			"purl": "pkg:npm/commander@15.0.0",
+			"licenses": [
+				{
+					"license": {
+						"id": "MIT"
+					}
+				}
+			],
+			"publisher": "TJ Holowaychuk <tj@vision-media.ca>",
+			"externalReferences": [
+				{
+					"type": "website",
+					"url": "https://github.com/tj/commander.js"
+				}
+			]
+		},
+		{
+			"type": "library",
+			"name": "commander",
 			"version": "2.20.3",
 			"purl": "pkg:npm/commander@2.20.3",
 			"licenses": [
@@ -12705,8 +12666,8 @@
 		{
 			"type": "library",
 			"name": "earcut",
-			"version": "3.0.2",
-			"purl": "pkg:npm/earcut@3.0.2",
+			"version": "3.2.3",
+			"purl": "pkg:npm/earcut@3.2.3",
 			"licenses": [
 				{
 					"license": {
@@ -12714,7 +12675,7 @@
 					}
 				}
 			],
-			"publisher": "Vladimir Agafonkin",
+			"publisher": "Volodymyr Agafonkin",
 			"externalReferences": [
 				{
 					"type": "website",
@@ -15392,8 +15353,8 @@
 		{
 			"type": "library",
 			"name": "hono",
-			"version": "4.13.0",
-			"purl": "pkg:npm/hono@4.13.0",
+			"version": "4.13.5",
+			"purl": "pkg:npm/hono@4.13.5",
 			"licenses": [
 				{
 					"license": {
@@ -16969,8 +16930,8 @@
 		{
 			"type": "library",
 			"name": "kdbush",
-			"version": "4.0.2",
-			"purl": "pkg:npm/kdbush@4.0.2",
+			"version": "4.1.0",
+			"purl": "pkg:npm/kdbush@4.1.0",
 			"licenses": [
 				{
 					"license": {
@@ -17837,8 +17798,8 @@
 		{
 			"type": "library",
 			"name": "maplibre-gl",
-			"version": "5.24.0",
-			"purl": "pkg:npm/maplibre-gl@5.24.0",
+			"version": "6.6.0",
+			"purl": "pkg:npm/maplibre-gl@6.6.0",
 			"licenses": [
 				{
 					"license": {
@@ -20888,8 +20849,8 @@
 		{
 			"type": "library",
 			"name": "pbf",
-			"version": "4.0.1",
-			"purl": "pkg:npm/pbf@4.0.1",
+			"version": "5.1.2",
+			"purl": "pkg:npm/pbf@5.1.2",
 			"licenses": [
 				{
 					"license": {
@@ -24365,26 +24326,6 @@
 				{
 					"type": "website",
 					"url": "https://github.com/stephenplusplus/stubs"
-				}
-			]
-		},
-		{
-			"type": "library",
-			"name": "supercluster",
-			"version": "8.0.1",
-			"purl": "pkg:npm/supercluster@8.0.1",
-			"licenses": [
-				{
-					"license": {
-						"id": "ISC"
-					}
-				}
-			],
-			"publisher": "Vladimir Agafonkin",
-			"externalReferences": [
-				{
-					"type": "website",
-					"url": "https://github.com/mapbox/supercluster"
 				}
 			]
 		},

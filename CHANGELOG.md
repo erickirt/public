@@ -1,12 +1,39 @@
 # CHANGELOG
 
+## 1.38.2 - 2026-09-09
+
+### Changed
+
+- ArcGIS: Added preview support for browsing and editing feature services. #901
+- ChromaDB: Moved out of Preview.
+- CLI: `dbcode` with no command now prints help to stdout and exits 0, and `dbcode help [command]` works.
+- CLI: New `dbcode query` and `dbcode connections` commands run saved connections from a terminal; install with "DBCode: Install CLI". #741
+- Apache Derby: Moved out of Preview.
+- Firebird: Moved out of Preview.
+- LanceDB: Moved out of Preview.
+- Connections: Groups can be nested, with cascading group colors.
+- PGlite: Moved out of Preview.
+- Apache Pinot: Moved out of Preview.
+- Qdrant: Moved out of Preview.
+- Connections: Added Re-authenticate on Microsoft Entra ID connections (auth profiles and built-in sign-in) to reconnect with a fresh login, for picking up elevated Azure PIM rights without restarting.
+- ScyllaDB: Moved out of Preview.
+- Table Designer: SQLite and libSQL support, including automatic table rebuilds for changes SQLite cannot ALTER.
+- Weaviate: Moved out of Preview.
+
+### Fixed
+
+- SQL Server: Fixed Azure connections not recovering after a dropped session (token expiry or network interruption), which previously failed queries until you reconnected manually.
+- Grid: Fixed "Count all rows" failing with a `column "count(*)" does not exist` error. #1227
+- MCP: OAuth discovery now advertises the host clients connect on, so Dev Container and LAN connections authorize instead of returning 401.
+- Editor: Fixed schema-qualified autocomplete dropping the table list after you start typing the table name.
+
 ## 1.38.1 - 2026-09-07
 
 ### Changed
 
 - Appwrite: Added preview support for browsing and editing Appwrite databases. #831
 - Convex: Added preview support for browsing and editing Convex deployments. #479
-- Drivers: Added LevelDB support for browsing and editing on-disk key/value stores. #809
+- LevelDB: Added support for browsing and editing on-disk key/value stores. #809
 
 ### Fixed
 
