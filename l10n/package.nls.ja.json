@@ -361,7 +361,6 @@
   "MCP HTTP Server Authorization": "MCP HTTP サーバー認証",
   "Authorization method for the HTTP MCP server. OAuth provides secure authentication with user approval dialogs. Does not affect the auto-registered stdio used by VS Code and Cursor. [more information](https://dbcode.io/docs/ai/mcp)": "HTTP MCP サーバーの認証方式。OAuth はユーザー承認ダイアログによる安全な認証を提供します。VS Code と Cursor が使用する自動登録 stdio には影響しません。[詳細情報](https://dbcode.io/docs/ai/mcp)",
   "MCP HTTP Server Allow External Connections": "MCP HTTP サーバー外部接続を許可",
-  "Allow connections to the HTTP MCP server from other machines or Dev Containers. Requires OAuth authorization. When disabled, the HTTP server only accepts connections from localhost.": "他のマシンまたは Dev Containers から HTTP MCP サーバーへの接続を許可します。OAuth 認証が必要です。無効の場合、HTTP サーバーは localhost からの接続のみ受け付けます。",
   "MCP HTTP Server OAuth Token Expiry": "MCP HTTP サーバー OAuth トークン有効期限",
   "Number of days before OAuth access tokens expire on the HTTP MCP server. Increase to reduce how often MCP clients need to re-authenticate. Default is 1 day.": "HTTP MCP サーバー上の OAuth アクセストークンが期限切れになるまでの日数。MCP クライアントの再認証頻度を下げるには増やしてください。デフォルトは 1 日です。",
   "Set Embedding Model": "埋め込みモデルを設定",
@@ -438,5 +437,7 @@
   "Set Color": "色を設定",
   "Clear Color": "色をクリア",
   "Install CLI": "CLI をインストール",
-  "Per-group metadata (color) keyed by group path. Managed via the group right-click menu.": "グループパスをキーとするグループごとのメタデータ（色）。グループの右クリックメニューから管理します。"
+  "Per-group metadata (color) keyed by group path. Managed via the group right-click menu.": "グループパスをキーとするグループごとのメタデータ（色）。グループの右クリックメニューから管理します。",
+  "Uninstall CLI": "CLI をアンインストール",
+  "Allow connections to the HTTP MCP server from other machines or Dev Containers by binding to all network interfaces. When disabled, the HTTP server only accepts connections from localhost. With OAuth these connections are authenticated; with No Authentication the server is exposed to your network with no access control, so only enable that combination on a trusted, private network.": "サーバーをすべてのネットワークインターフェイスにバインドすることで、他のマシンや Dev Containers から HTTP MCP サーバーへの接続を許可します。無効の場合、HTTP サーバーは localhost からの接続のみを受け入れます。OAuth ではこれらの接続は認証されますが、認証なしの場合はサーバーがアクセス制御なしでネットワークに公開されるため、この組み合わせは信頼できるプライベートネットワークでのみ有効にしてください。"
 }

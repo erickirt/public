@@ -1,5 +1,22 @@
 # CHANGELOG
 
+## 1.38.3 - 2026-09-11
+
+### Changed
+
+- CLI: Added Redshift, Greenplum, Timescale, Yugabyte, QuestDB, RisingWave, StarRocks, Doris, TiDB, SingleStore, Azure SQL, ClickHouse, Redis, Trino, Snowflake, Cassandra and Oracle connections to `dbcode query`.
+- CLI: `dbcode open -c <connection> <name>` shows a table, view, procedure or other object in the editor.
+- CLI: `dbcode query` reports the same anonymous usage event as the editor and follows its telemetry setting.
+- CLI: `dbcode uninstall` and "DBCode: Uninstall CLI" take `dbcode` off your PATH; uninstalling the extension does too.
+- MCP Server: Allow exposing the HTTP server to your network without authentication, with a confirmation before it starts.
+- Pinecone: Moved out of Preview.
+- Google Spanner: Moved out of Preview.
+- Vertica: Moved out of Preview.
+
+### Fixed
+
+- Qdrant: Honor the configured port instead of always using 6333. #1229
+
 ## 1.38.2 - 2026-09-09
 
 ### Changed

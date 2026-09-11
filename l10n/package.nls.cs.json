@@ -361,7 +361,6 @@
   "MCP HTTP Server Authorization": "Autorizace HTTP serveru MCP",
   "Authorization method for the HTTP MCP server. OAuth provides secure authentication with user approval dialogs. Does not affect the auto-registered stdio used by VS Code and Cursor. [more information](https://dbcode.io/docs/ai/mcp)": "Metoda autorizace pro HTTP server MCP. OAuth poskytuje zabezpečené ověřování s dialogy schválení uživatele. Neovlivňuje automaticky registrované stdio používané VS Code a Cursor. [více informací](https://dbcode.io/docs/ai/mcp)",
   "MCP HTTP Server Allow External Connections": "Povolit externí připojení k HTTP serveru MCP",
-  "Allow connections to the HTTP MCP server from other machines or Dev Containers. Requires OAuth authorization. When disabled, the HTTP server only accepts connections from localhost.": "Povoluje připojení k HTTP serveru MCP z jiných počítačů nebo Dev Containers. Vyžaduje autorizaci OAuth. Po vypnutí server HTTP přijímá pouze připojení z localhostu.",
   "MCP HTTP Server OAuth Token Expiry": "Vypršení platnosti tokenů OAuth HTTP serveru MCP",
   "Number of days before OAuth access tokens expire on the HTTP MCP server. Increase to reduce how often MCP clients need to re-authenticate. Default is 1 day.": "Počet dní před vypršením platnosti přístupových tokenů OAuth na HTTP serveru MCP. Zvýšením snížíte frekvenci opakovaného ověřování klientů MCP. Výchozí hodnota je 1 den.",
   "Set Embedding Model": "Nastavit model vkládání",
@@ -438,5 +437,7 @@
   "Set Color": "Nastavit barvu",
   "Clear Color": "Vymazat barvu",
   "Install CLI": "Nainstalovat CLI",
-  "Per-group metadata (color) keyed by group path. Managed via the group right-click menu.": "Metadata jednotlivých skupin (barva) klíčovaná cestou skupiny. Spravováno přes místní nabídku skupiny."
+  "Per-group metadata (color) keyed by group path. Managed via the group right-click menu.": "Metadata jednotlivých skupin (barva) klíčovaná cestou skupiny. Spravováno přes místní nabídku skupiny.",
+  "Uninstall CLI": "Odinstalovat CLI",
+  "Allow connections to the HTTP MCP server from other machines or Dev Containers by binding to all network interfaces. When disabled, the HTTP server only accepts connections from localhost. With OAuth these connections are authenticated; with No Authentication the server is exposed to your network with no access control, so only enable that combination on a trusted, private network.": "Povolit připojení k HTTP serveru MCP z jiných počítačů nebo Dev Containers navázáním serveru na všechna síťová rozhraní. Když je vypnuto, HTTP server přijímá připojení pouze z localhost. S OAuth jsou tato připojení ověřená; bez ověřování je server vystaven vaší síti bez jakékoli kontroly přístupu, proto tuto kombinaci povolte pouze v důvěryhodné soukromé síti."
 }

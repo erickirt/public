@@ -361,7 +361,6 @@
   "MCP HTTP Server Authorization": "MCP HTTP 服务器授权",
   "Authorization method for the HTTP MCP server. OAuth provides secure authentication with user approval dialogs. Does not affect the auto-registered stdio used by VS Code and Cursor. [more information](https://dbcode.io/docs/ai/mcp)": "HTTP MCP 服务器的授权方式。OAuth 通过用户审批对话框提供安全身份验证。不影响 VS Code 和 Cursor 使用的自动注册 stdio。[更多信息](https://dbcode.io/docs/ai/mcp)",
   "MCP HTTP Server Allow External Connections": "MCP HTTP 服务器允许外部连接",
-  "Allow connections to the HTTP MCP server from other machines or Dev Containers. Requires OAuth authorization. When disabled, the HTTP server only accepts connections from localhost.": "允许从其他计算机或 Dev Containers 连接到 HTTP MCP 服务器。需要 OAuth 授权。禁用时，HTTP 服务器仅接受来自 localhost 的连接。",
   "MCP HTTP Server OAuth Token Expiry": "MCP HTTP 服务器 OAuth 令牌过期",
   "Number of days before OAuth access tokens expire on the HTTP MCP server. Increase to reduce how often MCP clients need to re-authenticate. Default is 1 day.": "HTTP MCP 服务器上 OAuth 访问令牌的过期天数。增大此值可减少 MCP 客户端重新验证的频率。默认值为 1 天。",
   "Set Embedding Model": "设置嵌入模型",
@@ -438,5 +437,7 @@
   "Set Color": "设置颜色",
   "Clear Color": "清除颜色",
   "Install CLI": "安装 CLI",
-  "Per-group metadata (color) keyed by group path. Managed via the group right-click menu.": "按分组路径索引的分组元数据（颜色）。通过分组右键菜单管理。"
+  "Per-group metadata (color) keyed by group path. Managed via the group right-click menu.": "按分组路径索引的分组元数据（颜色）。通过分组右键菜单管理。",
+  "Uninstall CLI": "卸载 CLI",
+  "Allow connections to the HTTP MCP server from other machines or Dev Containers by binding to all network interfaces. When disabled, the HTTP server only accepts connections from localhost. With OAuth these connections are authenticated; with No Authentication the server is exposed to your network with no access control, so only enable that combination on a trusted, private network.": "通过绑定到所有网络接口，允许其他计算机或 Dev Containers 连接到 HTTP MCP 服务器。禁用时，HTTP 服务器仅接受来自 localhost 的连接。使用 OAuth 时这些连接会经过身份验证；使用“无身份验证”时，服务器将在没有任何访问控制的情况下暴露给您的网络，因此请仅在受信任的专用网络中启用该组合。"
 }

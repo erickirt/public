@@ -4,7 +4,7 @@
     "pricing": "Free",
     "description": "Database client for VS Code, Cursor, Windsurf, Antigravity & Kiro - and the database layer for your AI agent, with built-in MCP & Copilot tools. 90+ databases, SQL Notebooks, ER diagrams, data editing, secure sharing. A modern alternative to DBeaver, DataGrip & TablePlus.",
     "publisher": "dbcode",
-    "version": "1.38.2",
+    "version": "1.38.3",
     "icon": "out/resources/logos/logo.png",
     "galleryBanner": {
         "color": "#e4ddff",
@@ -1734,6 +1734,11 @@
             {
                 "command": "dbcode.cli.install",
                 "title": "%Install CLI%",
+                "category": "DBCode"
+            },
+            {
+                "command": "dbcode.cli.uninstall",
+                "title": "%Uninstall CLI%",
                 "category": "DBCode"
             },
             {
@@ -6335,7 +6340,7 @@
                         "title": "%MCP HTTP Server Allow External Connections%",
                         "type": "boolean",
                         "default": false,
-                        "markdownDescription": "%Allow connections to the HTTP MCP server from other machines or Dev Containers. Requires OAuth authorization. When disabled, the HTTP server only accepts connections from localhost.%"
+                        "markdownDescription": "%Allow connections to the HTTP MCP server from other machines or Dev Containers by binding to all network interfaces. When disabled, the HTTP server only accepts connections from localhost. With OAuth these connections are authenticated; with No Authentication the server is exposed to your network with no access control, so only enable that combination on a trusted, private network.%"
                     },
                     "dbcode.ai.mcp.tokenExpiry": {
                         "title": "%MCP HTTP Server OAuth Token Expiry%",
@@ -7882,6 +7887,7 @@
     },
     "scripts": {
         "vscode:prepublish": "pnpm run vsixprepare",
+        "vscode:uninstall": "node ./out/cli/uninstall.js",
         "vsixprepare": "pnpm run esbuild -- --minify",
         "package": "pnpm exec vsce package --no-dependencies",
         "sbom": "tsx ./scripts/sbom.ts",
@@ -8016,7 +8022,7 @@
         "@modelcontextprotocol/sdk": "^1.19.1",
         "@monaco-editor/loader": "^1.4.0",
         "@opensearch-project/opensearch": "^3.5.1",
-        "@pinecone-database/pinecone": "^7.2.0",
+        "@pinecone-database/pinecone": "^8.2.0",
         "@qdrant/js-client-rest": "^1.17.0",
         "@timeplus/proton-javascript-driver": "0.1.4",
         "@trinodb/trino-js-client": "^0.3.1",
